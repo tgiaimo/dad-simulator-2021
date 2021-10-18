@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -992,6 +992,8 @@ GameObject:
   - component: {fileID: 699168528}
   - component: {fileID: 699168527}
   - component: {fileID: 699168526}
+  - component: {fileID: 699168530}
+  - component: {fileID: 699168529}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -1113,6 +1115,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699168524}
   m_CullTransparentMesh: 1
+--- !u!65 &699168529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699168524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 60, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &699168530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699168524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca64851b392511b48a3b8b57c4ae7226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1245,8 @@ GameObject:
   - component: {fileID: 773780159}
   - component: {fileID: 773780158}
   - component: {fileID: 773780157}
+  - component: {fileID: 773780161}
+  - component: {fileID: 773780160}
   m_Layer: 5
   m_Name: Pit Crew Challenge
   m_TagString: Front Menu
@@ -1327,6 +1356,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 773780155}
   m_CullTransparentMesh: 1
+--- !u!65 &773780160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773780155}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 60, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &773780161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773780155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca64851b392511b48a3b8b57c4ae7226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &976852954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,6 +2049,8 @@ GameObject:
   - component: {fileID: 1284938374}
   - component: {fileID: 1284938373}
   - component: {fileID: 1284938372}
+  - component: {fileID: 1284938376}
+  - component: {fileID: 1284938375}
   m_Layer: 5
   m_Name: Battery Jump
   m_TagString: Front Menu
@@ -2116,6 +2172,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284938370}
   m_CullTransparentMesh: 1
+--- !u!65 &1284938375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284938370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 60, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1284938376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284938370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca64851b392511b48a3b8b57c4ae7226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1289853914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2128,6 +2209,8 @@ GameObject:
   - component: {fileID: 1289853918}
   - component: {fileID: 1289853917}
   - component: {fileID: 1289853916}
+  - component: {fileID: 1289853920}
+  - component: {fileID: 1289853919}
   m_Layer: 5
   m_Name: ExitToDesktop
   m_TagString: Untagged
@@ -2237,6 +2320,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289853914}
   m_CullTransparentMesh: 1
+--- !u!65 &1289853919
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289853914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 60, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1289853920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289853914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca64851b392511b48a3b8b57c4ae7226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1361088348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,6 +2502,8 @@ GameObject:
   - component: {fileID: 1435131283}
   - component: {fileID: 1435131282}
   - component: {fileID: 1435131281}
+  - component: {fileID: 1435131285}
+  - component: {fileID: 1435131284}
   m_Layer: 5
   m_Name: Tools Tutorial
   m_TagString: Front Menu
@@ -2503,6 +2613,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435131279}
   m_CullTransparentMesh: 1
+--- !u!65 &1435131284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435131279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 60, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1435131285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435131279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca64851b392511b48a3b8b57c4ae7226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1449638036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,6 +3064,7 @@ GameObject:
   - component: {fileID: 1878867342}
   - component: {fileID: 1878867346}
   - component: {fileID: 1878867345}
+  - component: {fileID: 1878867347}
   m_Layer: 5
   m_Name: Tire Change
   m_TagString: Front Menu
@@ -3072,9 +3208,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1878867340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e477a9e6b62f104587df732b0bd3367, type: 3}
+  m_Script: {fileID: 11500000, guid: ca64851b392511b48a3b8b57c4ae7226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1878867347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878867340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba85f23cd1dc4743b0b33a3fdb83ef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  laserPointer: {fileID: 0}
 --- !u!1001 &1893138394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3406,6 +3556,8 @@ GameObject:
   - component: {fileID: 1979071278}
   - component: {fileID: 1979071277}
   - component: {fileID: 1979071276}
+  - component: {fileID: 1979071280}
+  - component: {fileID: 1979071279}
   m_Layer: 5
   m_Name: Unassisted
   m_TagString: Untagged
@@ -3515,6 +3667,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979071274}
   m_CullTransparentMesh: 1
+--- !u!65 &1979071279
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979071274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 60, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1979071280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979071274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca64851b392511b48a3b8b57c4ae7226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1997385616
 GameObject:
   m_ObjectHideFlags: 0
@@ -3847,6 +4024,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2122496683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e477a9e6b62f104587df732b0bd3367, type: 3}
+  m_Script: {fileID: 11500000, guid: ca64851b392511b48a3b8b57c4ae7226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
