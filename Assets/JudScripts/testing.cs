@@ -250,7 +250,11 @@ public class testing : MonoBehaviour
         List<GameObject> ret=new List<GameObject>();
         if (x == 1)
         {
-            ret.Add(GameObject.Find("lugs"));
+            ret.Add(GameObject.Find("halo lug 1"));
+            ret.Add(GameObject.Find("halo lug 2"));
+            ret.Add(GameObject.Find("halo lug 3"));
+            ret.Add(GameObject.Find("halo lug 4"));
+            ret.Add(GameObject.Find("halo lug 5"));
             ret.Add(GameObject.Find("Lug Wrench"));
 
         }else if(x == 2)
@@ -265,11 +269,15 @@ public class testing : MonoBehaviour
         }else if(x == 4)
         {
             ret.Add(GameObject.Find("Lug Wrench"));
-            ret.Add(GameObject.Find("lugs"));
+            ret.Add(GameObject.Find("halo lug 1"));
+            ret.Add(GameObject.Find("halo lug 2"));
+            ret.Add(GameObject.Find("halo lug 3"));
+            ret.Add(GameObject.Find("halo lug 4"));
+            ret.Add(GameObject.Find("halo lug 5"));
 
         }else if(x == 5)
         {
-            ret.Add(GameObject.Find("bad tire"));
+            ret.Add(GameObject.Find("bad tire halo"));
 
         }else if(x == 6)
         {
@@ -277,7 +285,11 @@ public class testing : MonoBehaviour
 
         }else if(x == 7)
         {
-            ret.Add(GameObject.Find("lugs"));
+            ret.Add(GameObject.Find("halo lug 1"));
+            ret.Add(GameObject.Find("halo lug 2"));
+            ret.Add(GameObject.Find("halo lug 3"));
+            ret.Add(GameObject.Find("halo lug 4"));
+            ret.Add(GameObject.Find("halo lug 5"));
 
         }else if(x == 8)
         {
@@ -285,7 +297,12 @@ public class testing : MonoBehaviour
 
         }else if(x == 9)
         {
-            ret.Add(GameObject.Find("lugs"));
+            ret.Add(GameObject.Find("halo lug 1"));
+            ret.Add(GameObject.Find("halo lug 2"));
+            ret.Add(GameObject.Find("halo lug 3"));
+            ret.Add(GameObject.Find("halo lug 4"));
+            ret.Add(GameObject.Find("halo lug 5"));
+
             ret.Add(GameObject.Find("Lug Wrench"));
 
         }else if(x == 10)

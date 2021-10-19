@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-10-17T18:10:18.814-04:00
-  initializedAtString: 2021-10-17T17:49:00.952-04:00
+  lastUpdatedAtString: 2021-10-18T20:02:55.853-04:00
+  initializedAtString: 2021-10-18T19:26:51.864-04:00
   localBranches:
   - name: main
     tracking: origin/main
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/main
     tracking: '[None]'
   remotes:
   - name: origin
@@ -44,9 +46,15 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
+      - main
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/TGiaimo/dad-simulator-2021.git
+        trackingBranch: 
+      - name: main
         remote:
           name: origin
           url: https://github.com/TGiaimo/dad-simulator-2021.git
