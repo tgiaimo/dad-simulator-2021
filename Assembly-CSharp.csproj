@@ -47,7 +47,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Pointer.cs" />
      <Compile Include="Assets\Scripts\UI_script.cs" />
+     <Compile Include="Assets\Scripts\VRInputModule.cs" />
+     <Compile Include="Assets\Scripts\UI_test.cs" />
      <Compile Include="Assets\Scripts\Item_Selection.cs" />
      <Compile Include="Assets\JudScripts\testing.cs" />
      <Compile Include="Assets\Scripts\VRUIItem.cs" />

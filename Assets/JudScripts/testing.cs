@@ -42,11 +42,6 @@ public class testing : MonoBehaviour
     public AudioClip[] hintsForTireChange;
     public AudioClip[] hintsForBatteryJump;
 
-    //array of gameobjects that will flash at times
-    public GameObject[] gameObjects;
-    //return objects
-    public GameObject[] retObjects;
-
 
     //                                   Steps for tire change scenario
     public bool speakTire = false;
@@ -441,26 +436,31 @@ public class testing : MonoBehaviour
     public GameObject[] getObjectsVideo(int x)
     {
         GameObject[] final;
-        List<GameObject> ret=new List<GameObject>();
+        List<GameObject> ret = new List<GameObject>();
 
         if (x == 1)
         {
-            ret.Add(GameObject.Find("battery/halo effect"));
-        }else if (x == 2)
-        {
-            ret.Add(GameObject.Find("boosters"));
-        }else if (x == 3)
-        {
-            ret.Add(GameObject.Find("car manual"));
-        }else if (x == 4)
-        {
-            ret.Add(GameObject.Find("jack"));
-        }else if (x == 5)
+            ret.Add(GameObject.Find("good tire"));
+        }
+        else if (x == 2)
         {
             ret.Add(GameObject.Find("Lug Wrench"));
-        }else if (x == 6)
+        }
+        else if (x == 3)
         {
-            ret.Add(GameObject.Find("good tire"));
+            ret.Add(GameObject.Find("jack"));
+        }
+        else if (x == 4)
+        {
+            ret.Add(GameObject.Find("boosters"));
+        }
+        else if (x == 5)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+        }
+        else if (x == 6)
+        {
+            ret.Add(GameObject.Find("car manual"));
         }
 
         final = ret.ToArray();
