@@ -54,4 +54,9 @@ public class UI_script : MonoBehaviour
         Debug.Log("Exiting to Desktop");
     }
 
+    public void buttonTest()
+    {
+        Debug.Log("Button Pressed");
+    }
+
 }
