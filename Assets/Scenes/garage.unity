@@ -656,6 +656,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4974ce187a90ad249b1f1d7f5c5a2066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tire: 0
+  battery: 0
   test: {fileID: 379137517}
   videoClips:
   - {fileID: 0}
@@ -698,7 +700,17 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ae002e57098461e4281651864e21f141, type: 3}
   - {fileID: 8300000, guid: 082c04fe296eeed42abda270a21ee1d8, type: 3}
   - {fileID: 8300000, guid: 5d4fb20cee4ed0f4ca6236b4cdee71c6, type: 3}
-  hintsForBatteryJump: []
+  hintsForBatteryJump:
+  - {fileID: 8300000, guid: 99c61b853b4e4ff4982cd32f5ec10382, type: 3}
+  - {fileID: 8300000, guid: c2cbbd84dab98b1479dd29e7b96f49b3, type: 3}
+  - {fileID: 8300000, guid: c55f07f273a4c224e8e00df982c3b044, type: 3}
+  - {fileID: 8300000, guid: 73c2c071abf319e41901907efa9d4953, type: 3}
+  - {fileID: 8300000, guid: ef5c7b425e67e6b41a76e5f98488b8a2, type: 3}
+  - {fileID: 8300000, guid: b67d54da2226a3f4184b168aa381d30b, type: 3}
+  - {fileID: 8300000, guid: 4384c40ec6c09a94bb34bd17fc6437ec, type: 3}
+  - {fileID: 8300000, guid: 4384c40ec6c09a94bb34bd17fc6437ec, type: 3}
+  - {fileID: 8300000, guid: 4384c40ec6c09a94bb34bd17fc6437ec, type: 3}
+  - {fileID: 8300000, guid: 4384c40ec6c09a94bb34bd17fc6437ec, type: 3}
   gameObjects: []
   retObjects: []
   speakTire: 1

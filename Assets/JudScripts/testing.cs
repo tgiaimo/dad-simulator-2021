@@ -11,6 +11,11 @@ public class testing : MonoBehaviour
     //PUBLIC 
     // this is the floor. I used it to test flashing on hint
     //public GameObject cube;
+
+
+    //which scenario
+    public bool tire = true;
+    public bool battery = false;
     
 
     //Private
@@ -44,7 +49,7 @@ public class testing : MonoBehaviour
 
 
     //                                   Steps for tire change scenario
-    public bool speakTire = true;
+    public bool speakTire = false;
     //safe Location
     public bool tirestep1 = true;
     //loosen the lug nuts
@@ -68,7 +73,7 @@ public class testing : MonoBehaviour
 
 
     //                                    Steps for battery jump scenario
-    public bool speakBat = true;
+    public bool speakBat = false;
     //safe Location
     public bool batterystep1 = true;
     // pop hood
@@ -109,7 +114,16 @@ public class testing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        if (tire)
+        {
+            speakTire = true;
+        }
+
+        if (battery)
+        {
+            speakBat = true;
+        }
         //set player to video player component of video system object
         player=GameObject.Find("video system").GetComponent<VideoPlayer>();
         //go ahead and set the first clip
@@ -125,6 +139,7 @@ public class testing : MonoBehaviour
         //cube = GameObject.Find("Cube");
 
         actions.Add("help", provideHint);
+        actions.Add("hint", provideHint);
         actions.Add("Check", Check);
         actions.Add("next", setNextClip);
 
@@ -535,29 +550,59 @@ public class testing : MonoBehaviour
     public void provideHint()
     {
         //used to give hint based of next step
-        int hintindex;
-        GameObject[] objects;
-
-        Debug.Log("recognized hint");
-
-        //set what step
-        //hintindex = findStepTire();
-        hintindex = findStepBat();
-        //set array of objects that need to flash
-        //objects = getOjectsTire(hintindex);
-        objects = getOjectsBat(hintindex);
-
-        if(hintindex>=0 && hintindex < 10)
+        if (tire)
         {
-            //test.clip = hintsForTireChange[hintindex];
-            //test.clip = hintsForBatteryJump[hintindex];
-            test.Play();
+            int hintindex;
+            GameObject[] objects;
     
-            StartCoroutine(Flashing(objects));
+            Debug.Log("recognized hint");
+    
+            //set what step
+            hintindex = findStepTire();
+            //hintindex = findStepBat();
+            //set array of objects that need to flash
+            objects = getOjectsTire(hintindex);
+            //objects = getOjectsBat(hintindex);
+    
+            if(hintindex>=0 && hintindex < 10)
+            {
+                test.clip = hintsForTireChange[hintindex];
+                //test.clip = hintsForBatteryJump[hintindex];
+                test.Play();
+        
+                StartCoroutine(Flashing(objects));
+            }
+            else
+            {
+            Debug.Log("hintindex wack");
+            }
         }
-        else
+        if (battery)
         {
-        Debug.Log("hintindex wack");
+            int hintindex;
+            GameObject[] objects;
+    
+            Debug.Log("recognized hint");
+    
+            //set what step
+            //hintindex = findStepTire();
+            hintindex = findStepBat();
+            //set array of objects that need to flash
+            //objects = getOjectsTire(hintindex);
+            objects = getOjectsBat(hintindex);
+    
+            if(hintindex>=0 && hintindex < 10)
+            {
+                //test.clip = hintsForTireChange[hintindex];
+                test.clip = hintsForBatteryJump[hintindex];
+                test.Play();
+        
+                StartCoroutine(Flashing(objects));
+            }
+            else
+            {
+            Debug.Log("hintindex wack");
+            }
         }
     }
 

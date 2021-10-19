@@ -705,8 +705,14 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.MockHMD.Editor">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.MockHMD.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.XR.OpenVR.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.OpenVR.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.MockHMD">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.MockHMD.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
