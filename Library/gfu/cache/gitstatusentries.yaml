@@ -13,21 +13,861 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-11-06T14:10:25.268-04:00
-  initializedAtString: 2021-11-06T13:37:42.666-04:00
+  lastUpdatedAtString: 2021-11-06T14:45:18.020-04:00
+  initializedAtString: 2021-11-06T14:11:41.824-04:00
   entries:
+  - path: Assets\EasyColliderEditor.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor.meta
+    projectPath: Assets\EasyColliderEditor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\DOTS.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\DOTS.meta
+    projectPath: Assets\EasyColliderEditor\DOTS.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\DOTS\EasyDOTSDocumentation.pdf
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\DOTS\EasyDOTSDocumentation.pdf
+    projectPath: Assets\EasyColliderEditor\DOTS\EasyDOTSDocumentation.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\DOTS\EasyDOTSDocumentation.pdf.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\DOTS\EasyDOTSDocumentation.pdf.meta
+    projectPath: Assets\EasyColliderEditor\DOTS\EasyDOTSDocumentation.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\DOTS\ECEDots.unitypackage
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\DOTS\ECEDots.unitypackage
+    projectPath: Assets\EasyColliderEditor\DOTS\ECEDots.unitypackage
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\DOTS\ECEDots.unitypackage.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\DOTS\ECEDots.unitypackage.meta
+    projectPath: Assets\EasyColliderEditor\DOTS\ECEDots.unitypackage.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\DOTS\Scripts.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\DOTS\Scripts.meta
+    projectPath: Assets\EasyColliderEditor\DOTS\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs
+    projectPath: Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs.meta
+    projectPath: Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\EasyColliderEditorDocumentation.pdf
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\EasyColliderEditorDocumentation.pdf
+    projectPath: Assets\EasyColliderEditor\EasyColliderEditorDocumentation.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\EasyColliderEditorDocumentation.pdf.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\EasyColliderEditorDocumentation.pdf.meta
+    projectPath: Assets\EasyColliderEditor\EasyColliderEditorDocumentation.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons.meta
+    projectPath: Assets\EasyColliderEditor\Icons.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIBox32.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIBox32.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIBox32.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIBox32.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIBox32.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIBox32.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIBox32Merge.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIBox32Merge.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIBox32Merge.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIBox32Merge.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIBox32Merge.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIBox32Merge.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUICapsule32.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUICapsule32.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUICapsule32.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUICapsule32.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUICapsule32.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUICapsule32.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUICapsule32Merge.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUICapsule32Merge.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUICapsule32Merge.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUICapsule32Merge.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUICapsule32Merge.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUICapsule32Merge.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32Merge.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32Merge.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32Merge.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32Merge.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32Merge.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIConvexMesh32Merge.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUICylinder32.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUICylinder32.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUICylinder32.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUICylinder32.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUICylinder32.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUICylinder32.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUICylinder32Merge.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUICylinder32Merge.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUICylinder32Merge.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUICylinder32Merge.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUICylinder32Merge.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUICylinder32Merge.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32Merge.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32Merge.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32Merge.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32Merge.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32Merge.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIRotatedBox32Merge.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32Merge.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32Merge.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32Merge.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32Merge.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32Merge.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUIRotatedCapsule32Merge.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUISphere32.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUISphere32.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUISphere32.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUISphere32.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUISphere32.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUISphere32.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUISphereMerge32.png
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUISphereMerge32.png
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUISphereMerge32.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Icons\ECEUISphereMerge32.png.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Icons\ECEUISphereMerge32.png.meta
+    projectPath: Assets\EasyColliderEditor\Icons\ECEUISphereMerge32.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts.meta
+    projectPath: Assets\EasyColliderEditor\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinned.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinned.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinned.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinned.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinned.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinned.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderData.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderData.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderData.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderData.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderData.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderData.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderGizmos.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderGizmos.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderGizmos.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderGizmos.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderGizmos.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderGizmos.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.asset
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.asset
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.asset.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.asset.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderPreviewer.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderPreviewer.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderPreviewer.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderPreviewer.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderPreviewer.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderPreviewer.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderSaving.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderSaving.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderSaving.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderSaving.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderSaving.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderSaving.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderTips.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderTips.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderTips.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderTips.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderTips.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderTips.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Plugins.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Plugins.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD.dll
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD.dll
+    projectPath: Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD.dll.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD.dll.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD_OSX.bundle
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD_OSX.bundle
+    projectPath: Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD_OSX.bundle
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD_OSX.bundle.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD_OSX.bundle.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\Plugins\ECE_VHACD_OSX.bundle.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Plugins\VHACDLicense.txt
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Plugins\VHACDLicense.txt
+    projectPath: Assets\EasyColliderEditor\Scripts\Plugins\VHACDLicense.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Plugins\VHACDLicense.txt.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Plugins\VHACDLicense.txt.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\Plugins\VHACDLicense.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Shader.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Shader.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\Shader.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs
+    projectPath: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderMeshColliderPreview.shader
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Shader\EasyColliderMeshColliderPreview.shader
+    projectPath: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderMeshColliderPreview.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderMeshColliderPreview.shader.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Shader\EasyColliderMeshColliderPreview.shader.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderMeshColliderPreview.shader.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderShader.shader
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Shader\EasyColliderShader.shader
+    projectPath: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderShader.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderShader.shader.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\Scripts\Shader\EasyColliderShader.shader.meta
+    projectPath: Assets\EasyColliderEditor\Scripts\Shader\EasyColliderShader.shader.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\ThirdPartyNotices.txt
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\ThirdPartyNotices.txt
+    projectPath: Assets\EasyColliderEditor\ThirdPartyNotices.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\EasyColliderEditor\ThirdPartyNotices.txt.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\EasyColliderEditor\ThirdPartyNotices.txt.meta
+    projectPath: Assets\EasyColliderEditor\ThirdPartyNotices.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ArtifactDB
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\Artifacts\08\08f932bf51ccc75b78fee5827f52b102
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\08\08f932bf51ccc75b78fee5827f52b102
+    projectPath: Library\Artifacts\08\08f932bf51ccc75b78fee5827f52b102
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0b\0b79add7f291cdd90293c361931e475a
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\0b\0b79add7f291cdd90293c361931e475a
+    projectPath: Library\Artifacts\0b\0b79add7f291cdd90293c361931e475a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0e\0eb0e5a013d46db17d6a1a3674e7ff38
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\0e\0eb0e5a013d46db17d6a1a3674e7ff38
+    projectPath: Library\Artifacts\0e\0eb0e5a013d46db17d6a1a3674e7ff38
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\12\12a82f4fbc24131166e08d0634ebd521
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\12\12a82f4fbc24131166e08d0634ebd521
+    projectPath: Library\Artifacts\12\12a82f4fbc24131166e08d0634ebd521
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\14\149163b5a21db6d79c36e76256447a84
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\14\149163b5a21db6d79c36e76256447a84
+    projectPath: Library\Artifacts\14\149163b5a21db6d79c36e76256447a84
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\28\282d78b7c9800e197dbd9365739c1cc4
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\28\282d78b7c9800e197dbd9365739c1cc4
+    projectPath: Library\Artifacts\28\282d78b7c9800e197dbd9365739c1cc4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\39\39e3f7ad76f1031e0a2cf90e3df552aa
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\39\39e3f7ad76f1031e0a2cf90e3df552aa
+    projectPath: Library\Artifacts\39\39e3f7ad76f1031e0a2cf90e3df552aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3d\3dd8771c9528a2b32d1c7f8b61eec76a
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\3d\3dd8771c9528a2b32d1c7f8b61eec76a
+    projectPath: Library\Artifacts\3d\3dd8771c9528a2b32d1c7f8b61eec76a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\41\41ea904fbc230ce6201649febfca1e87
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\41\41ea904fbc230ce6201649febfca1e87
+    projectPath: Library\Artifacts\41\41ea904fbc230ce6201649febfca1e87
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\46\46835cace210223261aeea88eb066e8d
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\46\46835cace210223261aeea88eb066e8d
+    projectPath: Library\Artifacts\46\46835cace210223261aeea88eb066e8d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\46\46a492c22d96039c371fac6387239410
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\46\46a492c22d96039c371fac6387239410
+    projectPath: Library\Artifacts\46\46a492c22d96039c371fac6387239410
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\47\47657fa66c66d5efe8d299d0c6de9b75
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\47\47657fa66c66d5efe8d299d0c6de9b75
+    projectPath: Library\Artifacts\47\47657fa66c66d5efe8d299d0c6de9b75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\4e\4ed5effb5dd4dba4f3b6c8f0c1f466cb
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\4e\4ed5effb5dd4dba4f3b6c8f0c1f466cb
+    projectPath: Library\Artifacts\4e\4ed5effb5dd4dba4f3b6c8f0c1f466cb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\4f\4fc51363324cc4b97801636e2761c879
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\4f\4fc51363324cc4b97801636e2761c879
+    projectPath: Library\Artifacts\4f\4fc51363324cc4b97801636e2761c879
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5c\5ce2030f42115f59c43b2f713d668c27
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\5c\5ce2030f42115f59c43b2f713d668c27
+    projectPath: Library\Artifacts\5c\5ce2030f42115f59c43b2f713d668c27
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\68\6894c2d05328f10c890a05ded448fa5a
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\68\6894c2d05328f10c890a05ded448fa5a
+    projectPath: Library\Artifacts\68\6894c2d05328f10c890a05ded448fa5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\70\708bb4ec08a0e56a29f3762f704505d7
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\70\708bb4ec08a0e56a29f3762f704505d7
+    projectPath: Library\Artifacts\70\708bb4ec08a0e56a29f3762f704505d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7c\7c92b44771c99dbd9eeeaf3c595816b5
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\7c\7c92b44771c99dbd9eeeaf3c595816b5
+    projectPath: Library\Artifacts\7c\7c92b44771c99dbd9eeeaf3c595816b5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8c\8c6b04fec63633436f5f63cb0785bc36
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\8c\8c6b04fec63633436f5f63cb0785bc36
+    projectPath: Library\Artifacts\8c\8c6b04fec63633436f5f63cb0785bc36
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8d\8d64a7077f8794d1c35e43b952832855
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\8d\8d64a7077f8794d1c35e43b952832855
+    projectPath: Library\Artifacts\8d\8d64a7077f8794d1c35e43b952832855
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\99\9910cd82313e7085fea262fcd7c6746a
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\99\9910cd82313e7085fea262fcd7c6746a
+    projectPath: Library\Artifacts\99\9910cd82313e7085fea262fcd7c6746a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9a\9ac9dcd4ba09b6cf5bb33256b9c0427c
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\9a\9ac9dcd4ba09b6cf5bb33256b9c0427c
+    projectPath: Library\Artifacts\9a\9ac9dcd4ba09b6cf5bb33256b9c0427c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a8\a8300acd19f3d9829a51e5a7c4bcfca2
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\a8\a8300acd19f3d9829a51e5a7c4bcfca2
+    projectPath: Library\Artifacts\a8\a8300acd19f3d9829a51e5a7c4bcfca2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a8\a8ec622829d61bd421fb91dea4d76c42
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\a8\a8ec622829d61bd421fb91dea4d76c42
+    projectPath: Library\Artifacts\a8\a8ec622829d61bd421fb91dea4d76c42
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ac\ac06b2f61c38597abf0bb5008afc4c9d
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ac\ac06b2f61c38597abf0bb5008afc4c9d
+    projectPath: Library\Artifacts\ac\ac06b2f61c38597abf0bb5008afc4c9d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ac\aca6563e1fb2eda6fc86fe9dee8eab86
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ac\aca6563e1fb2eda6fc86fe9dee8eab86
+    projectPath: Library\Artifacts\ac\aca6563e1fb2eda6fc86fe9dee8eab86
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ac\ace567b0f1bdd238c60a39f417fdc1ed
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ac\ace567b0f1bdd238c60a39f417fdc1ed
+    projectPath: Library\Artifacts\ac\ace567b0f1bdd238c60a39f417fdc1ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c6\c61b514fcd462d96ea597cd361ea0ed5
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c6\c61b514fcd462d96ea597cd361ea0ed5
+    projectPath: Library\Artifacts\c6\c61b514fcd462d96ea597cd361ea0ed5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c9\c9ccf087ba8c6c0ec83c884e24e47bc6
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c9\c9ccf087ba8c6c0ec83c884e24e47bc6
+    projectPath: Library\Artifacts\c9\c9ccf087ba8c6c0ec83c884e24e47bc6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\cd\cd78f6116e04187842efa736d17f746c
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\cd\cd78f6116e04187842efa736d17f746c
+    projectPath: Library\Artifacts\cd\cd78f6116e04187842efa736d17f746c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\da\da1a99924fdab951f456a039670dbabc
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\da\da1a99924fdab951f456a039670dbabc
+    projectPath: Library\Artifacts\da\da1a99924fdab951f456a039670dbabc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\dd\dd542c234fb377451cdbafc340b2ceb4
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\dd\dd542c234fb377451cdbafc340b2ceb4
+    projectPath: Library\Artifacts\dd\dd542c234fb377451cdbafc340b2ceb4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\dd\ddbd684582acd5c3facb969f0d7f3f90
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\dd\ddbd684582acd5c3facb969f0d7f3f90
+    projectPath: Library\Artifacts\dd\ddbd684582acd5c3facb969f0d7f3f90
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e1\e1f3619cb3d964af7e3f62bc239b74c4
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\e1\e1f3619cb3d964af7e3f62bc239b74c4
+    projectPath: Library\Artifacts\e1\e1f3619cb3d964af7e3f62bc239b74c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ed\eda281e13530fc45fe8108f7a5900c61
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ed\eda281e13530fc45fe8108f7a5900c61
+    projectPath: Library\Artifacts\ed\eda281e13530fc45fe8108f7a5900c61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f3\f3720435124cf3a1a8e5bd9090a518e6
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f3\f3720435124cf3a1a8e5bd9090a518e6
+    projectPath: Library\Artifacts\f3\f3720435124cf3a1a8e5bd9090a518e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f4\f46011b1ee457f334eaccd350d60a684
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f4\f46011b1ee457f334eaccd350d60a684
+    projectPath: Library\Artifacts\f4\f46011b1ee457f334eaccd350d60a684
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f6\f601a5772cff99d6e067ff9ec361a6e2
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f6\f601a5772cff99d6e067ff9ec361a6e2
+    projectPath: Library\Artifacts\f6\f601a5772cff99d6e067ff9ec361a6e2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f7\f7264b1475d346e459b891dda95de17c
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f7\f7264b1475d346e459b891dda95de17c
+    projectPath: Library\Artifacts\f7\f7264b1475d346e459b891dda95de17c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f8\f892c15f3235ba73365bb5dc1e299712
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f8\f892c15f3235ba73365bb5dc1e299712
+    projectPath: Library\Artifacts\f8\f892c15f3235ba73365bb5dc1e299712
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fe\fe040f9d8d8aea13ba3a18a79ce9a45a
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\fe\fe040f9d8d8aea13ba3a18a79ce9a45a
+    projectPath: Library\Artifacts\fe\fe040f9d8d8aea13ba3a18a79ce9a45a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\EditorInstance.json
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -46,18 +886,72 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptMapper
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\0\0f0ac458dc021e12ac18425fc9401dec.bin
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\0\0f0ac458dc021e12ac18425fc9401dec.bin
+    projectPath: Library\ShaderCache\0\0f0ac458dc021e12ac18425fc9401dec.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\150a14408ae73b936b5795df2ea01751.bin
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\1\150a14408ae73b936b5795df2ea01751.bin
+    projectPath: Library\ShaderCache\1\150a14408ae73b936b5795df2ea01751.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\2d9a0a52a361ba7b68633210e76ce576.bin
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\2\2d9a0a52a361ba7b68633210e76ce576.bin
+    projectPath: Library\ShaderCache\2\2d9a0a52a361ba7b68633210e76ce576.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\40031b73bed08c65d6f69c366a4d54b1.bin
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\4\40031b73bed08c65d6f69c366a4d54b1.bin
+    projectPath: Library\ShaderCache\4\40031b73bed08c65d6f69c366a4d54b1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\52ad519f6818b821406e43722b40ac88.bin
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\5\52ad519f6818b821406e43722b40ac88.bin
+    projectPath: Library\ShaderCache\5\52ad519f6818b821406e43722b40ac88.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7974421b43dd93930713dbf91a39b9f0.bin
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\7\7974421b43dd93930713dbf91a39b9f0.bin
+    projectPath: Library\ShaderCache\7\7974421b43dd93930713dbf91a39b9f0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\816c9ed5f032615b536cb118499ae5d2.bin
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\8\816c9ed5f032615b536cb118499ae5d2.bin
+    projectPath: Library\ShaderCache\8\816c9ed5f032615b536cb118499ae5d2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ShaderCache\EditorEncounteredVariants
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
@@ -76,27 +970,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\e1\e1413804ebae591c1aced314c5ae7a33.json
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\StateCache\SceneView\e1\e1413804ebae591c1aced314c5ae7a33.json
-    projectPath: Library\StateCache\SceneView\e1\e1413804ebae591c1aced314c5ae7a33.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\AssetImportWorker0.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\AssetImportWorker0.log
-    projectPath: Logs\AssetImportWorker0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Logs\AssetImportWorker0-prev.log
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-AssetImportWorker0.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-AssetImportWorker0.log
-    projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -172,15 +1048,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\__Backupscenes\3.backup
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\__Backupscenes\3.backup
-    projectPath: Temp\__Backupscenes\3.backup
+  - path: Temp\Assembly-CSharp.dll.hash
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\Assembly-CSharp.dll.hash
+    projectPath: Temp\Assembly-CSharp.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\CompilationLog.txt
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\CompilationLog.txt
+    projectPath: Temp\CompilationLog.txt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e3c44642af7a9e04b9ec2e74735f8bfc
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-e3c44642af7a9e04b9ec2e74735f8bfc
+    projectPath: Temp\UnityTempFile-e3c44642af7a9e04b9ec2e74735f8bfc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
