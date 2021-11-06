@@ -298,29 +298,29 @@
  <Reference Include="GitHub.Logging">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
  </Reference>
+ <Reference Include="GitHub.Unity.45">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+ </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="Valve.Newtonsoft.Json">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Unity.45">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
- </Reference>
- <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
- </Reference>
  <Reference Include="GitHub.UnityShim">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
  </Reference>
- <Reference Include="sfw.net">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
- </Reference>
  <Reference Include="GitHub.Api.45">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+ </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
