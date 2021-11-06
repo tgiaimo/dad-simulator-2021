@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-10-24T16:59:24.231-04:00
-  initializedAtString: 2021-10-24T16:18:23.752-04:00
+  lastUpdatedAtString: 2021-11-06T00:26:15.223-04:00
+  initializedAtString: 2021-11-05T23:51:00.383-04:00
   currentGitRemote:
     name: origin
-    url: git@github.com:TGiaimo/dad-simulator-2021.git
+    url: https://github.com/TGiaimo/dad-simulator-2021.git
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: main
     remote:
       name: origin
-      url: git@github.com:TGiaimo/dad-simulator-2021.git
+      url: https://github.com/TGiaimo/dad-simulator-2021.git
     trackingBranch: main
   currentConfigRemote:
     name: origin
-    url: git@github.com:TGiaimo/dad-simulator-2021.git
+    url: https://github.com/TGiaimo/dad-simulator-2021.git
   currentHead: 
