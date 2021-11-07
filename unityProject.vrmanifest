@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.dadsimulator2021.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Judsen Hembree\\OneDrive\\Documents\\GitHub\\dad-simulator-2021\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "dad-simulator-2021 [Testing]"
+        }
+      }
+    }
+  ]
+}
