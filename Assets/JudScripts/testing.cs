@@ -468,6 +468,172 @@ public class testing : MonoBehaviour
     }
 
 
+    public void tireButton()
+    {
+        videoIndex = 1;
+        int videoClipIndex = videoIndex;
+               //x++;
+        
+        //set which video jud
+        
+        if (videoClipIndex > videoClips.Length)
+        {
+            Debug.Log("Going outside video clip array.");
+        }
+        else
+        {
+            GameObject[] objects;
+            objects = getObjectsVideo(videoClipIndex);
+            StartCoroutine(Flashing(objects));
+
+            player.clip = videoClips[videoClipIndex];
+            Debug.Log("setting to "+videoClipIndex);
+            player.Play();
+            Debug.Log("play");
+
+        }
+
+    }
+
+    public void wrenchButton()
+    {
+        videoIndex = 2;
+        int videoClipIndex = videoIndex;
+               //x++;
+        
+        //set which video jud
+        
+        if (videoClipIndex > videoClips.Length)
+        {
+            Debug.Log("Going outside video clip array.");
+        }
+        else
+        {
+            GameObject[] objects;
+            objects = getObjectsVideo(videoClipIndex);
+            StartCoroutine(Flashing(objects));
+
+            player.clip = videoClips[videoClipIndex];
+            Debug.Log("setting to "+videoClipIndex);
+            player.Play();
+            Debug.Log("play");
+
+        }
+
+    }
+
+    public void jackButton()
+    {
+        videoIndex = 3;
+        int videoClipIndex = videoIndex;
+               //x++;
+        
+        //set which video jud
+        
+        if (videoClipIndex > videoClips.Length)
+        {
+            Debug.Log("Going outside video clip array.");
+        }
+        else
+        {
+            GameObject[] objects;
+            objects = getObjectsVideo(videoClipIndex);
+            StartCoroutine(Flashing(objects));
+
+            player.clip = videoClips[videoClipIndex];
+            Debug.Log("setting to "+videoClipIndex);
+            player.Play();
+            Debug.Log("play");
+
+        }
+
+    }
+
+    public void boostersButton()
+    {
+        videoIndex = 4;
+        int videoClipIndex = videoIndex;
+               //x++;
+        
+        //set which video jud
+        
+        if (videoClipIndex > videoClips.Length)
+        {
+            Debug.Log("Going outside video clip array.");
+        }
+        else
+        {
+            GameObject[] objects;
+            objects = getObjectsVideo(videoClipIndex);
+            StartCoroutine(Flashing(objects));
+
+            player.clip = videoClips[videoClipIndex];
+            Debug.Log("setting to "+videoClipIndex);
+            player.Play();
+            Debug.Log("play");
+
+        }
+
+    }
+
+    public void batteryButton()
+    {
+        videoIndex = 5;
+        int videoClipIndex = videoIndex;
+               //x++;
+        
+        //set which video jud
+        
+        if (videoClipIndex > videoClips.Length)
+        {
+            Debug.Log("Going outside video clip array.");
+        }
+        else
+        {
+            GameObject[] objects;
+            objects = getObjectsVideo(videoClipIndex);
+            StartCoroutine(Flashing(objects));
+
+            player.clip = videoClips[videoClipIndex];
+            Debug.Log("setting to "+videoClipIndex);
+            player.Play();
+            Debug.Log("play");
+
+        }
+
+    }
+
+    public void manualButton()
+    {
+        videoIndex = 6;
+        int videoClipIndex = videoIndex;
+               //x++;
+        
+        //set which video jud
+        
+        if (videoClipIndex > videoClips.Length)
+        {
+            Debug.Log("Going outside video clip array.");
+        }
+        else
+        {
+            GameObject[] objects;
+            objects = getObjectsVideo(videoClipIndex);
+            StartCoroutine(Flashing(objects));
+
+            player.clip = videoClips[videoClipIndex];
+            Debug.Log("setting to "+videoClipIndex);
+            player.Play();
+            Debug.Log("play");
+
+        }
+
+    }
+
+
+
+
+
 
     public void setNextClip()
     {
