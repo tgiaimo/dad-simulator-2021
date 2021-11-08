@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/roadside.unity
+- path: Assets/Scenes/Environment_Test_Garage.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
