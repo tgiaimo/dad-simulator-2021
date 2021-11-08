@@ -5,6 +5,7 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.Windows.Speech;
 using UnityEngine.Video;
+using UnityEditor;
 
 public class testing : MonoBehaviour
 {
@@ -137,6 +138,7 @@ public class testing : MonoBehaviour
         actions.Add("hint", provideHint);
         actions.Add("Check", Check);
         actions.Add("next", setNextClip);
+        actions.Add("where", provideHintDetailed);
 
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += recognizedSpeech;
@@ -630,11 +632,6 @@ public class testing : MonoBehaviour
 
     }
 
-
-
-
-
-
     public void setNextClip()
     {
         //hard sset to one for now
@@ -776,5 +773,524 @@ public class testing : MonoBehaviour
     {
         Debug.Log("recognized check");
     }
+
+    public void setHalos(GameObject[] x)
+    {
+        for (int i = 0; i < x.Length; i++)
+        {
+            if (tire)
+            {
+                int step = findStepTire();
+                if (step == 1)
+                {
+                    if ((x[i] == GameObject.Find("detail 1")) || (x[i] == GameObject.Find("detail 2")) || (x[i] == GameObject.Find("detail 3")) || (x[i] == GameObject.Find("detail 4")) || (x[i] == GameObject.Find("detail 5")))
+                    {
+                        bool temp = x[i].GetComponent<HubCheck>().tight;
+                        if (temp == true)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                    }
+                    if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
+                    {
+                        if(x[i].GetComponent<wrenchCheck>().inLocation){
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 2)
+                {
+                    if ((x[i] == GameObject.Find("jackDetailedHalo")))
+                    {
+                        if (x[i].GetComponent<jackCheck>().inLocation)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 3)
+                {
+                    if ((x[i] == GameObject.Find("jackDetailedHalo")))
+                    {
+                        if (x[i].GetComponent<jackCheck>().raised)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                    //put somehting that is raising it
+                    if(x[i] == GameObject.Find("wrenchDetailedHalo"))
+                    {
+                        //onjack
+                        if (x[i].GetComponent<wrenchCheck>().inLocation)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 4)
+                {
+                    if ((x[i] == GameObject.Find("detail 1")) || (x[i] == GameObject.Find("detail 2")) || (x[i] == GameObject.Find("detail 3")) || (x[i] == GameObject.Find("detail 4")) || (x[i] == GameObject.Find("detail 5")))
+                    {
+                        //loosened is off
+                        if (x[i].GetComponent<HubCheck>().loosened)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                    if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
+                    {
+                        //not sure how to do inlocation
+                        if(x[i].GetComponent<wrenchCheck>().inLocation){
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 5)
+                {
+                    if ((x[i] == GameObject.Find("bad tire Detailed halo")))
+                    {
+                        if (x[i].GetComponent<badTireCheck>().off)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 6)
+                {
+                    if ((x[i] == GameObject.Find("goodTireDetailedHalo")))
+                    {
+                        if (x[i].GetComponent<goodTireCheck>().on)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 7)
+                {
+                    if ((x[i] == GameObject.Find("detail 1")) || (x[i] == GameObject.Find("detail 2")) || (x[i] == GameObject.Find("detail 3")) || (x[i] == GameObject.Find("detail 4")) || (x[i] == GameObject.Find("detail 5")))
+                    {
+                        //put them back on
+                        if (!x[i].GetComponent<HubCheck>().loosened)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                    if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
+                    {
+                        //not sure how to do inlocation
+                        if(x[i].GetComponent<wrenchCheck>().inLocation){
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 8)
+                {
+                    if ((x[i] == GameObject.Find("jackDetailedHalo")))
+                    {
+                        if (x[i].GetComponent<jackCheck>().lowered)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 9)
+                {
+                    if ((x[i] == GameObject.Find("detail 1")) || (x[i] == GameObject.Find("detail 2")) || (x[i] == GameObject.Find("detail 3")) || (x[i] == GameObject.Find("detail 4")) || (x[i] == GameObject.Find("detail 5")))
+                    {
+                        //put them back on
+                        if (!x[i].GetComponent<HubCheck>().tight)
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                    if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
+                    {
+                        //not sure how to do inlocation
+                        if(x[i].GetComponent<wrenchCheck>().inLocation){
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set green");
+                        }
+                        else
+                        {
+                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
+                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
+                            haloComponent.ApplyModifiedProperties();
+                            Debug.Log("set red");
+                        }
+                    }
+                }
+                if(step == 10)
+                {
+
+                }
+
+            }
+        }
+    }
+
+    //detailed hint stuff
+    public void provideHintDetailed()
+    {
+        //used to give hint based of next step
+        if (tire)
+        {
+            int hintindex;
+            GameObject[] objects;
+    
+            Debug.Log("recognized where");
+    
+            //set what step
+            hintindex = findStepTire();
+            //hintindex = findStepBat();
+            //set array of objects that need to flash
+            objects = getObjectsTireDetailed(hintindex);
+            //objects = getOjectsBat(hintindex);
+    
+            if(hintindex>=0 && hintindex < 10)
+            {
+                //test.clip = hintsForTireChange[hintindex];
+                //test.clip = hintsForBatteryJump[hintindex];
+                //test.Play();
+                setHalos(objects);
+                StartCoroutine(detailedFlashing(objects));
+            }
+            else
+            {
+            Debug.Log("hintindex wack");
+            }
+        }
+        if (battery)
+        {
+            int hintindex;
+            GameObject[] objects;
+    
+            Debug.Log("recognized hint");
+    
+            //set what step
+            //hintindex = findStepTire();
+            hintindex = findStepBat();
+            //set array of objects that need to flash
+            //objects = getOjectsTire(hintindex);
+            objects = getOjectsBatDetailed(hintindex);
+    
+            if(hintindex>=0 && hintindex < 10)
+            {
+                //test.clip = hintsForTireChange[hintindex];
+                //test.clip = hintsForBatteryJump[hintindex];
+                //test.Play();
+                StartCoroutine(detailedFlashing(objects));
+            }
+            else
+            {
+            Debug.Log("hintindex wack");
+            }
+        }
+    }
+
+    IEnumerator detailedFlashing(GameObject[] x)
+    {
+        //Print the time of when the function is first called.
+        Debug.Log("Started flashing at timestamp : " + Time.time);
+        for(int i=0; i<x.Length; i++)
+        {
+            Behaviour h = (Behaviour)x[i].GetComponent("Halo");
+            h.enabled = !h.enabled;
+        }
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            Behaviour h = (Behaviour)x[i].GetComponent("Halo");
+            h.enabled = !h.enabled;
+        }
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            Behaviour h = (Behaviour)x[i].GetComponent("Halo");
+            h.enabled = !h.enabled;
+        }
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            Behaviour h = (Behaviour)x[i].GetComponent("Halo");
+            h.enabled = !h.enabled;
+        }
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            Behaviour h = (Behaviour)x[i].GetComponent("Halo");
+            h.enabled = !h.enabled;
+        }
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            Behaviour h = (Behaviour)x[i].GetComponent("Halo");
+            h.enabled = !h.enabled;
+        }
+
+        //After we have waited 5 seconds print the time again.
+        Debug.Log("Finished flashing at timestamp : " + Time.time);
+    }
+
+    GameObject[] getObjectsTireDetailed(int x)
+    {
+        GameObject[] final;
+        List<GameObject> ret=new List<GameObject>();
+        if (x == 1)
+        {
+            ret.Add(GameObject.Find("detail 1"));
+            ret.Add(GameObject.Find("detail 2"));
+            ret.Add(GameObject.Find("detail 3"));
+            ret.Add(GameObject.Find("detail 4"));
+            ret.Add(GameObject.Find("detail 5"));
+            ret.Add(GameObject.Find("wrenchDetailedHalo"));
+
+        }else if(x == 2)
+        {
+            ret.Add(GameObject.Find("jackDetailedHalo"));
+        }else if(x == 3)
+        {
+            ret.Add(GameObject.Find("jackDetailedHalo"));
+            ret.Add(GameObject.Find("wrenchDetailedHalo"));
+
+        }else if(x == 4)
+        {
+            ret.Add(GameObject.Find("wrenchDetailedHalo"));
+            ret.Add(GameObject.Find("detail 1"));
+            ret.Add(GameObject.Find("detail 2"));
+            ret.Add(GameObject.Find("detail 3"));
+            ret.Add(GameObject.Find("detail 4"));
+            ret.Add(GameObject.Find("detail 5"));
+
+        }else if(x == 5)
+        {
+            ret.Add(GameObject.Find("bad tire Detailed halo"));
+
+        }else if(x == 6)
+        {
+            ret.Add(GameObject.Find("goodTireDetailedHalo"));
+
+        }else if(x == 7)
+        {
+            ret.Add(GameObject.Find("detail 1"));
+            ret.Add(GameObject.Find("detail 2"));
+            ret.Add(GameObject.Find("detail 3"));
+            ret.Add(GameObject.Find("detail 4"));
+            ret.Add(GameObject.Find("detail 5"));
+
+        }else if(x == 8)
+        {
+            ret.Add(GameObject.Find("jackDetailedHalo"));
+
+        }else if(x == 9)
+        {
+            ret.Add(GameObject.Find("detail 1"));
+            ret.Add(GameObject.Find("detail 2"));
+            ret.Add(GameObject.Find("detail 3"));
+            ret.Add(GameObject.Find("detail 4"));
+            ret.Add(GameObject.Find("detail 5"));
+            ret.Add(GameObject.Find("wrenchDetailedHalo"));
+
+        }else if(x == 10)
+        {
+
+        }
+        final = ret.ToArray();
+
+        return final;
+    }
+
+   GameObject[] getOjectsBatDetailed(int x)
+    {
+        GameObject[] final;
+        List<GameObject> ret=new List<GameObject>();
+        if (x == 0)
+        {
+            ret.Add(GameObject.Find("hood"));
+
+        }else if(x == 1)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
+        }else if(x == 2)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
+        }else if(x == 3)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
+        }else if(x == 4)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
+        }else if(x == 5)
+        {
+            ret.Add(GameObject.Find("car"));
+
+        }else if(x == 6)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
+        }else if(x == 7)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
+        }else if(x == 8)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
+        }else if(x == 9)
+        {
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
+        }
+        final = ret.ToArray();
+
+        return final;
+    }
+
+
+
 
 }

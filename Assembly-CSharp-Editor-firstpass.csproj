@@ -291,23 +291,20 @@
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+ </Reference>
  <Reference Include="log4netPlastic">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.Unity.45">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
  </Reference>
- <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
- </Reference>
  <Reference Include="GitHub.UnityShim">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.Api.45">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
- </Reference>
- <Reference Include="sfw.net">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
@@ -672,8 +669,8 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.OpenVR">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.OpenVR.dll</HintPath>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -684,11 +681,20 @@
  <Reference Include="Unity.XR.Management.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
@@ -699,6 +705,9 @@
  <Reference Include="Unity.PlasticSCM.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
@@ -708,51 +717,8 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.OpenVR.Editor">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.OpenVR.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{512F29F2-0BAF-38BA-6356-0A74873A4504}</Project>
-      <Name>SteamVR_Input_Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR.csproj">
-      <Project>{B7F0A388-D14C-2660-24E7-94ED942F3BFA}</Project>
-      <Name>SteamVR</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{9AC49DB2-C67A-3067-DF9A-060E8D48E465}</Project>
-      <Name>SteamVR_Windows_EditorHelper</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{348AD977-44DE-5DCC-E6CA-0B56B3E99158}</Project>
-      <Name>SteamVR_Actions</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{E5C76D6E-7A3A-4AFC-15DF-ABCEAF47CF37}</Project>
-      <Name>SteamVR_Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
