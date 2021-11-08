@@ -1773,10 +1773,10 @@ MonoBehaviour:
   tirestep4: 1
   tirestep5: 1
   tirestep6: 1
-  tirestep7: 0
-  tirestep8: 0
-  tirestep9: 0
-  tirestep10: 0
+  tirestep7: 1
+  tirestep8: 1
+  tirestep9: 1
+  tirestep10: 1
   speakBat: 1
   batterystep1: 0
   batterystep2: 0

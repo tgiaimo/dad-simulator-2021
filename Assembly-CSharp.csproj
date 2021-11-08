@@ -47,34 +47,43 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\CircularDriveWrench.cs" />
      <Compile Include="Assets\Scripts\Pointer.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderGizmos.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderPreferences.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinned.cs" />
+     <Compile Include="Assets\detailedHints.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs" />
+     <Compile Include="Assets\HubCheck.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs" />
+     <Compile Include="Assets\keywordRecog.cs" />
      <Compile Include="Assets\Scripts\UI_script.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderTips.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderSaving.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs" />
      <Compile Include="Assets\Scripts\InteractableSnap.cs" />
+     <Compile Include="Assets\wrenchCheck.cs" />
      <Compile Include="Assets\Scripts\VRInputModule.cs" />
      <Compile Include="Assets\testingwall.cs" />
      <Compile Include="Assets\Scripts\UI_test.cs" />
+     <Compile Include="Assets\interactions.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs" />
      <Compile Include="Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs" />
+     <Compile Include="Assets\goodTireCheck.cs" />
      <Compile Include="Assets\Scripts\Intro_Video.cs" />
      <Compile Include="Assets\Scripts\Item_Selection.cs" />
      <Compile Include="Assets\JudScripts\testing.cs" />
+     <Compile Include="Assets\jackCheck.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderData.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs" />
      <Compile Include="Assets\Scripts\SnapOn.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs" />
+     <Compile Include="Assets\badTireCheck.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderPreviewer.cs" />
      <Compile Include="Assets\Scripts\VRUIItem.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs" />
@@ -305,6 +314,9 @@
  </Reference>
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Valve.Newtonsoft.Json">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -654,8 +666,8 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <Reference Include="Unity.XR.OpenVR">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.OpenVR.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -666,20 +678,11 @@
  <Reference Include="Unity.XR.Management.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
@@ -690,9 +693,6 @@
  <Reference Include="Unity.PlasticSCM.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
@@ -702,8 +702,51 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.OpenVR.Editor">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.OpenVR.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Users/Judsen Hembree/OneDrive/Documents/GitHub/dad-simulator-2021/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SteamVR_Input_Editor.csproj">
+      <Project>{512F29F2-0BAF-38BA-6356-0A74873A4504}</Project>
+      <Name>SteamVR_Input_Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{B7F0A388-D14C-2660-24E7-94ED942F3BFA}</Project>
+      <Name>SteamVR</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
+      <Project>{9AC49DB2-C67A-3067-DF9A-060E8D48E465}</Project>
+      <Name>SteamVR_Windows_EditorHelper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{348AD977-44DE-5DCC-E6CA-0B56B3E99158}</Project>
+      <Name>SteamVR_Actions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Editor.csproj">
+      <Project>{E5C76D6E-7A3A-4AFC-15DF-ABCEAF47CF37}</Project>
+      <Name>SteamVR_Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

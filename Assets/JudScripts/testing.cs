@@ -152,6 +152,7 @@ public class testing : MonoBehaviour
     void Update()
     {
         soundOnComplete();
+        stepCheck();
     }
 
     public void soundOnComplete()
@@ -773,6 +774,94 @@ public class testing : MonoBehaviour
     {
         Debug.Log("recognized check");
     }
+
+    public void stepCheck()
+    {
+        if (tire)
+        {
+            int step = findStepTire();
+            if (step == 1)
+            {
+                //loosen the lugs a bit
+                if ((!GameObject.Find("detail 1").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 2").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 3").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 4").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 5").GetComponent<HubCheck>().tight))
+                {
+                    tirestep3 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 2)
+            {
+                if ((GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().inLocation))
+                {
+                    tirestep4 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 3)
+            {
+                if ((GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().raised))
+                {
+                    tirestep5 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 4)
+            {
+                if ((GameObject.Find("detail 1").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 2").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 3").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 4").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 5").GetComponent<HubCheck>().loosened))
+                {
+                    //loosened is off
+                    tirestep6 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 5)
+            {
+                if (GameObject.Find("bad tire Detailed halo").GetComponent<badTireCheck>().off)
+                {
+                    tirestep7 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 6)
+            {
+                if (GameObject.Find("goodTireDetailedHalo").GetComponent<goodTireCheck>().on)
+                {
+                    tirestep8 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 7)
+            {
+                if ((!GameObject.Find("detail 1").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 2").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 3").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 4").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 5").GetComponent<HubCheck>().loosened))
+                {
+                    //loosened is off
+                    tirestep9 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 8)
+            {
+                if (GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().lowered)
+                {
+                    tirestep10 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 9)
+            {
+                if ((GameObject.Find("detail 1").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 2").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 3").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 4").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 5").GetComponent<HubCheck>().tight))
+                {
+                    Debug.Log("AAAAAAAAAAAAALLLLLLLLLLLLLLLLLL DOOOOOOOOOOOOOOOONE");
+                }
+            }
+            if(step == 10)
+            {
+
+            }
+
+        }
+    }
+
 
     public void setHalos(GameObject[] x)
     {

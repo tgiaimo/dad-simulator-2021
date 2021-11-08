@@ -47,13 +47,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Initialization.cs" />
-     <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_mixedreality.cs" />
-     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
      <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_platformer.cs" />
-     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
      <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_buggy.cs" />
+     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
      <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_default.cs" />
+     <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_mixedreality.cs" />
+     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Initialization.cs" />
+     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
      <None Include="Assets\SteamVR_Input\SteamVR_Actions.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
