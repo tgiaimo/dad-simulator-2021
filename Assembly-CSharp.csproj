@@ -67,7 +67,10 @@
      <Compile Include="Assets\testingwall.cs" />
      <Compile Include="Assets\Scripts\UI_test.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
      <Compile Include="Assets\carCheck.cs" />
      <Compile Include="Assets\interactions.cs" />
 >>>>>>> Stashed changes
