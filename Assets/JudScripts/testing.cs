@@ -388,23 +388,31 @@ public class testing : MonoBehaviour
         }else if(x == 1)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 2)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 3)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 4)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 5)
         {
             ret.Add(GameObject.Find("car"));
@@ -412,23 +420,31 @@ public class testing : MonoBehaviour
         }else if(x == 6)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 7)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 8)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 9)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }
         final = ret.ToArray();
 
@@ -774,6 +790,277 @@ public class testing : MonoBehaviour
         Debug.Log("recognized check");
     }
 
+<<<<<<< Updated upstream
+=======
+    public void stepCheck()
+    {
+        if (tire)
+        {
+            int step = findStepTire();
+            if (step == 1)
+            {
+                //loosen the lugs a bit
+                if ((!GameObject.Find("detail 1").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 2").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 3").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 4").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 5").GetComponent<HubCheck>().tight))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsTireDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+                    
+                    tirestep3 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 2)
+            {
+                if ((GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().inLocation))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsTireDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    tirestep4 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 3)
+            {
+                if ((GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().raised))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsTireDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    tirestep5 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 4)
+            {
+                if ((GameObject.Find("detail 1").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 2").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 3").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 4").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 5").GetComponent<HubCheck>().loosened))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsTireDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    //loosened is off
+                    tirestep6 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 5)
+            {
+                if (GameObject.Find("bad tire Detailed halo").GetComponent<badTireCheck>().off)
+                {
+                    GameObject[] objects;
+                    objects = getObjectsTireDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    tirestep7 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 6)
+            {
+                if (GameObject.Find("goodTireDetailedHalo").GetComponent<goodTireCheck>().on)
+                {
+                    GameObject[] objects;
+                    objects = getObjectsTireDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    tirestep8 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 7)
+            {
+                if ((!GameObject.Find("detail 1").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 2").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 3").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 4").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 5").GetComponent<HubCheck>().loosened))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsTireDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    //loosened is off
+                    tirestep9 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 8)
+            {
+                if (GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().lowered)
+                {
+                    GameObject[] objects;
+                    objects = getObjectsTireDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    tirestep10 = true;
+                    speakTire = true;
+                }
+            }
+            if(step == 9)
+            {
+                if ((GameObject.Find("detail 1").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 2").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 3").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 4").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 5").GetComponent<HubCheck>().tight))
+                {
+                    Debug.Log("AAAAAAAAAAAAALLLLLLLLLLLLLLLLLL DOOOOOOOOOOOOOOOONE");
+                }
+            }
+            if(step == 10)
+            {
+
+            }
+
+        }
+        
+        if (battery)
+        {
+            int step = findStepBat();
+            if (step == 0)
+            {
+                //loosen the lugs a bit
+                if (GameObject.Find("hoodDetailed").GetComponent<hoodCheck>().popped)
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+                    
+                    batterystep2= true;
+                    speakBat = true;
+                }
+            }
+            if(step == 1)
+            {
+                if ((GameObject.Find("battery/red").GetComponent<clippedCheck>().clipped))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    batterystep3= true;
+                    speakBat= true;
+                }
+            }
+            if(step == 2)
+            {
+                if ((GameObject.Find("goodBattery/red").GetComponent<clippedCheck>().clipped))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    batterystep4= true;
+                    speakBat= true;
+                }
+            }
+            if(step == 3)
+            {
+                if ((GameObject.Find("goodBattery/neg").GetComponent<clippedCheck>().clipped))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    batterystep5 = true;
+                    speakBat = true;
+                }
+ 
+            }
+            if(step == 4)
+            {
+                if ((GameObject.Find("battery/neg").GetComponent<clippedCheck>().clipped))
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    batterystep6= true;
+                    speakBat= true;
+                }
+            }
+            if(step == 5)
+            {
+                if (GameObject.Find("car").GetComponent<carCheck>().running)
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    batterystep7= true;
+                    speakBat= true;
+                }
+            }
+            if(step == 6)
+            {
+                if (!GameObject.Find("battery/neg").GetComponent<clippedCheck>().clipped)
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    batterystep8 = true;
+                    speakBat = true;
+                }
+ 
+            }
+            if(step == 7)
+            {
+                if (!GameObject.Find("goodBattery/neg").GetComponent<clippedCheck>().clipped)
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    batterystep9 = true;
+                    speakBat = true;
+                }
+
+            }
+            if(step == 8)
+            {
+                if (!GameObject.Find("goodBattery/red").GetComponent<clippedCheck>().clipped)
+                {
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+
+                    batterystep10 = true;
+                    speakBat = true;
+                }
+            }
+            if(step == 9)
+            {
+                if (!GameObject.Find("battery/red").GetComponent<clippedCheck>().clipped)
+                {
+                    
+                    //goes infinite atm
+                    /*
+                    GameObject[] objects;
+                    objects = getObjectsBatDetailed(step);
+                    setHalos(objects);
+                    StartCoroutine(completedFlash(objects));
+                    */
+                }
+            }
+        }
+    }
+
+
+>>>>>>> Stashed changes
     public void setHalos(GameObject[] x)
     {
         for (int i = 0; i < x.Length; i++)
