@@ -389,23 +389,31 @@ public class testing : MonoBehaviour
         }else if(x == 1)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 2)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 3)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 4)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 5)
         {
             ret.Add(GameObject.Find("car"));
@@ -413,23 +421,31 @@ public class testing : MonoBehaviour
         }else if(x == 6)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 7)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 8)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }else if(x == 9)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
-
+            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("boosters/side2/red2"));
         }
         final = ret.ToArray();
 
@@ -795,6 +811,11 @@ public class testing : MonoBehaviour
         Debug.Log("recognized check");
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> test
     public void stepCheck()
     {
         if (tire)
@@ -1049,7 +1070,11 @@ public class testing : MonoBehaviour
             {
                 if (!GameObject.Find("battery/red").GetComponent<clippedCheck>().clipped)
                 {
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> test
                     //goes infinite atm
                     /*
                     GameObject[] objects;
@@ -1063,6 +1088,10 @@ public class testing : MonoBehaviour
     }
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> test
     public void setHalos(GameObject[] x)
     {
         for (int i = 0; i < x.Length; i++)

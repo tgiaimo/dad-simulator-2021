@@ -59,6 +59,7 @@
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs" />
      <Compile Include="Assets\HubCheck.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs" />
+     <Compile Include="Assets\goodBatPosTerminal.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs" />
      <Compile Include="Assets\keywordRecog.cs" />
      <Compile Include="Assets\Scripts\UI_script.cs" />
@@ -70,18 +71,34 @@
      <Compile Include="Assets\Scripts\VRInputModule.cs" />
      <Compile Include="Assets\testingwall.cs" />
      <Compile Include="Assets\Scripts\UI_test.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\interactions.cs" />
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+     <Compile Include="Assets\carCheck.cs" />
+     <Compile Include="Assets\interactions.cs" />
+>>>>>>> Stashed changes
+>>>>>>> test
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs" />
      <Compile Include="Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs" />
      <Compile Include="Assets\goodTireCheck.cs" />
      <Compile Include="Assets\Scripts\Intro_Video.cs" />
      <Compile Include="Assets\Scripts\Item_Selection.cs" />
+     <Compile Include="Assets\badBatPosTerminal.cs" />
+     <Compile Include="Assets\hoodCheck.cs" />
      <Compile Include="Assets\JudScripts\testing.cs" />
      <Compile Include="Assets\jackCheck.cs" />
      <Compile Include="Assets\Pit Crew Minigame\pit_crew_script.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderData.cs" />
+     <Compile Include="Assets\badBatNegTerminal.cs" />
+     <Compile Include="Assets\goodBatNegTerminal.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs" />
+     <Compile Include="Assets\clippedCheck.cs" />
      <Compile Include="Assets\Scripts\SnapOn.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs" />
      <Compile Include="Assets\badTireCheck.cs" />

@@ -13,8 +13,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2021-11-08T20:50:56.714-05:00
   initializedAtString: 2021-11-08T14:37:26.914-05:00
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  lastUpdatedAtString: 2021-11-08T02:12:25.367-05:00
+  initializedAtString: 2021-11-07T13:23:49.912-05:00
+=======
+  lastUpdatedAtString: 2021-11-08T23:37:01.539-05:00
+  initializedAtString: 2021-11-08T23:29:47.039-05:00
+>>>>>>> Stashed changes
+=======
+  lastUpdatedAtString: 2021-11-08T23:37:01.539-05:00
+  initializedAtString: 2021-11-08T23:29:47.039-05:00
+>>>>>>> Stashed changes
+>>>>>>> test
   currentGitRemote:
     name: origin
     url: https://github.com/TGiaimo/dad-simulator-2021.git
