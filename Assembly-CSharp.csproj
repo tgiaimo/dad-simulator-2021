@@ -71,8 +71,18 @@
      <Compile Include="Assets\Scripts\VRInputModule.cs" />
      <Compile Include="Assets\testingwall.cs" />
      <Compile Include="Assets\Scripts\UI_test.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\interactions.cs" />
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
      <Compile Include="Assets\carCheck.cs" />
      <Compile Include="Assets\interactions.cs" />
+>>>>>>> Stashed changes
+>>>>>>> test
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs" />
      <Compile Include="Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs" />
