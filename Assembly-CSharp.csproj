@@ -79,10 +79,7 @@
      <Compile Include="Assets\goodTireCheck.cs" />
      <Compile Include="Assets\Scripts\Intro_Video.cs" />
      <Compile Include="Assets\Scripts\Item_Selection.cs" />
-<<<<<<< Updated upstream
      <Compile Include="Assets\badBatPosTerminal.cs" />
-=======
->>>>>>> Stashed changes
      <Compile Include="Assets\hoodCheck.cs" />
      <Compile Include="Assets\JudScripts\testing.cs" />
      <Compile Include="Assets\jackCheck.cs" />
