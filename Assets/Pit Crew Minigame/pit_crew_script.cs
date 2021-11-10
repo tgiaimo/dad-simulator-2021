@@ -8,6 +8,7 @@ public class pit_crew_script : MonoBehaviour
     public Text timer;
     public Text sectionTimer;
     public testing steps;
+    public GameObject[] buttons;
 
     int numSteps = 10, current_step = 1;
     float elapsed_time, best_time = 1e9f, final_time;
@@ -30,6 +31,8 @@ public class pit_crew_script : MonoBehaviour
             "Remove Bad Tire: ", "Mount Spare Tire: ", "Tighten Lug Nuts By Hand: ", "Lower Vehicle: ",
             "Tighten Lug Nuts With Wrench: "
         };
+
+        foreach (GameObject b in buttons) b.SetActive(false);
     }
 
     // Update is called once per frame
@@ -47,6 +50,7 @@ public class pit_crew_script : MonoBehaviour
             {
                 sectionTimer.text += step_names[i] + formatTime(step_times[i]) + "\n";
             }
+            foreach (GameObject b in buttons) b.SetActive(true);
         }
         else
         {
