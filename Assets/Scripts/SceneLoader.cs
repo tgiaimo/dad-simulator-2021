@@ -22,4 +22,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void loadSceneRetry(string sceneName)
+    {
+        Destroy(GameObject.Find("Player"));
+        SceneManager.UnloadScene(sceneName);
+        SceneManager.LoadScene(sceneName);
+    }
+
 }

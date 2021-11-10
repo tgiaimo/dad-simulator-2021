@@ -54,7 +54,7 @@ public class Pause_Menu : MonoBehaviour
             stepNumber = simScript.findStepTire();
             foreach (string d in taskList_tire)
             {
-                taskText.text += taskList_tire + "\n";
+                taskText.text += d + "\n";
             }
         }
         else if (simScript.battery)
@@ -62,7 +62,7 @@ public class Pause_Menu : MonoBehaviour
             stepNumber = simScript.findStepBat();
             foreach (string d in taskList_tire)
             {
-                taskText.text += taskList_battery + "\n";
+                taskText.text += d + "\n";
             }
         }
 
@@ -79,6 +79,12 @@ public class Pause_Menu : MonoBehaviour
     {
         ExitConfirm.SetActive(false);
         PauseMenu.SetActive(true);
+    }
+
+    public void exitButtonPressed()
+    {
+        ExitConfirm.SetActive(true);
+        PauseMenu.SetActive(false);
     }
 
     public void resumeButtonPressed()

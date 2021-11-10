@@ -57,6 +57,7 @@
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderRotateDuplicate.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderDraw.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs" />
+     <Compile Include="Assets\deadBatPosTerminal.cs" />
      <Compile Include="Assets\HubCheck.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs" />
