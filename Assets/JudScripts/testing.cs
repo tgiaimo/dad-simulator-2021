@@ -663,7 +663,6 @@ public class testing : MonoBehaviour
     IEnumerator Flashing(GameObject[] x)
     {
         //Print the time of when the function is first called.
-        yield return new WaitForSeconds(2);
         Debug.Log("Started flashing at timestamp : " + Time.time);
         for(int i=0; i<x.Length; i++)
         {
@@ -705,25 +704,6 @@ public class testing : MonoBehaviour
         //After we have waited 5 seconds print the time again.
         Debug.Log("Finished flashing at timestamp : " + Time.time);
     }
-    IEnumerator completedFlash(GameObject[] x)
-    {
-        //Print the time of when the function is first called.
-        Debug.Log("Started completeded flash at timestamp : " + Time.time);
-        for(int i=0; i<x.Length; i++)
-        {
-            Behaviour h = (Behaviour)x[i].GetComponent("Halo");
-            h.enabled = !h.enabled;
-        }
-        //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(1);
-        for(int i=0; i<x.Length; i++)
-        {
-            Behaviour h = (Behaviour)x[i].GetComponent("Halo");
-            h.enabled = !h.enabled;
-        }
-        //After we have waited 5 seconds print the time again.
-    }
-
 
     private void recognizedSpeech(PhraseRecognizedEventArgs speech)
     {
@@ -805,11 +785,6 @@ public class testing : MonoBehaviour
                 //loosen the lugs a bit
                 if ((!GameObject.Find("detail 1").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 2").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 3").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 4").GetComponent<HubCheck>().tight) && (!GameObject.Find("detail 5").GetComponent<HubCheck>().tight))
                 {
-                    GameObject[] objects;
-                    objects = getObjectsTireDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-                    
                     tirestep3 = true;
                     speakTire = true;
                 }
@@ -818,11 +793,6 @@ public class testing : MonoBehaviour
             {
                 if ((GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().inLocation))
                 {
-                    GameObject[] objects;
-                    objects = getObjectsTireDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
                     tirestep4 = true;
                     speakTire = true;
                 }
@@ -831,11 +801,6 @@ public class testing : MonoBehaviour
             {
                 if ((GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().raised))
                 {
-                    GameObject[] objects;
-                    objects = getObjectsTireDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
                     tirestep5 = true;
                     speakTire = true;
                 }
@@ -844,11 +809,6 @@ public class testing : MonoBehaviour
             {
                 if ((GameObject.Find("detail 1").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 2").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 3").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 4").GetComponent<HubCheck>().loosened) && (GameObject.Find("detail 5").GetComponent<HubCheck>().loosened))
                 {
-                    GameObject[] objects;
-                    objects = getObjectsTireDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
                     //loosened is off
                     tirestep6 = true;
                     speakTire = true;
@@ -858,11 +818,6 @@ public class testing : MonoBehaviour
             {
                 if (GameObject.Find("bad tire Detailed halo").GetComponent<badTireCheck>().off)
                 {
-                    GameObject[] objects;
-                    objects = getObjectsTireDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
                     tirestep7 = true;
                     speakTire = true;
                 }
@@ -871,11 +826,6 @@ public class testing : MonoBehaviour
             {
                 if (GameObject.Find("goodTireDetailedHalo").GetComponent<goodTireCheck>().on)
                 {
-                    GameObject[] objects;
-                    objects = getObjectsTireDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
                     tirestep8 = true;
                     speakTire = true;
                 }
@@ -884,11 +834,6 @@ public class testing : MonoBehaviour
             {
                 if ((!GameObject.Find("detail 1").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 2").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 3").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 4").GetComponent<HubCheck>().loosened) && (!GameObject.Find("detail 5").GetComponent<HubCheck>().loosened))
                 {
-                    GameObject[] objects;
-                    objects = getObjectsTireDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
                     //loosened is off
                     tirestep9 = true;
                     speakTire = true;
@@ -898,11 +843,6 @@ public class testing : MonoBehaviour
             {
                 if (GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().lowered)
                 {
-                    GameObject[] objects;
-                    objects = getObjectsTireDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
                     tirestep10 = true;
                     speakTire = true;
                 }
@@ -919,146 +859,6 @@ public class testing : MonoBehaviour
 
             }
 
-        }
-        
-        if (battery)
-        {
-            int step = findStepBat();
-            if (step == 0)
-            {
-                //loosen the lugs a bit
-                if (GameObject.Find("hoodDetailed").GetComponent<hoodCheck>().popped)
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-                    
-                    batterystep2= true;
-                    speakBat = true;
-                }
-            }
-            if(step == 1)
-            {
-                if ((GameObject.Find("battery/red").GetComponent<clippedCheck>().clipped))
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
-                    batterystep3= true;
-                    speakBat= true;
-                }
-            }
-            if(step == 2)
-            {
-                if ((GameObject.Find("goodBattery/red").GetComponent<clippedCheck>().clipped))
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
-                    batterystep4= true;
-                    speakBat= true;
-                }
-            }
-            if(step == 3)
-            {
-                if ((GameObject.Find("goodBattery/neg").GetComponent<clippedCheck>().clipped))
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
-                    batterystep5 = true;
-                    speakBat = true;
-                }
- 
-            }
-            if(step == 4)
-            {
-                if ((GameObject.Find("battery/neg").GetComponent<clippedCheck>().clipped))
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
-                    batterystep6= true;
-                    speakBat= true;
-                }
-            }
-            if(step == 5)
-            {
-                if (GameObject.Find("car").GetComponent<carCheck>().running)
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
-                    batterystep7= true;
-                    speakBat= true;
-                }
-            }
-            if(step == 6)
-            {
-                if (!GameObject.Find("battery/neg").GetComponent<clippedCheck>().clipped)
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
-                    batterystep8 = true;
-                    speakBat = true;
-                }
- 
-            }
-            if(step == 7)
-            {
-                if (!GameObject.Find("goodBattery/neg").GetComponent<clippedCheck>().clipped)
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
-                    batterystep9 = true;
-                    speakBat = true;
-                }
-
-            }
-            if(step == 8)
-            {
-                if (!GameObject.Find("goodBattery/red").GetComponent<clippedCheck>().clipped)
-                {
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-
-                    batterystep10 = true;
-                    speakBat = true;
-                }
-            }
-            if(step == 9)
-            {
-                if (!GameObject.Find("battery/red").GetComponent<clippedCheck>().clipped)
-                {
-
-                    //goes infinite atm
-                    /*
-                    GameObject[] objects;
-                    objects = getObjectsBatDetailed(step);
-                    setHalos(objects);
-                    StartCoroutine(completedFlash(objects));
-                    */
-                }
-            }
         }
     }
 
@@ -1092,8 +892,7 @@ public class testing : MonoBehaviour
                     }
                     if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
                     {
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
-                        {
+                        if(x[i].GetComponent<wrenchCheck>().inLocation){
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
@@ -1108,7 +907,7 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 2)
+                if(step == 2)
                 {
                     if ((x[i] == GameObject.Find("jackDetailedHalo")))
                     {
@@ -1128,7 +927,7 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 3)
+                if(step == 3)
                 {
                     if ((x[i] == GameObject.Find("jackDetailedHalo")))
                     {
@@ -1148,7 +947,7 @@ public class testing : MonoBehaviour
                         }
                     }
                     //put somehting that is raising it
-                    if (x[i] == GameObject.Find("wrenchDetailedHalo"))
+                    if(x[i] == GameObject.Find("wrenchDetailedHalo"))
                     {
                         //onjack
                         if (x[i].GetComponent<wrenchCheck>().inLocation)
@@ -1167,7 +966,7 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 4)
+                if(step == 4)
                 {
                     if ((x[i] == GameObject.Find("detail 1")) || (x[i] == GameObject.Find("detail 2")) || (x[i] == GameObject.Find("detail 3")) || (x[i] == GameObject.Find("detail 4")) || (x[i] == GameObject.Find("detail 5")))
                     {
@@ -1190,8 +989,7 @@ public class testing : MonoBehaviour
                     if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
                     {
                         //not sure how to do inlocation
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
-                        {
+                        if(x[i].GetComponent<wrenchCheck>().inLocation){
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
@@ -1206,7 +1004,7 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 5)
+                if(step == 5)
                 {
                     if ((x[i] == GameObject.Find("bad tire Detailed halo")))
                     {
@@ -1226,7 +1024,7 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 6)
+                if(step == 6)
                 {
                     if ((x[i] == GameObject.Find("goodTireDetailedHalo")))
                     {
@@ -1246,7 +1044,7 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 7)
+                if(step == 7)
                 {
                     if ((x[i] == GameObject.Find("detail 1")) || (x[i] == GameObject.Find("detail 2")) || (x[i] == GameObject.Find("detail 3")) || (x[i] == GameObject.Find("detail 4")) || (x[i] == GameObject.Find("detail 5")))
                     {
@@ -1269,8 +1067,7 @@ public class testing : MonoBehaviour
                     if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
                     {
                         //not sure how to do inlocation
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
-                        {
+                        if(x[i].GetComponent<wrenchCheck>().inLocation){
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
@@ -1285,7 +1082,7 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 8)
+                if(step == 8)
                 {
                     if ((x[i] == GameObject.Find("jackDetailedHalo")))
                     {
@@ -1305,7 +1102,7 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 9)
+                if(step == 9)
                 {
                     if ((x[i] == GameObject.Find("detail 1")) || (x[i] == GameObject.Find("detail 2")) || (x[i] == GameObject.Find("detail 3")) || (x[i] == GameObject.Find("detail 4")) || (x[i] == GameObject.Find("detail 5")))
                     {
@@ -1328,8 +1125,7 @@ public class testing : MonoBehaviour
                     if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
                     {
                         //not sure how to do inlocation
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
-                        {
+                        if(x[i].GetComponent<wrenchCheck>().inLocation){
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
@@ -1344,366 +1140,11 @@ public class testing : MonoBehaviour
                         }
                     }
                 }
-                if (step == 10)
+                if(step == 10)
                 {
 
                 }
 
-            }
-
-            if (battery)
-            {
-                int step = findStepBat();
-                if (step == 0)
-                {
-                    if (x[i] == GameObject.Find("hoodDetailed"))
-                    {
-                        if (x[i].GetComponent<hoodCheck>().popped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-                    }
-
-                }
-                if (step == 1)
-                {
-                    if ((x[i] == GameObject.Find("battery/red")))
-                    {
-                        if (x[i].GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-                    }
-                    if (x[i] == GameObject.Find("boosters/side1/red1"))
-                    {
-                        if (GameObject.Find("battery/red").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-                    }
-                }
-                if (step == 2)
-                {
-                    if (x[i] == GameObject.Find("goodBattery/red"))
-                    {
-                        if (GameObject.Find("goodBattery/red").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                    if (x[i] == GameObject.Find("boosters/side2/red2"))
-                    {
-                        if (GameObject.Find("goodBattery/red").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                }
-                if (step == 3)
-                {
-                    if (x[i] == GameObject.Find("goodBattery/neg"))
-                    {
-                        if (GameObject.Find("goodBattery/neg").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                    if (x[i] == GameObject.Find("boosters/side2/black2"))
-                    {
-                        if (GameObject.Find("goodBattery/neg").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                }
-                if (step == 4)
-                {
-                    if (x[i] == GameObject.Find("battery/neg"))
-                    {
-                        if (GameObject.Find("battery/neg").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                    if (x[i] == GameObject.Find("boosters/side1/black1"))
-                    {
-                        if (GameObject.Find("battery/neg").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                }
-                if (step == 5)
-                {
-                    if ((x[i] == GameObject.Find("car")))
-                    {
-                        if (x[i].GetComponent<carCheck>().running)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-                    }
-                }
-                if (step == 6)
-                {
-                    if (x[i] == GameObject.Find("battery/neg"))
-                    {
-                        if (!GameObject.Find("battery/neg").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                    if (x[i] == GameObject.Find("boosters/side1/black1"))
-                    {
-                        if (!GameObject.Find("battery/neg").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                }
-                if (step == 7)
-                {
-                    if (x[i] == GameObject.Find("goodBattery/neg"))
-                    {
-                        if (!GameObject.Find("goodBattery/neg").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                    if (x[i] == GameObject.Find("boosters/side2/black2"))
-                    {
-                        if (!GameObject.Find("goodBattery/neg").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-
-                    }
-                }
-                if (step == 8)
-                {
-                    if (x[i] == GameObject.Find("goodBattery/red"))
-                    {
-                        if (!GameObject.Find("goodBattery/red").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                    if (x[i] == GameObject.Find("boosters/side2/red2"))
-                    {
-                        if (!GameObject.Find("goodBattery/red").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-
-                    }
-                }
-                if (step == 9)
-                {
-                if ((x[i] == GameObject.Find("battery/red")))
-                    {
-                        if (!x[i].GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-                    }
-                    if (!x[i] == GameObject.Find("boosters/side1/red1"))
-                    {
-                        if (GameObject.Find("battery/red").GetComponent<clippedCheck>().clipped)
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.green;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set green");
-                        }
-                        else
-                        {
-                            SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
-                            haloComponent.FindProperty("m_Color").colorValue = Color.red;
-                            haloComponent.ApplyModifiedProperties();
-                            Debug.Log("set red");
-                        }
-                    }
-                }
             }
         }
     }
@@ -1751,14 +1192,13 @@ public class testing : MonoBehaviour
             hintindex = findStepBat();
             //set array of objects that need to flash
             //objects = getOjectsTire(hintindex);
-            objects = getObjectsBatDetailed(hintindex);
+            objects = getOjectsBatDetailed(hintindex);
     
             if(hintindex>=0 && hintindex < 10)
             {
                 //test.clip = hintsForTireChange[hintindex];
                 //test.clip = hintsForBatteryJump[hintindex];
                 //test.Play();
-                setHalos(objects);
                 StartCoroutine(detailedFlashing(objects));
             }
             else
@@ -1881,33 +1321,33 @@ public class testing : MonoBehaviour
         return final;
     }
 
-   GameObject[] getObjectsBatDetailed(int x)
+   GameObject[] getOjectsBatDetailed(int x)
     {
         GameObject[] final;
         List<GameObject> ret=new List<GameObject>();
         if (x == 0)
         {
-            ret.Add(GameObject.Find("hoodDetailed"));
+            ret.Add(GameObject.Find("hood"));
 
         }else if(x == 1)
         {
-            ret.Add(GameObject.Find("battery/red"));
-            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 2)
         {
-            ret.Add(GameObject.Find("goodBattery/red"));
-            ret.Add(GameObject.Find("boosters/side2/red2"));
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 3)
         {
-            ret.Add(GameObject.Find("goodBattery/neg"));
-            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 4)
         {
-            ret.Add(GameObject.Find("battery/neg"));
-            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 5)
         {
@@ -1915,23 +1355,24 @@ public class testing : MonoBehaviour
 
         }else if(x == 6)
         {
-            ret.Add(GameObject.Find("battery/neg"));
-            ret.Add(GameObject.Find("boosters/side1/black1"));
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 7)
         {
-            ret.Add(GameObject.Find("goodBattery/neg"));
-            ret.Add(GameObject.Find("boosters/side2/black2"));
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 8)
         {
-            ret.Add(GameObject.Find("goodBattery/red"));
-            ret.Add(GameObject.Find("boosters/side2/red2"));
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 9)
         {
-            ret.Add(GameObject.Find("battery/red"));
-            ret.Add(GameObject.Find("boosters/side1/red1"));
+            ret.Add(GameObject.Find("battery/halo effect"));
+            ret.Add(GameObject.Find("boosters"));
+
         }
         final = ret.ToArray();
 
