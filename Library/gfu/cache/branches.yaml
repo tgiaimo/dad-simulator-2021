@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-11-09T20:37:02.923-05:00
-  initializedAtString: 2021-11-09T20:37:02.889-05:00
+  lastUpdatedAtString: 2021-11-09T21:49:02.423-05:00
+  initializedAtString: 2021-11-09T21:39:25.191-05:00
   localBranches:
   - name: finally
     tracking: origin/finally
@@ -27,7 +27,7 @@ MonoBehaviour:
   - name: test
     tracking: origin/test
   - name: thisIsTerrible
-    tracking: 
+    tracking: origin/thisIsTerrible
   - name: truefailsafe
     tracking: 
   remoteBranches:
@@ -38,6 +38,8 @@ MonoBehaviour:
   - name: origin/main
     tracking: '[None]'
   - name: origin/test
+    tracking: '[None]'
+  - name: origin/thisIsTerrible
     tracking: '[None]'
   remotes:
   - name: origin
@@ -84,9 +86,9 @@ MonoBehaviour:
       trackingBranch: test
     - name: thisIsTerrible
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/TGiaimo/dad-simulator-2021.git
+      trackingBranch: thisIsTerrible
     - name: truefailsafe
       remote:
         name: 
@@ -101,6 +103,7 @@ MonoBehaviour:
       - HEAD
       - main
       - test
+      - thisIsTerrible
     subKeyValues:
     - Values:
       - name: finally
@@ -119,6 +122,11 @@ MonoBehaviour:
           url: https://github.com/TGiaimo/dad-simulator-2021.git
         trackingBranch: 
       - name: test
+        remote:
+          name: origin
+          url: https://github.com/TGiaimo/dad-simulator-2021.git
+        trackingBranch: 
+      - name: thisIsTerrible
         remote:
           name: origin
           url: https://github.com/TGiaimo/dad-simulator-2021.git

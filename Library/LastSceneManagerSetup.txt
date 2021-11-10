@@ -1,5 +1,17 @@
 sceneSetups:
-- path: Assets/Scenes/Environment_Test_Garage.unity
+- path: Assets/Scenes/Pause_menu.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Environment_Test_Title.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Tutorial scene.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Pit_Road.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

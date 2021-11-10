@@ -80,6 +80,7 @@
      <Compile Include="Assets\JudScripts\testing.cs" />
      <Compile Include="Assets\jackCheck.cs" />
      <Compile Include="Assets\Pit Crew Minigame\pit_crew_script.cs" />
+     <Compile Include="Assets\Scenes\Pause_Menu.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderData.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs" />
      <Compile Include="Assets\Scripts\SnapOn.cs" />
