@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\VRInputModule.cs" />
      <Compile Include="Assets\testingwall.cs" />
      <Compile Include="Assets\Scripts\UI_test.cs" />
+     <Compile Include="Assets\carCheck.cs" />
      <Compile Include="Assets\interactions.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs" />
@@ -77,11 +78,13 @@
      <Compile Include="Assets\goodTireCheck.cs" />
      <Compile Include="Assets\Scripts\Intro_Video.cs" />
      <Compile Include="Assets\Scripts\Item_Selection.cs" />
+     <Compile Include="Assets\hoodCheck.cs" />
      <Compile Include="Assets\JudScripts\testing.cs" />
      <Compile Include="Assets\jackCheck.cs" />
      <Compile Include="Assets\Pit Crew Minigame\pit_crew_script.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderData.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderEnums.cs" />
+     <Compile Include="Assets\clippedCheck.cs" />
      <Compile Include="Assets\Scripts\SnapOn.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs" />
      <Compile Include="Assets\badTireCheck.cs" />

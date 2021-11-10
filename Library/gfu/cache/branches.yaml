@@ -13,14 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-11-08T11:59:43.761-05:00
-  initializedAtString: 2021-11-08T11:59:43.730-05:00
+  lastUpdatedAtString: 2021-11-09T20:37:02.923-05:00
+  initializedAtString: 2021-11-09T20:37:02.889-05:00
   localBranches:
+  - name: finally
+    tracking: origin/finally
+  - name: judsen-working
+    tracking: 
   - name: main
     tracking: origin/main
+  - name: plz
+    tracking: 
   - name: test
     tracking: origin/test
+  - name: thisIsTerrible
+    tracking: 
+  - name: truefailsafe
+    tracking: 
   remoteBranches:
+  - name: origin/finally
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/main
@@ -37,29 +49,65 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - finally
+    - judsen-working
     - main
+    - plz
     - test
+    - thisIsTerrible
+    - truefailsafe
     values:
+    - name: finally
+      remote:
+        name: origin
+        url: https://github.com/TGiaimo/dad-simulator-2021.git
+      trackingBranch: finally
+    - name: judsen-working
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: main
       remote:
         name: origin
         url: https://github.com/TGiaimo/dad-simulator-2021.git
       trackingBranch: main
+    - name: plz
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: test
       remote:
         name: origin
         url: https://github.com/TGiaimo/dad-simulator-2021.git
       trackingBranch: test
+    - name: thisIsTerrible
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: truefailsafe
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - finally
       - HEAD
       - main
       - test
     subKeyValues:
     - Values:
+      - name: finally
+        remote:
+          name: origin
+          url: https://github.com/TGiaimo/dad-simulator-2021.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
