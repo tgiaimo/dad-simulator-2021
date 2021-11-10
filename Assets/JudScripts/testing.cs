@@ -212,7 +212,7 @@ public class testing : MonoBehaviour
         }
     }
 
-    int findStepTire()
+    public int findStepTire()
     {
         if (tirestep1)
         {
@@ -329,7 +329,7 @@ public class testing : MonoBehaviour
 
 
 
-    int findStepBat()
+    public int findStepBat()
     {
         if (batterystep1)
         {
