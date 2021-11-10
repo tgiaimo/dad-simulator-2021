@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-11-08T20:50:56.268-05:00
-  initializedAtString: 2021-11-08T14:37:27.521-05:00
+  lastUpdatedAtString: 2021-11-09T19:31:43.056-05:00
+  initializedAtString: 2021-11-09T15:00:49.175-05:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assembly-CSharp.csproj
@@ -22,51 +22,57 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\carCheck.cs
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\carCheck.cs
-    projectPath: Assets\carCheck.cs
+  - path: Assets\deadBatNegTerminal.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\deadBatNegTerminal.cs
+    projectPath: Assets\deadBatNegTerminal.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\carCheck.cs.meta
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\carCheck.cs.meta
-    projectPath: Assets\carCheck.cs.meta
+  - path: Assets\deadBatNegTerminal.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\deadBatNegTerminal.cs.meta
+    projectPath: Assets\deadBatNegTerminal.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\clippedCheck.cs
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\clippedCheck.cs
-    projectPath: Assets\clippedCheck.cs
+  - path: Assets\deadBatPosTerminal.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\deadBatPosTerminal.cs
+    projectPath: Assets\deadBatPosTerminal.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\clippedCheck.cs.meta
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\clippedCheck.cs.meta
-    projectPath: Assets\clippedCheck.cs.meta
+  - path: Assets\deadBatPosTerminal.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\deadBatPosTerminal.cs.meta
+    projectPath: Assets\deadBatPosTerminal.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\hoodCheck.cs
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\hoodCheck.cs
-    projectPath: Assets\hoodCheck.cs
+  - path: Assets\goodBatNegTerminal.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\goodBatNegTerminal.cs
+    projectPath: Assets\goodBatNegTerminal.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\hoodCheck.cs.meta
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\hoodCheck.cs.meta
-    projectPath: Assets\hoodCheck.cs.meta
+  - path: Assets\goodBatNegTerminal.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\goodBatNegTerminal.cs.meta
+    projectPath: Assets\goodBatNegTerminal.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\JudScripts\testing.cs
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\JudScripts\testing.cs
-    projectPath: Assets\JudScripts\testing.cs
+  - path: Assets\goodBatPosTerminal.cs
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\goodBatPosTerminal.cs
+    projectPath: Assets\goodBatPosTerminal.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Environment_Test_Garage.unity
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Scenes\Environment_Test_Garage.unity
-    projectPath: Assets\Scenes\Environment_Test_Garage.unity
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\goodBatPosTerminal.cs.meta
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\goodBatPosTerminal.cs.meta
+    projectPath: Assets\goodBatPosTerminal.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\SteamVR_Resources\Resources\SteamVR_Settings.asset
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\SteamVR_Resources\Resources\SteamVR_Settings.asset
+    projectPath: Assets\SteamVR_Resources\Resources\SteamVR_Settings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -76,15 +82,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\0a\0a358d5d31942f02b19edddeb4d0341c
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\0a\0a358d5d31942f02b19edddeb4d0341c
-    projectPath: Library\Artifacts\0a\0a358d5d31942f02b19edddeb4d0341c
+  - path: Library\Artifacts\08\081e742ee19c277f7f7b3d61cd8de2c6
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\08\081e742ee19c277f7f7b3d61cd8de2c6
+    projectPath: Library\Artifacts\08\081e742ee19c277f7f7b3d61cd8de2c6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\0d\0d4f69037fca9b450b8045b28e3969e1
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\0d\0d4f69037fca9b450b8045b28e3969e1
-    projectPath: Library\Artifacts\0d\0d4f69037fca9b450b8045b28e3969e1
+  - path: Library\Artifacts\0a\0ab8d4928fb80ece7e469d1741519417
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\0a\0ab8d4928fb80ece7e469d1741519417
+    projectPath: Library\Artifacts\0a\0ab8d4928fb80ece7e469d1741519417
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -92,53 +98,29 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\0e\0efbd671418a965c6967092b1bc72be5
     projectPath: Library\Artifacts\0e\0efbd671418a965c6967092b1bc72be5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\10\101b8c0ed00ed07e56f0ca75f1611cfe
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\10\101b8c0ed00ed07e56f0ca75f1611cfe
     projectPath: Library\Artifacts\10\101b8c0ed00ed07e56f0ca75f1611cfe
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\11\11bc2b5a733b2e05fab3f97c2518bb62
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\11\11bc2b5a733b2e05fab3f97c2518bb62
-    projectPath: Library\Artifacts\11\11bc2b5a733b2e05fab3f97c2518bb62
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\11\11d8759f9fa5e0ba7547be667f6b1cf5
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\11\11d8759f9fa5e0ba7547be667f6b1cf5
     projectPath: Library\Artifacts\11\11d8759f9fa5e0ba7547be667f6b1cf5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\12\1269331bc7a2a930994be8b0ed011bd2
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\12\1269331bc7a2a930994be8b0ed011bd2
-    projectPath: Library\Artifacts\12\1269331bc7a2a930994be8b0ed011bd2
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\15\15005c12c983e123b7c4cdbf7c00c806
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\15\15005c12c983e123b7c4cdbf7c00c806
+    projectPath: Library\Artifacts\15\15005c12c983e123b7c4cdbf7c00c806
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\16\168a43fc2896b20b5ca8351f4f2b2b2e
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\16\168a43fc2896b20b5ca8351f4f2b2b2e
-    projectPath: Library\Artifacts\16\168a43fc2896b20b5ca8351f4f2b2b2e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\19\19f3e3e32471c0e6ee266c01aa29cee9
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\19\19f3e3e32471c0e6ee266c01aa29cee9
-    projectPath: Library\Artifacts\19\19f3e3e32471c0e6ee266c01aa29cee9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\21\2103d6947df5bb015b171bfb5e37d04c
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\21\2103d6947df5bb015b171bfb5e37d04c
-    projectPath: Library\Artifacts\21\2103d6947df5bb015b171bfb5e37d04c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\21\21c4a8ce031a28cc94970606d954ff01
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\21\21c4a8ce031a28cc94970606d954ff01
-    projectPath: Library\Artifacts\21\21c4a8ce031a28cc94970606d954ff01
+  - path: Library\Artifacts\21\210b713aad92bc294ade6752350abbdd
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\21\210b713aad92bc294ade6752350abbdd
+    projectPath: Library\Artifacts\21\210b713aad92bc294ade6752350abbdd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -146,11 +128,17 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\22\2250711a5ac174aec95facdbaef5b8f0
     projectPath: Library\Artifacts\22\2250711a5ac174aec95facdbaef5b8f0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\23\230251a365f8a1399e4311ae1bbb1b24
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\23\230251a365f8a1399e4311ae1bbb1b24
     projectPath: Library\Artifacts\23\230251a365f8a1399e4311ae1bbb1b24
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\24\24f6701eb4473720398af47a62bf1dbf
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\24\24f6701eb4473720398af47a62bf1dbf
+    projectPath: Library\Artifacts\24\24f6701eb4473720398af47a62bf1dbf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -158,59 +146,47 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\27\27a76a86b6447ed38ada69fb61f4039c
     projectPath: Library\Artifacts\27\27a76a86b6447ed38ada69fb61f4039c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2f\2f93328ce9abee6600fc07c1c537af78
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\2f\2f93328ce9abee6600fc07c1c537af78
-    projectPath: Library\Artifacts\2f\2f93328ce9abee6600fc07c1c537af78
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\38\3824b8afff660c5c0b961775f739ddf2
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\38\3824b8afff660c5c0b961775f739ddf2
-    projectPath: Library\Artifacts\38\3824b8afff660c5c0b961775f739ddf2
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\28\28c419741496cd7b1368be40d5f3de44
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\28\28c419741496cd7b1368be40d5f3de44
+    projectPath: Library\Artifacts\28\28c419741496cd7b1368be40d5f3de44
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\30\30c6c84a86f095138b4cb09b3f7333e0
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\30\30c6c84a86f095138b4cb09b3f7333e0
+    projectPath: Library\Artifacts\30\30c6c84a86f095138b4cb09b3f7333e0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\33\331fca497ad57ea2b7a2957029039073
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\33\331fca497ad57ea2b7a2957029039073
+    projectPath: Library\Artifacts\33\331fca497ad57ea2b7a2957029039073
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\3a\3a29ba201c65d0f7487f7100e9906de0
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\3a\3a29ba201c65d0f7487f7100e9906de0
     projectPath: Library\Artifacts\3a\3a29ba201c65d0f7487f7100e9906de0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\3d\3da2a580684eaf27367f66b34ce8ebdc
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\3d\3da2a580684eaf27367f66b34ce8ebdc
     projectPath: Library\Artifacts\3d\3da2a580684eaf27367f66b34ce8ebdc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\46\46f7dfecaa415316116e76de6d815688
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\46\46f7dfecaa415316116e76de6d815688
-    projectPath: Library\Artifacts\46\46f7dfecaa415316116e76de6d815688
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\48\4841e96551bae7f5c10ff796d2c27ae8
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\48\4841e96551bae7f5c10ff796d2c27ae8
     projectPath: Library\Artifacts\48\4841e96551bae7f5c10ff796d2c27ae8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4a\4a29779279cd8bcfab83ce2874344e16
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\4a\4a29779279cd8bcfab83ce2874344e16
-    projectPath: Library\Artifacts\4a\4a29779279cd8bcfab83ce2874344e16
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\4a\4a7cfc4691c056e2a2c11e66779508c9
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\4a\4a7cfc4691c056e2a2c11e66779508c9
     projectPath: Library\Artifacts\4a\4a7cfc4691c056e2a2c11e66779508c9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4b\4b75bfe05ecaefcf2d74641466904807
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\4b\4b75bfe05ecaefcf2d74641466904807
-    projectPath: Library\Artifacts\4b\4b75bfe05ecaefcf2d74641466904807
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -218,53 +194,23 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\4c\4c14597da59c9f4b639c1ad69e638db5
     projectPath: Library\Artifacts\4c\4c14597da59c9f4b639c1ad69e638db5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4f\4fab01de04b3530dead0aa1427ee7090
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\4f\4fab01de04b3530dead0aa1427ee7090
-    projectPath: Library\Artifacts\4f\4fab01de04b3530dead0aa1427ee7090
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\51\51bf3f9d12415d78bd38a57345b0fd04
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\51\51bf3f9d12415d78bd38a57345b0fd04
-    projectPath: Library\Artifacts\51\51bf3f9d12415d78bd38a57345b0fd04
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\53\53908a4bbcbf431d9454b5b73decbcb8
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\53\53908a4bbcbf431d9454b5b73decbcb8
     projectPath: Library\Artifacts\53\53908a4bbcbf431d9454b5b73decbcb8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\54\548d91c0e1878f6cc9011ad4865b971f
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\54\548d91c0e1878f6cc9011ad4865b971f
-    projectPath: Library\Artifacts\54\548d91c0e1878f6cc9011ad4865b971f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\59\59140479d63cbd6049c6432a99cc91c9
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\59\59140479d63cbd6049c6432a99cc91c9
     projectPath: Library\Artifacts\59\59140479d63cbd6049c6432a99cc91c9
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\5f\5f0c81bf4238d5770e99efa7c073c8b1
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\5f\5f0c81bf4238d5770e99efa7c073c8b1
-    projectPath: Library\Artifacts\5f\5f0c81bf4238d5770e99efa7c073c8b1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\60\60e0a554c739ebdd7719a975b47f7ad5
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\60\60e0a554c739ebdd7719a975b47f7ad5
-    projectPath: Library\Artifacts\60\60e0a554c739ebdd7719a975b47f7ad5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\65\655f3e38ccae691ac14967add201dd63
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\65\655f3e38ccae691ac14967add201dd63
-    projectPath: Library\Artifacts\65\655f3e38ccae691ac14967add201dd63
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5e\5e3fa5b0e2a590dbc253297e62597702
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\5e\5e3fa5b0e2a590dbc253297e62597702
+    projectPath: Library\Artifacts\5e\5e3fa5b0e2a590dbc253297e62597702
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -272,83 +218,29 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\66\66296712a0e8ec5e51b081b97309dc2b
     projectPath: Library\Artifacts\66\66296712a0e8ec5e51b081b97309dc2b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\69\6998f5562ecbfe7762b3bf11786e1add
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\69\6998f5562ecbfe7762b3bf11786e1add
-    projectPath: Library\Artifacts\69\6998f5562ecbfe7762b3bf11786e1add
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6a\6a0313472a07ef7442e77b3d991aefda
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\6a\6a0313472a07ef7442e77b3d991aefda
-    projectPath: Library\Artifacts\6a\6a0313472a07ef7442e77b3d991aefda
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6a\6ab9791b163f02ef5f1ad7ab2d993822
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\6a\6ab9791b163f02ef5f1ad7ab2d993822
-    projectPath: Library\Artifacts\6a\6ab9791b163f02ef5f1ad7ab2d993822
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\6c\6c1c5cda982b38afbf0f739d66e27a16
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\6c\6c1c5cda982b38afbf0f739d66e27a16
     projectPath: Library\Artifacts\6c\6c1c5cda982b38afbf0f739d66e27a16
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\71\71a57f3f0299de85fed25791113fbf7b
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\71\71a57f3f0299de85fed25791113fbf7b
     projectPath: Library\Artifacts\71\71a57f3f0299de85fed25791113fbf7b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\72\72dff496cabe32b5660758ffa40b7805
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\72\72dff496cabe32b5660758ffa40b7805
-    projectPath: Library\Artifacts\72\72dff496cabe32b5660758ffa40b7805
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\74\74ae45e125beaa8284e73c86bf1772b6
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\74\74ae45e125beaa8284e73c86bf1772b6
-    projectPath: Library\Artifacts\74\74ae45e125beaa8284e73c86bf1772b6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\7d\7d58ef700c8d9a36fcd6e8e5825fd12a
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\7d\7d58ef700c8d9a36fcd6e8e5825fd12a
     projectPath: Library\Artifacts\7d\7d58ef700c8d9a36fcd6e8e5825fd12a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7d\7dfa4c6aed49e66426f8a54862f95d75
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\7d\7dfa4c6aed49e66426f8a54862f95d75
-    projectPath: Library\Artifacts\7d\7dfa4c6aed49e66426f8a54862f95d75
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\82\820227bf9c79d7a2deb58f5ea4e873ef
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\82\820227bf9c79d7a2deb58f5ea4e873ef
-    projectPath: Library\Artifacts\82\820227bf9c79d7a2deb58f5ea4e873ef
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\82\8244f7a97e77cdd6af1dbbe244ec62aa
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\82\8244f7a97e77cdd6af1dbbe244ec62aa
-    projectPath: Library\Artifacts\82\8244f7a97e77cdd6af1dbbe244ec62aa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\87\878ef2432ed832acc4fdd75677ad1c8f
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\87\878ef2432ed832acc4fdd75677ad1c8f
-    projectPath: Library\Artifacts\87\878ef2432ed832acc4fdd75677ad1c8f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\89\894eebf0e299a4387a0a24665e6b6c52
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\89\894eebf0e299a4387a0a24665e6b6c52
-    projectPath: Library\Artifacts\89\894eebf0e299a4387a0a24665e6b6c52
+  - path: Library\Artifacts\81\8195e1cac924dbd98544523435078378
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\81\8195e1cac924dbd98544523435078378
+    projectPath: Library\Artifacts\81\8195e1cac924dbd98544523435078378
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -356,23 +248,29 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\8c\8cf30743e966bc036b48b9f2537e1f5a
     projectPath: Library\Artifacts\8c\8cf30743e966bc036b48b9f2537e1f5a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\8d\8dea33283ffc46d93f982006382fb4b2
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\8d\8dea33283ffc46d93f982006382fb4b2
     projectPath: Library\Artifacts\8d\8dea33283ffc46d93f982006382fb4b2
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8e\8e15f6f524e051fd8eb8f4dfcac9daaf
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\8e\8e15f6f524e051fd8eb8f4dfcac9daaf
-    projectPath: Library\Artifacts\8e\8e15f6f524e051fd8eb8f4dfcac9daaf
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\93\9373d30b75a744cf2b09233fa87b3077
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\93\9373d30b75a744cf2b09233fa87b3077
+    projectPath: Library\Artifacts\93\9373d30b75a744cf2b09233fa87b3077
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\90\90d22f1d721aec80a817ea54f156728e
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\90\90d22f1d721aec80a817ea54f156728e
-    projectPath: Library\Artifacts\90\90d22f1d721aec80a817ea54f156728e
+  - path: Library\Artifacts\97\97b99fe74e84ef0092f8fa896b9536fd
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\97\97b99fe74e84ef0092f8fa896b9536fd
+    projectPath: Library\Artifacts\97\97b99fe74e84ef0092f8fa896b9536fd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\98\98afff58e6c09d4fb0cc0f201fceb99f
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\98\98afff58e6c09d4fb0cc0f201fceb99f
+    projectPath: Library\Artifacts\98\98afff58e6c09d4fb0cc0f201fceb99f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -380,35 +278,35 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\a4\a4d45a30d30f6c3384c3fcca3d5d1a79
     projectPath: Library\Artifacts\a4\a4d45a30d30f6c3384c3fcca3d5d1a79
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a8\a8ea085ecdc427f4ede3ffe62f4db236
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\a8\a8ea085ecdc427f4ede3ffe62f4db236
+    projectPath: Library\Artifacts\a8\a8ea085ecdc427f4ede3ffe62f4db236
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\aa\aa4f01d409adfca04b2591ef909525c0
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\aa\aa4f01d409adfca04b2591ef909525c0
+    projectPath: Library\Artifacts\aa\aa4f01d409adfca04b2591ef909525c0
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\Artifacts\b3\b32c88cb94cda0ec4d7dfc2e6898443d
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\b3\b32c88cb94cda0ec4d7dfc2e6898443d
     projectPath: Library\Artifacts\b3\b32c88cb94cda0ec4d7dfc2e6898443d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\b7\b71649fb05011a219c212f71b8152842
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\b7\b71649fb05011a219c212f71b8152842
     projectPath: Library\Artifacts\b7\b71649fb05011a219c212f71b8152842
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b9\b9a7201b822b56914925d99ae0ac9f3e
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\b9\b9a7201b822b56914925d99ae0ac9f3e
-    projectPath: Library\Artifacts\b9\b9a7201b822b56914925d99ae0ac9f3e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ba\bacb5a051c32a88ae907efe408075a54
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ba\bacb5a051c32a88ae907efe408075a54
-    projectPath: Library\Artifacts\ba\bacb5a051c32a88ae907efe408075a54
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\bc\bc7ad426fec60ceffa3bcd7ba5a6baf9
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\bc\bc7ad426fec60ceffa3bcd7ba5a6baf9
-    projectPath: Library\Artifacts\bc\bc7ad426fec60ceffa3bcd7ba5a6baf9
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b7\b71e8c9d05c13f901e61c2e01f139510
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\b7\b71e8c9d05c13f901e61c2e01f139510
+    projectPath: Library\Artifacts\b7\b71e8c9d05c13f901e61c2e01f139510
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -416,29 +314,17 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\be\be3f831dc68c206e1c844255c7b288b6
     projectPath: Library\Artifacts\be\be3f831dc68c206e1c844255c7b288b6
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c1\c1d4ddc40103a2fab9505102a360456c
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c1\c1d4ddc40103a2fab9505102a360456c
-    projectPath: Library\Artifacts\c1\c1d4ddc40103a2fab9505102a360456c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c3\c3d32c45bf8c7af47a2d27a449e46343
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c3\c3d32c45bf8c7af47a2d27a449e46343
-    projectPath: Library\Artifacts\c3\c3d32c45bf8c7af47a2d27a449e46343
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\c0\c0c34e922e8f7ba7c281926c60024d32
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c0\c0c34e922e8f7ba7c281926c60024d32
+    projectPath: Library\Artifacts\c0\c0c34e922e8f7ba7c281926c60024d32
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\c4\c41ecec1ed05d6cb9ecad67bbd08ccf2
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c4\c41ecec1ed05d6cb9ecad67bbd08ccf2
     projectPath: Library\Artifacts\c4\c41ecec1ed05d6cb9ecad67bbd08ccf2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c5\c525054fd7e86a63a349764ebd520a2c
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c5\c525054fd7e86a63a349764ebd520a2c
-    projectPath: Library\Artifacts\c5\c525054fd7e86a63a349764ebd520a2c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -446,35 +332,29 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\cc\cc34b7b6db6c07108ac221b28e13bfa5
     projectPath: Library\Artifacts\cc\cc34b7b6db6c07108ac221b28e13bfa5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ce\cee64c9d3745b3b405b7213a2177ce6a
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ce\cee64c9d3745b3b405b7213a2177ce6a
-    projectPath: Library\Artifacts\ce\cee64c9d3745b3b405b7213a2177ce6a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d0\d0096fad193c16b8a1ea3f57eb69d4cf
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\d0\d0096fad193c16b8a1ea3f57eb69d4cf
-    projectPath: Library\Artifacts\d0\d0096fad193c16b8a1ea3f57eb69d4cf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\d3\d3b975aeec34db1d03c470601b9ce170
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\d3\d3b975aeec34db1d03c470601b9ce170
     projectPath: Library\Artifacts\d3\d3b975aeec34db1d03c470601b9ce170
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\d5\d55cf0db39cc29460c14cbca8a1a413e
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\d5\d55cf0db39cc29460c14cbca8a1a413e
     projectPath: Library\Artifacts\d5\d55cf0db39cc29460c14cbca8a1a413e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d9\d9461d17185df7de89d5df824747a434
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\d9\d9461d17185df7de89d5df824747a434
-    projectPath: Library\Artifacts\d9\d9461d17185df7de89d5df824747a434
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d7\d7a2e25ae9ddf241e96e0fa35d47d7ab
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\d7\d7a2e25ae9ddf241e96e0fa35d47d7ab
+    projectPath: Library\Artifacts\d7\d7a2e25ae9ddf241e96e0fa35d47d7ab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\da\da2dfa9dd2a66e738f1fe77f5d7c3ef6
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\da\da2dfa9dd2a66e738f1fe77f5d7c3ef6
+    projectPath: Library\Artifacts\da\da2dfa9dd2a66e738f1fe77f5d7c3ef6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -482,41 +362,11 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\dc\dc473ca4b85dd40591bb22c6ccefd0a2
     projectPath: Library\Artifacts\dc\dc473ca4b85dd40591bb22c6ccefd0a2
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\dd\dd122369dccf52304f9b60e349c205f9
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\dd\dd122369dccf52304f9b60e349c205f9
-    projectPath: Library\Artifacts\dd\dd122369dccf52304f9b60e349c205f9
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\dd\dd94f8d6486533d1ad18b0ea147c6f21
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\dd\dd94f8d6486533d1ad18b0ea147c6f21
-    projectPath: Library\Artifacts\dd\dd94f8d6486533d1ad18b0ea147c6f21
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\de\deaea74bc1fb69f741337075f70707a1
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\de\deaea74bc1fb69f741337075f70707a1
     projectPath: Library\Artifacts\de\deaea74bc1fb69f741337075f70707a1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\eb\eb447c748ddb321f8b82f3cf3fdf07c6
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\eb\eb447c748ddb321f8b82f3cf3fdf07c6
-    projectPath: Library\Artifacts\eb\eb447c748ddb321f8b82f3cf3fdf07c6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f1\f1f9d0cc158feff5f80527c4f2d39357
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f1\f1f9d0cc158feff5f80527c4f2d39357
-    projectPath: Library\Artifacts\f1\f1f9d0cc158feff5f80527c4f2d39357
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f2\f2699ef86e23c9142c9d67b10b6c4b72
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f2\f2699ef86e23c9142c9d67b10b6c4b72
-    projectPath: Library\Artifacts\f2\f2699ef86e23c9142c9d67b10b6c4b72
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -524,32 +374,20 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f4\f4c3283d63969a85ee22f92d2c005be6
     projectPath: Library\Artifacts\f4\f4c3283d63969a85ee22f92d2c005be6
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fa\fa15dcb7c961ea8c675c77ec14531556
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\fa\fa15dcb7c961ea8c675c77ec14531556
+    projectPath: Library\Artifacts\fa\fa15dcb7c961ea8c675c77ec14531556
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\f6\f69ad27bf13e441b6955b9bc4fd452e7
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f6\f69ad27bf13e441b6955b9bc4fd452e7
-    projectPath: Library\Artifacts\f6\f69ad27bf13e441b6955b9bc4fd452e7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f8\f8dab18e24ae661ca37f511d09f295c1
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f8\f8dab18e24ae661ca37f511d09f295c1
-    projectPath: Library\Artifacts\f8\f8dab18e24ae661ca37f511d09f295c1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\fb\fb0dd01b2a9d4d453a038de3125d7a1e
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\fb\fb0dd01b2a9d4d453a038de3125d7a1e
     projectPath: Library\Artifacts\fb\fb0dd01b2a9d4d453a038de3125d7a1e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fc\fcb7305cad80288a420e516910bc69ae
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\fc\fcb7305cad80288a420e516910bc69ae
-    projectPath: Library\Artifacts\fc\fcb7305cad80288a420e516910bc69ae
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\EditorInstance.json
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -610,6 +448,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\ShaderCache\EditorEncounteredVariants
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
@@ -628,12 +472,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\PrefabStageHierarchy\e1\e1970493b084c7e34b9c794d9a528379.json
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\StateCache\PrefabStageHierarchy\e1\e1970493b084c7e34b9c794d9a528379.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\e1\e1970493b084c7e34b9c794d9a528379.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\StateCache\SceneView\e1\e1413804ebae591c1aced314c5ae7a33.json
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\StateCache\SceneView\e1\e1413804ebae591c1aced314c5ae7a33.json
     projectPath: Library\StateCache\SceneView\e1\e1413804ebae591c1aced314c5ae7a33.json
@@ -650,20 +488,20 @@ MonoBehaviour:
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker0-prev.log
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Logs\shadercompiler-AssetImportWorker0.log
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-AssetImportWorker0.log
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
@@ -742,15 +580,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\ApiUpdater_CheckMovedFrom9855f8d19b6908640985d891708161ea
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\ApiUpdater_CheckMovedFrom9855f8d19b6908640985d891708161ea
-    projectPath: Temp\ApiUpdater_CheckMovedFrom9855f8d19b6908640985d891708161ea
+  - path: Temp\ApiUpdater_CheckMovedFrom6d7deb04c5576c54b9c78f6ab4aeeb2d
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\ApiUpdater_CheckMovedFrom6d7deb04c5576c54b9c78f6ab4aeeb2d
+    projectPath: Temp\ApiUpdater_CheckMovedFrom6d7deb04c5576c54b9c78f6ab4aeeb2d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\Assembly-CSharp.dll.hash
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\Assembly-CSharp.dll.hash
-    projectPath: Temp\Assembly-CSharp.dll.hash
+  - path: Temp\ApiUpdater_CheckMovedFrom80e9d82933d13de4988ae29e61a36045
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\ApiUpdater_CheckMovedFrom80e9d82933d13de4988ae29e61a36045
+    projectPath: Temp\ApiUpdater_CheckMovedFrom80e9d82933d13de4988ae29e61a36045
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ApiUpdater_CheckMovedFrom8dc796208cd02ee45a46635cee5d6aa5
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\ApiUpdater_CheckMovedFrom8dc796208cd02ee45a46635cee5d6aa5
+    projectPath: Temp\ApiUpdater_CheckMovedFrom8dc796208cd02ee45a46635cee5d6aa5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ApiUpdater_CheckMovedFrombc174deb0dbb53746aabbea01d7948ee
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\ApiUpdater_CheckMovedFrombc174deb0dbb53746aabbea01d7948ee
+    projectPath: Temp\ApiUpdater_CheckMovedFrombc174deb0dbb53746aabbea01d7948ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ApiUpdater_CheckMovedFromc81c38e2bb8f96b4eb2eb8d27aaf3055
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\ApiUpdater_CheckMovedFromc81c38e2bb8f96b4eb2eb8d27aaf3055
+    projectPath: Temp\ApiUpdater_CheckMovedFromc81c38e2bb8f96b4eb2eb8d27aaf3055
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ApiUpdater_CheckMovedFromf10fa09560f1e5744861c99c7083a142
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\ApiUpdater_CheckMovedFromf10fa09560f1e5744861c99c7083a142
+    projectPath: Temp\ApiUpdater_CheckMovedFromf10fa09560f1e5744861c99c7083a142
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -766,201 +628,159 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-099539a43248f0541bd46e943acec1e7
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-099539a43248f0541bd46e943acec1e7
-    projectPath: Temp\UnityTempFile-099539a43248f0541bd46e943acec1e7
+  - path: Temp\UnityTempFile-0002265523379884f85d3da86544cce6
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-0002265523379884f85d3da86544cce6
+    projectPath: Temp\UnityTempFile-0002265523379884f85d3da86544cce6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0cdbbe2f965357444b5e84a179511153
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-0cdbbe2f965357444b5e84a179511153
-    projectPath: Temp\UnityTempFile-0cdbbe2f965357444b5e84a179511153
+  - path: Temp\UnityTempFile-0272e1ea9782ca54e97c1aedacbf1a3b
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-0272e1ea9782ca54e97c1aedacbf1a3b
+    projectPath: Temp\UnityTempFile-0272e1ea9782ca54e97c1aedacbf1a3b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-15936c29b9ab40546b8ccaaa5178ee64
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-15936c29b9ab40546b8ccaaa5178ee64
-    projectPath: Temp\UnityTempFile-15936c29b9ab40546b8ccaaa5178ee64
+  - path: Temp\UnityTempFile-0568457aedaacf24489e51c8f27c4423
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-0568457aedaacf24489e51c8f27c4423
+    projectPath: Temp\UnityTempFile-0568457aedaacf24489e51c8f27c4423
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1fedb9f81f7b1eb409aaef32de9b2152
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-1fedb9f81f7b1eb409aaef32de9b2152
-    projectPath: Temp\UnityTempFile-1fedb9f81f7b1eb409aaef32de9b2152
+  - path: Temp\UnityTempFile-09ff0a36f34b3f345a78e02be8f941e8
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-09ff0a36f34b3f345a78e02be8f941e8
+    projectPath: Temp\UnityTempFile-09ff0a36f34b3f345a78e02be8f941e8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-20a24e440b4358b428b450d7e6cbec86
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-20a24e440b4358b428b450d7e6cbec86
-    projectPath: Temp\UnityTempFile-20a24e440b4358b428b450d7e6cbec86
+  - path: Temp\UnityTempFile-0d2d91a9ed9f82144b626b35a8247fbb
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-0d2d91a9ed9f82144b626b35a8247fbb
+    projectPath: Temp\UnityTempFile-0d2d91a9ed9f82144b626b35a8247fbb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2706328204d7c4045bd09b01167790b9
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-2706328204d7c4045bd09b01167790b9
-    projectPath: Temp\UnityTempFile-2706328204d7c4045bd09b01167790b9
+  - path: Temp\UnityTempFile-144674d229b72ae45ba356dbe7b85d71
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-144674d229b72ae45ba356dbe7b85d71
+    projectPath: Temp\UnityTempFile-144674d229b72ae45ba356dbe7b85d71
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-296b05f302d9e674fae817707f63cc76
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-296b05f302d9e674fae817707f63cc76
-    projectPath: Temp\UnityTempFile-296b05f302d9e674fae817707f63cc76
+  - path: Temp\UnityTempFile-2b464f7e310769546b4015e74dde83e5
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-2b464f7e310769546b4015e74dde83e5
+    projectPath: Temp\UnityTempFile-2b464f7e310769546b4015e74dde83e5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-342ec4ce3c354d84d85bd8d12245da64
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-342ec4ce3c354d84d85bd8d12245da64
-    projectPath: Temp\UnityTempFile-342ec4ce3c354d84d85bd8d12245da64
+  - path: Temp\UnityTempFile-2beef56e03984da46a76a25a3b819f1d
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-2beef56e03984da46a76a25a3b819f1d
+    projectPath: Temp\UnityTempFile-2beef56e03984da46a76a25a3b819f1d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-400e8f56420854c4fa9e150bcfa7fa0b
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-400e8f56420854c4fa9e150bcfa7fa0b
-    projectPath: Temp\UnityTempFile-400e8f56420854c4fa9e150bcfa7fa0b
+  - path: Temp\UnityTempFile-3ce63a4d220a4a347a9576790ac3b0e9
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-3ce63a4d220a4a347a9576790ac3b0e9
+    projectPath: Temp\UnityTempFile-3ce63a4d220a4a347a9576790ac3b0e9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4073bf57bc648594f963b8663c57d0ab
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-4073bf57bc648594f963b8663c57d0ab
-    projectPath: Temp\UnityTempFile-4073bf57bc648594f963b8663c57d0ab
+  - path: Temp\UnityTempFile-3ffdddbcd93091646836ba0e5e64d754
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-3ffdddbcd93091646836ba0e5e64d754
+    projectPath: Temp\UnityTempFile-3ffdddbcd93091646836ba0e5e64d754
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-49b77bf52cb067b47992ee9a0ad7caa0
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-49b77bf52cb067b47992ee9a0ad7caa0
-    projectPath: Temp\UnityTempFile-49b77bf52cb067b47992ee9a0ad7caa0
+  - path: Temp\UnityTempFile-4fe573771929e084ea70598cec7f29ce
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-4fe573771929e084ea70598cec7f29ce
+    projectPath: Temp\UnityTempFile-4fe573771929e084ea70598cec7f29ce
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4a87a95cf046e194dbdd5c76314b2751
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-4a87a95cf046e194dbdd5c76314b2751
-    projectPath: Temp\UnityTempFile-4a87a95cf046e194dbdd5c76314b2751
+  - path: Temp\UnityTempFile-62ea0d009b469a04e9a15b868a508269
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-62ea0d009b469a04e9a15b868a508269
+    projectPath: Temp\UnityTempFile-62ea0d009b469a04e9a15b868a508269
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4fee7113d1ffa904786def35f667f80e
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-4fee7113d1ffa904786def35f667f80e
-    projectPath: Temp\UnityTempFile-4fee7113d1ffa904786def35f667f80e
+  - path: Temp\UnityTempFile-6edc35bb9c2d9f6438bd642d8bb3413c
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-6edc35bb9c2d9f6438bd642d8bb3413c
+    projectPath: Temp\UnityTempFile-6edc35bb9c2d9f6438bd642d8bb3413c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5ffbbc2f22ca6a5499c16c0b2f50ef4f
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-5ffbbc2f22ca6a5499c16c0b2f50ef4f
-    projectPath: Temp\UnityTempFile-5ffbbc2f22ca6a5499c16c0b2f50ef4f
+  - path: Temp\UnityTempFile-7b74efd5385bdc1419184cb7a4033808
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-7b74efd5385bdc1419184cb7a4033808
+    projectPath: Temp\UnityTempFile-7b74efd5385bdc1419184cb7a4033808
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7494d96fac9df704ca2adcf23433b3f0
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-7494d96fac9df704ca2adcf23433b3f0
-    projectPath: Temp\UnityTempFile-7494d96fac9df704ca2adcf23433b3f0
+  - path: Temp\UnityTempFile-7b91bb8e34874c44387cd79f0efb9df0
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-7b91bb8e34874c44387cd79f0efb9df0
+    projectPath: Temp\UnityTempFile-7b91bb8e34874c44387cd79f0efb9df0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7eaf6a27bd9097343a0622704d38662f
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-7eaf6a27bd9097343a0622704d38662f
-    projectPath: Temp\UnityTempFile-7eaf6a27bd9097343a0622704d38662f
+  - path: Temp\UnityTempFile-7d3e171c168f12b43a0c07250a6613ce
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-7d3e171c168f12b43a0c07250a6613ce
+    projectPath: Temp\UnityTempFile-7d3e171c168f12b43a0c07250a6613ce
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-85f1e61435f3b034daf4789cab7e8881
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-85f1e61435f3b034daf4789cab7e8881
-    projectPath: Temp\UnityTempFile-85f1e61435f3b034daf4789cab7e8881
+  - path: Temp\UnityTempFile-9323aa2bb9c1c564ba92948b2d9c091a
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-9323aa2bb9c1c564ba92948b2d9c091a
+    projectPath: Temp\UnityTempFile-9323aa2bb9c1c564ba92948b2d9c091a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-876724e852bb12744b7af40f8a87ebd2
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-876724e852bb12744b7af40f8a87ebd2
-    projectPath: Temp\UnityTempFile-876724e852bb12744b7af40f8a87ebd2
+  - path: Temp\UnityTempFile-99cf94dada01a254ba980c0ced7e9812
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-99cf94dada01a254ba980c0ced7e9812
+    projectPath: Temp\UnityTempFile-99cf94dada01a254ba980c0ced7e9812
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-91278fd3379ce6848bf5a088188d4682
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-91278fd3379ce6848bf5a088188d4682
-    projectPath: Temp\UnityTempFile-91278fd3379ce6848bf5a088188d4682
+  - path: Temp\UnityTempFile-a2ad06edff966934fb72b03681ede67f
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-a2ad06edff966934fb72b03681ede67f
+    projectPath: Temp\UnityTempFile-a2ad06edff966934fb72b03681ede67f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-91a9c2bfb8592ea47b42748a75172761
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-91a9c2bfb8592ea47b42748a75172761
-    projectPath: Temp\UnityTempFile-91a9c2bfb8592ea47b42748a75172761
+  - path: Temp\UnityTempFile-a691c53b2d34f344d80f372e0cfda7c6
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-a691c53b2d34f344d80f372e0cfda7c6
+    projectPath: Temp\UnityTempFile-a691c53b2d34f344d80f372e0cfda7c6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-989814437ee59694b92dd45a5c2ef195
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-989814437ee59694b92dd45a5c2ef195
-    projectPath: Temp\UnityTempFile-989814437ee59694b92dd45a5c2ef195
+  - path: Temp\UnityTempFile-a87afca699814194cb7c0abdee6329f1
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-a87afca699814194cb7c0abdee6329f1
+    projectPath: Temp\UnityTempFile-a87afca699814194cb7c0abdee6329f1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-a59326a996ff2264b93372c560db8e70
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-a59326a996ff2264b93372c560db8e70
-    projectPath: Temp\UnityTempFile-a59326a996ff2264b93372c560db8e70
+  - path: Temp\UnityTempFile-b6454a25ebf73cc4b97440b0b8f708b4
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-b6454a25ebf73cc4b97440b0b8f708b4
+    projectPath: Temp\UnityTempFile-b6454a25ebf73cc4b97440b0b8f708b4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-a99493f4259084b48827510dc521b869
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-a99493f4259084b48827510dc521b869
-    projectPath: Temp\UnityTempFile-a99493f4259084b48827510dc521b869
+  - path: Temp\UnityTempFile-b666dcb3578023048ae856e461ba005b
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-b666dcb3578023048ae856e461ba005b
+    projectPath: Temp\UnityTempFile-b666dcb3578023048ae856e461ba005b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-aa214f1e7be5ef34090f920fe51ab782
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-aa214f1e7be5ef34090f920fe51ab782
-    projectPath: Temp\UnityTempFile-aa214f1e7be5ef34090f920fe51ab782
+  - path: Temp\UnityTempFile-bfa508556dde4a046a8e88561454cd95
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-bfa508556dde4a046a8e88561454cd95
+    projectPath: Temp\UnityTempFile-bfa508556dde4a046a8e88561454cd95
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ac8580e2314dd0546a55c40b8a097acb
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-ac8580e2314dd0546a55c40b8a097acb
-    projectPath: Temp\UnityTempFile-ac8580e2314dd0546a55c40b8a097acb
+  - path: Temp\UnityTempFile-df3efd88455dd134d8a85d4ff33ebdf6
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-df3efd88455dd134d8a85d4ff33ebdf6
+    projectPath: Temp\UnityTempFile-df3efd88455dd134d8a85d4ff33ebdf6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ae229e97d41268f4e8c070bf7e0bfe7b
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-ae229e97d41268f4e8c070bf7e0bfe7b
-    projectPath: Temp\UnityTempFile-ae229e97d41268f4e8c070bf7e0bfe7b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ba92f9ddff5492a48b8e0cb57e855887
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-ba92f9ddff5492a48b8e0cb57e855887
-    projectPath: Temp\UnityTempFile-ba92f9ddff5492a48b8e0cb57e855887
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bf3a58fc38572ee4c8680e042f51060d
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-bf3a58fc38572ee4c8680e042f51060d
-    projectPath: Temp\UnityTempFile-bf3a58fc38572ee4c8680e042f51060d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c80df94b604a2334684ab5d4684c2ef6
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-c80df94b604a2334684ab5d4684c2ef6
-    projectPath: Temp\UnityTempFile-c80df94b604a2334684ab5d4684c2ef6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ca3d221ac1cf5ad439d4f2138d1c0dc4
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-ca3d221ac1cf5ad439d4f2138d1c0dc4
-    projectPath: Temp\UnityTempFile-ca3d221ac1cf5ad439d4f2138d1c0dc4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ca5a4c4053042174c9d62c39a92091b1
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-ca5a4c4053042174c9d62c39a92091b1
-    projectPath: Temp\UnityTempFile-ca5a4c4053042174c9d62c39a92091b1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-db7f5703de931f74ba0f632549b7a12a
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-db7f5703de931f74ba0f632549b7a12a
-    projectPath: Temp\UnityTempFile-db7f5703de931f74ba0f632549b7a12a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f993ae220951fc34fb1b834049c9a87d
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-f993ae220951fc34fb1b834049c9a87d
-    projectPath: Temp\UnityTempFile-f993ae220951fc34fb1b834049c9a87d
+  - path: Temp\UnityTempFile-e0cc04298d9eb0a439c7fec7afbeeee5
+    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-e0cc04298d9eb0a439c7fec7afbeeee5
+    projectPath: Temp\UnityTempFile-e0cc04298d9eb0a439c7fec7afbeeee5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
