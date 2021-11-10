@@ -2159,12 +2159,12 @@ MonoBehaviour:
   tirestep10: 0
   speakBat: 1
   batterystep1: 1
-  batterystep2: 1
-  batterystep3: 1
-  batterystep4: 1
-  batterystep5: 1
-  batterystep6: 1
-  batterystep7: 1
+  batterystep2: 0
+  batterystep3: 0
+  batterystep4: 0
+  batterystep5: 0
+  batterystep6: 0
+  batterystep7: 0
   batterystep8: 0
   batterystep9: 0
   batterystep10: 0
@@ -4152,7 +4152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54dc66e03c5eaf64f8d43b13d244c71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipped: 1
+  clipped: 0
 --- !u!1 &818034711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1552996908029351198, guid: 1734e1063dc21294ca18157f961f9264,
@@ -10816,7 +10816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54dc66e03c5eaf64f8d43b13d244c71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipped: 1
+  clipped: 0
 --- !u!1 &1892120627
 GameObject:
   m_ObjectHideFlags: 0
@@ -11157,7 +11157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54dc66e03c5eaf64f8d43b13d244c71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipped: 1
+  clipped: 0
 --- !u!1001 &1918884189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11757,7 +11757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54dc66e03c5eaf64f8d43b13d244c71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipped: 1
+  clipped: 0
 --- !u!1001 &2025307269
 PrefabInstance:
   m_ObjectHideFlags: 0
