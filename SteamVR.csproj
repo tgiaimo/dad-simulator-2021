@@ -119,7 +119,6 @@
      <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InputModule.cs" />
      <Compile Include="Assets\SteamVR\Input\SteamVR_ActionDirections.cs" />
      <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Unparent.cs" />
-     <Compile Include="Assets\SteamVR\OpenVRUnityXRPackage\Editor\OpenVRSimpleJSON.cs" />
      <Compile Include="Assets\SteamVR\Input\BehaviourUnityEvents\SteamVR_Behaviour_Pose_ConnectedChangedEvent.cs" />
      <Compile Include="Assets\SteamVR\InteractionSystem\Samples\JoeJeff\ProceduralHats.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs" />
@@ -138,7 +137,6 @@
      <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HandCollider.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_RingBuffer.cs" />
      <Compile Include="Assets\SteamVR\Input\SteamVR_Input.cs" />
-     <Compile Include="Assets\SteamVR\OpenVRUnityXRPackage\Editor\OpenVRPackageInstaller.cs" />
      <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Interactable.cs" />
      <Compile Include="Assets\SteamVR\Input\SteamVR_Behaviour_Vector2.cs" />
      <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ExplosionWobble.cs" />
