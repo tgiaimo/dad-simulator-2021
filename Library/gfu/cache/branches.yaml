@@ -13,35 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-11-11T01:57:56.134-05:00
-  initializedAtString: 2021-11-11T00:03:31.763-05:00
+  lastUpdatedAtString: 2021-11-11T12:15:28.072-05:00
+  initializedAtString: 2021-11-11T12:15:28.057-05:00
   localBranches:
-  - name: finally
-    tracking: origin/finally
-  - name: judsen-working
-    tracking: 
   - name: main
     tracking: origin/main
-  - name: plz
-    tracking: 
-  - name: test
-    tracking: origin/test
-  - name: thisIsTerrible
-    tracking: origin/thisIsTerrible
-  - name: truefailsafe
-    tracking: 
   remoteBranches:
-  - name: origin/deargod
-    tracking: '[None]'
-  - name: origin/finally
-    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/main
-    tracking: '[None]'
-  - name: origin/test
-    tracking: '[None]'
-  - name: origin/thisIsTerrible
     tracking: '[None]'
   remotes:
   - name: origin
@@ -53,88 +33,28 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - finally
-    - judsen-working
     - main
-    - plz
-    - test
-    - thisIsTerrible
-    - truefailsafe
     values:
-    - name: finally
-      remote:
-        name: origin
-        url: https://github.com/TGiaimo/dad-simulator-2021.git
-      trackingBranch: finally
-    - name: judsen-working
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
     - name: main
       remote:
         name: origin
         url: https://github.com/TGiaimo/dad-simulator-2021.git
       trackingBranch: main
-    - name: plz
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
-    - name: test
-      remote:
-        name: origin
-        url: https://github.com/TGiaimo/dad-simulator-2021.git
-      trackingBranch: test
-    - name: thisIsTerrible
-      remote:
-        name: origin
-        url: https://github.com/TGiaimo/dad-simulator-2021.git
-      trackingBranch: thisIsTerrible
-    - name: truefailsafe
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - deargod
-      - finally
       - HEAD
       - main
-      - test
-      - thisIsTerrible
     subKeyValues:
     - Values:
-      - name: deargod
-        remote:
-          name: origin
-          url: https://github.com/TGiaimo/dad-simulator-2021.git
-        trackingBranch: 
-      - name: finally
-        remote:
-          name: origin
-          url: https://github.com/TGiaimo/dad-simulator-2021.git
-        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
           url: https://github.com/TGiaimo/dad-simulator-2021.git
         trackingBranch: 
       - name: main
-        remote:
-          name: origin
-          url: https://github.com/TGiaimo/dad-simulator-2021.git
-        trackingBranch: 
-      - name: test
-        remote:
-          name: origin
-          url: https://github.com/TGiaimo/dad-simulator-2021.git
-        trackingBranch: 
-      - name: thisIsTerrible
         remote:
           name: origin
           url: https://github.com/TGiaimo/dad-simulator-2021.git
