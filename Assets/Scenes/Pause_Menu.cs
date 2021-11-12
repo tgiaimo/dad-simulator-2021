@@ -9,6 +9,7 @@ public class Pause_Menu : MonoBehaviour
     public testing simScript;
     public Text taskText;
     public GameObject[] check;
+    public Pause_Button Button;
 
     string[] taskList_tire, taskList_battery;
     
@@ -34,12 +35,20 @@ public class Pause_Menu : MonoBehaviour
         };
     }
 
+    private void OnEnable()
+    {
+        PauseMenu.SetActive(true);
+        ExitConfirm.SetActive(false);
+        TaskList.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
         
     }
 
+    //Create the task list when button is pressed
     public void taskListPressed()
     {
         PauseMenu.SetActive(false);
@@ -69,27 +78,32 @@ public class Pause_Menu : MonoBehaviour
         for (int i = 0; i <= stepNumber; i++) check[i].SetActive(true);
     }
 
+    //Handle back button pressed
     public void backButtonPressed()
     {
         TaskList.SetActive(false);
         PauseMenu.SetActive(true);
     }
 
+    //Handle "no" on exit to menu
     public void notConfirmedButtonPressed()
     {
         ExitConfirm.SetActive(false);
         PauseMenu.SetActive(true);
     }
 
+    //Handle "exit" button press
     public void exitButtonPressed()
     {
         ExitConfirm.SetActive(true);
         PauseMenu.SetActive(false);
     }
 
+    //Handle "resume"
     public void resumeButtonPressed()
     {
         PauseMenuContainer.SetActive(false);
+        Button.removePointer();
     }
 
 }

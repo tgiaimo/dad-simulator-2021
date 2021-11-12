@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944e8bf0ee85b2b4695e5a90e08f4b06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DefaultLength: 5
+  m_DefaultLength: 10
   m_Dot: {fileID: 3230473825053164650}
   m_InputModule: {fileID: 7719552012230469968}
 --- !u!20 &8708877565060499296
@@ -233,7 +233,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.01
+    widthMultiplier: 0.1
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -260,7 +260,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 1, g: 0.59836304, b: 0, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 0}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}

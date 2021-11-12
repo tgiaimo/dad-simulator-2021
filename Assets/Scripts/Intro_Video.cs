@@ -17,8 +17,8 @@ public class Intro_Video : MonoBehaviour
     }
 
 
-    void CheckOver(UnityEngine.Video.VideoPlayer vp)
+    void CheckOver(VideoPlayer vp)
     {
-        SceneManager.LoadScene("UI_new");//the scene that you want to load after the video has ended.
+        SceneManager.LoadScene("Environment_Test_Title");//the scene that you want to load after the video has ended.
     }
 }

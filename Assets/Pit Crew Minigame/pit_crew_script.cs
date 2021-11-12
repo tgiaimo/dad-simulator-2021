@@ -9,13 +9,17 @@ public class pit_crew_script : MonoBehaviour
     public Text sectionTimer;
     public testing steps;
     public GameObject[] buttons;
+    public GameObject m_PointerPrefab, m_PointerHand;
+    public Canvas timerOverlay;
+    public SceneLoader sceneData;
 
-    int numSteps = 10, current_step = 1;
-    float elapsed_time, best_time = 1e9f, final_time;
+    int numSteps = 10, current_step = 1, i = 0;
+    float elapsed_time, final_time;
     bool gameEnded = false;
     bool[] step_completed;
     float[] step_times;
     string[] step_names;
+    GameObject m_Pointer;
     
     // Start is called before the first frame update
     void Start()
@@ -40,17 +44,34 @@ public class pit_crew_script : MonoBehaviour
     {
         if (gameEnded)
         {
-            final_time = elapsed_time;
-            if (final_time < best_time) best_time = final_time;
-
-            timer.text = "Final Time:  " + formatTime(final_time) + "\n" + "Best Time:  " + formatTime(best_time);
-
-            sectionTimer.text = "";
-            for (int i=0; i<numSteps; i++)
+            //Initiate ending sequence (run only once)
+            if (i == 0)
             {
-                sectionTimer.text += step_names[i] + formatTime(step_times[i]) + "\n";
+                //Update best time if new record
+                final_time = elapsed_time;
+                if (final_time < sceneData.bestTime)
+                    sceneData.bestTime = final_time;
+
+                //Update final time text
+                timer.text = "Final Time:  " + formatTime(final_time) + "\n" + "Best Time:  " + formatTime(sceneData.bestTime);
+
+                //Update individual step times
+                sectionTimer.text = "";
+                for (int i = 0; i < numSteps; i++)
+                {
+                    sectionTimer.text += step_names[i] + formatTime(step_times[i]) + "\n";
+                }
+                foreach (GameObject b in buttons) b.SetActive(true);
+
+                //Creates a pointer for interaction
+                m_Pointer = FindObjectOfType<VRInputModule>().gameObject;
+                m_Pointer = Instantiate(m_PointerPrefab);
+                m_Pointer.transform.SetParent(m_PointerHand.transform);
+                timerOverlay.worldCamera = m_Pointer.GetComponent<Camera>();
+
+
+                i++;
             }
-            foreach (GameObject b in buttons) b.SetActive(true);
         }
         else
         {
@@ -66,6 +87,8 @@ public class pit_crew_script : MonoBehaviour
 
             gameEnded = checkForEnding();
         }
+
+        if (sceneData == null) sceneData = FindObjectOfType<SceneLoader>();
 
     }
 

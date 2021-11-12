@@ -107,6 +107,7 @@
     <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs" />
     <Compile Include="Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\ButtonHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\EasyColliderEditor\Scripts\Shader\EasyColliderShader.shader" />

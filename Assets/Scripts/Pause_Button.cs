@@ -25,6 +25,7 @@ public class Pause_Button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Open or close pause menu for button press
         if (m_TargetAction.GetState(m_TargetSource) || m_ButtonTest)
         {
             if (!buttonPressed)
@@ -45,26 +46,28 @@ public class Pause_Button : MonoBehaviour
         else buttonPressed = false;
     }
 
+    //Adds pointer for menu interaction
     void addPointer()
     {
         newPointer = Instantiate(m_Pointer);
         newPointer.transform.SetParent(m_PointerHand.transform);
         
+        //Set event camera to created pointer
         foreach (Canvas d in menus)
         {
             d.worldCamera = newPointer.GetComponent(typeof(Camera)) as Camera;
         }
     }
 
-    void removePointer()
+    //Destroys created pointer
+    public void removePointer()
     {
-        GameObject destroyPtr = newPointer;
-        Destroy(destroyPtr);
+        if (newPointer != null)
+        {
+            GameObject destroyPtr = newPointer;
+            Destroy(destroyPtr);
+        }
+
     }
 
-    bool buttonIsHeld()
-    {
-
-        return true;
-    }
 }
