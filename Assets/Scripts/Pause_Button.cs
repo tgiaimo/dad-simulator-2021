@@ -6,48 +6,43 @@ using Valve.VR;
 
 public class Pause_Button : MonoBehaviour
 {
+    public bool m_ButtonTest;
     public SteamVR_Input_Sources m_TargetSource;
     public SteamVR_Action_Boolean m_TargetAction;
     public GameObject m_PauseMenu, m_PointerHand, m_Pointer;
     public Canvas[] menus;
 
     GameObject newPointer;
-    bool buttonPressed;
-    float elapsed_time;
+    public bool buttonPressed;
     
     // Start is called before the first frame update
     void Start()
     {
         m_PauseMenu.SetActive(false);
         buttonPressed = false;
-        elapsed_time = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (buttonPressed)
+        if (m_TargetAction.GetState(m_TargetSource) || m_ButtonTest)
         {
-            elapsed_time += Time.deltaTime;
-            if (elapsed_time >= 1) buttonPressed = false;
-        }
-        
-        if (m_TargetAction.GetState(m_TargetSource))
-        {
-            if (m_PauseMenu.activeSelf)
+            if (!buttonPressed)
             {
-                m_PauseMenu.SetActive(false);
-                removePointer();
+                if (m_PauseMenu.activeSelf)
+                {
+                    m_PauseMenu.SetActive(false);
+                    removePointer();
+                }
+                else
+                {
+                    m_PauseMenu.SetActive(true);
+                    addPointer();
+                }
+                buttonPressed = true;
             }
-            else 
-            {
-                m_PauseMenu.SetActive(true);
-                addPointer();
-            }
-
-            buttonPressed = true;
-            elapsed_time = 0;
         }
+        else buttonPressed = false;
     }
 
     void addPointer()
@@ -57,7 +52,7 @@ public class Pause_Button : MonoBehaviour
         
         foreach (Canvas d in menus)
         {
-            d.worldCamera = GameObject.Find("PR_Pointer").GetComponent(typeof(Camera)) as Camera;
+            d.worldCamera = newPointer.GetComponent(typeof(Camera)) as Camera;
         }
     }
 
@@ -65,5 +60,11 @@ public class Pause_Button : MonoBehaviour
     {
         GameObject destroyPtr = newPointer;
         Destroy(destroyPtr);
+    }
+
+    bool buttonIsHeld()
+    {
+
+        return true;
     }
 }

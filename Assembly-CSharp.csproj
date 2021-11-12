@@ -66,6 +66,7 @@
     <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVHACD.cs" />
     <Compile Include="Assets\deadBatPosTerminal.cs" />
     <Compile Include="Assets\HubCheck.cs" />
+    <Compile Include="Assets\Scripts\Pause_Button.cs" />
     <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderAutoSkinnedBone.cs" />
     <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderQuickHull.cs" />
     <Compile Include="Assets\keywordRecog.cs" />
@@ -106,7 +107,6 @@
     <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderCreator.cs" />
     <Compile Include="Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
-    <Compile Include="Assets\Scripts\Pause_Button.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\EasyColliderEditor\Scripts\Shader\EasyColliderShader.shader" />
