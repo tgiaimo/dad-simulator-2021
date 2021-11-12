@@ -6,6 +6,7 @@ using System.Linq;
 using UnityEngine.Windows.Speech;
 using UnityEngine.Video;
 using UnityEditor;
+using Random = UnityEngine.Random;
 
 public class testing : MonoBehaviour
 {
@@ -44,7 +45,9 @@ public class testing : MonoBehaviour
     public AudioClip[] audioClipsForTireChange;
     public AudioClip[] audioClipsForBatJump;
     public AudioClip[] hintsForTireChange;
+    public AudioClip[] hintsForTireChange1;
     public AudioClip[] hintsForBatteryJump;
+    public AudioClip[] hintsForBatteryJump1;
 
 
     //                                   Steps for tire change scenario
@@ -293,7 +296,7 @@ public class testing : MonoBehaviour
 
         }else if(x == 5)
         {
-            ret.Add(GameObject.Find("bad tire halo"));
+            ret.Add(GameObject.Find("pos_tire"));
 
         }else if(x == 6)
         {
@@ -753,11 +756,25 @@ public class testing : MonoBehaviour
     
             if(hintindex>=0 && hintindex < 10)
             {
-                test.clip = hintsForTireChange[hintindex];
-                //test.clip = hintsForBatteryJump[hintindex];
-                test.Play();
-        
-                StartCoroutine(Flashing(objects));
+                int randy = Random.Range(0,2);
+                Debug.Log("randy = " + randy);
+
+                if (randy == 0)
+                {
+                    test.clip = hintsForTireChange[hintindex];
+                    //test.clip = hintsForBatteryJump[hintindex];
+                    test.Play();
+            
+                    StartCoroutine(Flashing(objects));
+                }
+                else
+                {
+                    test.clip = hintsForTireChange1[hintindex];
+                    //test.clip = hintsForBatteryJump[hintindex];
+                    test.Play();
+            
+                    StartCoroutine(Flashing(objects));
+                }
             }
             else
             {
@@ -777,15 +794,29 @@ public class testing : MonoBehaviour
             //set array of objects that need to flash
             //objects = getOjectsTire(hintindex);
             objects = getOjectsBat(hintindex);
-    
+
             if(hintindex>=0 && hintindex < 10)
             {
-                //test.clip = hintsForTireChange[hintindex];
-                test.clip = hintsForBatteryJump[hintindex];
-                test.Play();
-        
-                StartCoroutine(Flashing(objects));
-            }
+                int randy = Random.Range(0,2);
+                Debug.Log("randy = " + randy);
+
+                if (randy == 0)
+                {
+                    test.clip = hintsForBatteryJump[hintindex];
+                    //test.clip = hintsForBatteryJump[hintindex];
+                    test.Play();
+            
+                    StartCoroutine(Flashing(objects));
+                }
+                else
+                {
+                    test.clip = hintsForBatteryJump1[hintindex];
+                    //test.clip = hintsForBatteryJump[hintindex];
+                    test.Play();
+            
+                    StartCoroutine(Flashing(objects));
+                }
+            }   
             else
             {
             Debug.Log("hintindex wack");
@@ -859,7 +890,7 @@ public class testing : MonoBehaviour
             }
             if(step == 5)
             {
-                if (GameObject.Find("bad tire Detailed halo").GetComponent<badTireCheck>().off)
+                if (GameObject.Find("pos_tire").GetComponent<badTireCheck>().off)
                 {
                     GameObject[] objects;
                     objects = getObjectsTireDetailed(step);
@@ -872,7 +903,7 @@ public class testing : MonoBehaviour
             }
             if(step == 6)
             {
-                if (GameObject.Find("goodTireDetailedHalo").GetComponent<goodTireCheck>().on)
+                if (GameObject.Find("pos_tire_good").GetComponent<goodTireCheck>().on)
                 {
                     GameObject[] objects;
                     objects = getObjectsTireDetailed(step);
@@ -914,7 +945,15 @@ public class testing : MonoBehaviour
             {
                 if ((GameObject.Find("detail 1").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 2").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 3").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 4").GetComponent<HubCheck>().tight) && (GameObject.Find("detail 5").GetComponent<HubCheck>().tight))
                 {
-                    Debug.Log("AAAAAAAAAAAAALLLLLLLLLLLLLLLLLL DOOOOOOOOOOOOOOOONE");
+                    if (once)
+                    {
+                        GameObject[] objects;
+                        objects = getObjectsTireDetailed(step);
+                        setHalos(objects);
+                        StartCoroutine(completedFlash(objects));
+                        once = false;
+                        Debug.Log("AAAAAAAAAAAAALLLLLLLLLLLLLLLLLL DOOOOOOOOOOOOOOOONE");
+                    }
                 }
             }
             if(step == 10)
@@ -1096,7 +1135,7 @@ public class testing : MonoBehaviour
                     }
                     if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
                     {
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
+                        if (!GameObject.Find("detail 1").GetComponent<HubCheck>().tight && !GameObject.Find("detail 2").GetComponent<HubCheck>().tight && !GameObject.Find("detail 3").GetComponent<HubCheck>().tight && !GameObject.Find("detail 4").GetComponent<HubCheck>().tight && !GameObject.Find("detail 5").GetComponent<HubCheck>().tight) 
                         {
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
@@ -1155,7 +1194,7 @@ public class testing : MonoBehaviour
                     if (x[i] == GameObject.Find("wrenchDetailedHalo"))
                     {
                         //onjack
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
+                        if (GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().raised)
                         {
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
@@ -1193,8 +1232,8 @@ public class testing : MonoBehaviour
                     }
                     if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
                     {
+                        if (GameObject.Find("detail 1").GetComponent<HubCheck>().loosened&& GameObject.Find("detail 2").GetComponent<HubCheck>().loosened && GameObject.Find("detail 3").GetComponent<HubCheck>().loosened && GameObject.Find("detail 4").GetComponent<HubCheck>().loosened && GameObject.Find("detail 5").GetComponent<HubCheck>().loosened) 
                         //not sure how to do inlocation
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
                         {
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
@@ -1212,7 +1251,7 @@ public class testing : MonoBehaviour
                 }
                 if (step == 5)
                 {
-                    if ((x[i] == GameObject.Find("bad tire Detailed halo")))
+                    if ((x[i] == GameObject.Find("pos_tire")))
                     {
                         if (x[i].GetComponent<badTireCheck>().off)
                         {
@@ -1232,7 +1271,7 @@ public class testing : MonoBehaviour
                 }
                 if (step == 6)
                 {
-                    if ((x[i] == GameObject.Find("goodTireDetailedHalo")))
+                    if ((x[i] == GameObject.Find("pos_tire_good")))
                     {
                         if (x[i].GetComponent<goodTireCheck>().on)
                         {
@@ -1273,7 +1312,7 @@ public class testing : MonoBehaviour
                     if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
                     {
                         //not sure how to do inlocation
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
+                        if (!x[i].GetComponent<HubCheck>().loosened)
                         {
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
@@ -1314,7 +1353,7 @@ public class testing : MonoBehaviour
                     if ((x[i] == GameObject.Find("detail 1")) || (x[i] == GameObject.Find("detail 2")) || (x[i] == GameObject.Find("detail 3")) || (x[i] == GameObject.Find("detail 4")) || (x[i] == GameObject.Find("detail 5")))
                     {
                         //put them back on
-                        if (!x[i].GetComponent<HubCheck>().tight)
+                        if (x[i].GetComponent<HubCheck>().tight)
                         {
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
@@ -1332,7 +1371,7 @@ public class testing : MonoBehaviour
                     if ((x[i] == GameObject.Find("wrenchDetailedHalo")))
                     {
                         //not sure how to do inlocation
-                        if (x[i].GetComponent<wrenchCheck>().inLocation)
+                        if (GameObject.Find("detail 1").GetComponent<HubCheck>().tight && GameObject.Find("detail 2").GetComponent<HubCheck>().tight && GameObject.Find("detail 3").GetComponent<HubCheck>().tight && GameObject.Find("detail 4").GetComponent<HubCheck>().tight && GameObject.Find("detail 5").GetComponent<HubCheck>().tight) 
                         {
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
@@ -1849,11 +1888,11 @@ public class testing : MonoBehaviour
 
         }else if(x == 5)
         {
-            ret.Add(GameObject.Find("bad tire Detailed halo"));
+            ret.Add(GameObject.Find("pos_tire"));
 
         }else if(x == 6)
         {
-            ret.Add(GameObject.Find("goodTireDetailedHalo"));
+            ret.Add(GameObject.Find("pos_tire_good"));
 
         }else if(x == 7)
         {
