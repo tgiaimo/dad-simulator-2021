@@ -9,7 +9,7 @@ public class pit_crew_script : MonoBehaviour
     public Text sectionTimer;
     public testing steps;
     public GameObject[] buttons;
-    public GameObject m_PointerPrefab, m_PointerHand;
+    //public GameObject m_PointerPrefab, m_PointerHand;
     public Canvas timerOverlay;
     public SceneLoader sceneData;
 
@@ -64,11 +64,10 @@ public class pit_crew_script : MonoBehaviour
                 foreach (GameObject b in buttons) b.SetActive(true);
 
                 //Creates a pointer for interaction
-                m_Pointer = FindObjectOfType<VRInputModule>().gameObject;
-                m_Pointer = Instantiate(m_PointerPrefab);
-                m_Pointer.transform.SetParent(m_PointerHand.transform);
-                timerOverlay.worldCamera = m_Pointer.GetComponent<Camera>();
-
+                //m_Pointer = FindObjectOfType<VRInputModule>().gameObject;
+                //m_Pointer = Instantiate(m_PointerPrefab);
+                //m_Pointer.transform.SetParent(m_PointerHand.transform);
+                //timerOverlay.worldCamera = m_Pointer.GetComponent<Camera>();
 
                 i++;
             }

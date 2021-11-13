@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1032,6 +1032,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ae002e57098461e4281651864e21f141, type: 3}
   - {fileID: 8300000, guid: 082c04fe296eeed42abda270a21ee1d8, type: 3}
   - {fileID: 8300000, guid: 5d4fb20cee4ed0f4ca6236b4cdee71c6, type: 3}
+  hintsForTireChange1: []
   hintsForBatteryJump:
   - {fileID: 8300000, guid: 99c61b853b4e4ff4982cd32f5ec10382, type: 3}
   - {fileID: 8300000, guid: c2cbbd84dab98b1479dd29e7b96f49b3, type: 3}
@@ -1043,9 +1044,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4384c40ec6c09a94bb34bd17fc6437ec, type: 3}
   - {fileID: 8300000, guid: 4384c40ec6c09a94bb34bd17fc6437ec, type: 3}
   - {fileID: 8300000, guid: 4384c40ec6c09a94bb34bd17fc6437ec, type: 3}
+  hintsForBatteryJump1: []
   speakTire: 0
   tirestep1: 1
-  tirestep2: 1
+  tirestep2: 0
   tirestep3: 0
   tirestep4: 0
   tirestep5: 0
@@ -1056,7 +1058,7 @@ MonoBehaviour:
   tirestep10: 0
   speakBat: 0
   batterystep1: 1
-  batterystep2: 1
+  batterystep2: 0
   batterystep3: 0
   batterystep4: 0
   batterystep5: 0
@@ -1094,17 +1096,17 @@ PrefabInstance:
     - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6323556
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.31913
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.039082
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
@@ -1140,6 +1142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534093821400921217, guid: c050e2cdd99e1d7439017ca408934a9e,
+        type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4697197929700094052, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
@@ -2645,6 +2652,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633740084}
   m_Mesh: {fileID: 8728854048086142887, guid: e8c6735346e873146a9abba892804fe1, type: 3}
+--- !u!20 &664397591 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 8708877565060499296, guid: c050e2cdd99e1d7439017ca408934a9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 237823192}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &671963750
 GameObject:
   m_ObjectHideFlags: 0
@@ -7277,7 +7290,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 664397591}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0e8382b0d183f646a75ac11473237ee, type: 3}
 --- !u!1001 &1734232602

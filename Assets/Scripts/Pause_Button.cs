@@ -33,12 +33,12 @@ public class Pause_Button : MonoBehaviour
                 if (m_PauseMenu.activeSelf)
                 {
                     m_PauseMenu.SetActive(false);
-                    removePointer();
+ //                   removePointer();
                 }
                 else
                 {
                     m_PauseMenu.SetActive(true);
-                    addPointer();
+//                    addPointer();
                 }
                 buttonPressed = true;
             }

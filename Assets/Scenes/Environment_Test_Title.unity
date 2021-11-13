@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -592,6 +592,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262431043}
   m_CullTransparentMesh: 1
+--- !u!114 &289589640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7719552012230469968, guid: c050e2cdd99e1d7439017ca408934a9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1928253957}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6283071964d7a194fbc84f6b5060aced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &308662055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2986,6 +2998,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8c6735346e873146a9abba892804fe1, type: 3}
+--- !u!1 &1194095262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3230473825053164650, guid: c050e2cdd99e1d7439017ca408934a9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1928253957}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1197429228
 GameObject:
   m_ObjectHideFlags: 0
@@ -4099,12 +4117,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Dot
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1194095262}
     - target: {fileID: 6275229943386388660, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
       propertyPath: m_InputModule
       value: 
+      objectReference: {fileID: 289589640}
+    - target: {fileID: 6275229943386388660, guid: c050e2cdd99e1d7439017ca408934a9e,
+        type: 3}
+      propertyPath: m_DefaultLength
+      value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 7719552012230469968, guid: c050e2cdd99e1d7439017ca408934a9e,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1928253960}
     - target: {fileID: 8774879309537005206, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
       propertyPath: m_RootOrder
