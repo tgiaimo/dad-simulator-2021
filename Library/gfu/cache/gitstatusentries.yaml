@@ -13,721 +13,2653 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-11-12T19:44:34.982-05:00
-  initializedAtString: 2021-11-12T18:17:42.912-05:00
+  lastUpdatedAtString: 2021-11-23T17:49:38.971-05:00
+  initializedAtString: 2021-11-23T17:10:25.337-05:00
   entries:
+  - path: .vs\dad-simulator-2021\v16\.suo
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\.vs\dad-simulator-2021\v16\.suo
+    projectPath: .vs\dad-simulator-2021\v16\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\JudScripts\testing.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\JudScripts\testing.cs
+    projectPath: Assets\JudScripts\testing.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Pit Crew Minigame\pit_crew_script.cs
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Pit
-      Crew Minigame\pit_crew_script.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Pit Crew
+      Minigame\pit_crew_script.cs
     projectPath: Assets\Pit Crew Minigame\pit_crew_script.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assets\Pit Crew Minigame\prefab_Timer_Overlay.prefab
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Pit
-      Crew Minigame\prefab_Timer_Overlay.prefab
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Pit Crew
+      Minigame\prefab_Timer_Overlay.prefab
     projectPath: Assets\Pit Crew Minigame\prefab_Timer_Overlay.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Prefab_PauseMenu.prefab
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Prefab_PauseMenu.prefab
+    projectPath: Assets\Prefab_PauseMenu.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Prefabs\PR_Pointer.prefab
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Prefabs\PR_Pointer.prefab
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Prefabs\PR_Pointer.prefab
     projectPath: Assets\Prefabs\PR_Pointer.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\Environment_Test_Garage.unity
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Scenes\Environment_Test_Garage.unity
-    projectPath: Assets\Scenes\Environment_Test_Garage.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Environment_Test_Title.unity
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Scenes\Environment_Test_Title.unity
-    projectPath: Assets\Scenes\Environment_Test_Title.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Scenes\Pause_menu.unity
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Scenes\Pause_menu.unity
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Scenes\Pause_menu.unity
     projectPath: Assets\Scenes\Pause_menu.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\Pit_Road.unity
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Scenes\Pit_Road.unity
-    projectPath: Assets\Scenes\Pit_Road.unity
+  - path: Assets\Scenes\Rotation_Test.unity
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Scenes\Rotation_Test.unity
+    projectPath: Assets\Scenes\Rotation_Test.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Rotation_Test.unity.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Scenes\Rotation_Test.unity.meta
+    projectPath: Assets\Scenes\Rotation_Test.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Object_Transform.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Scripts\Object_Transform.cs
+    projectPath: Assets\Scripts\Object_Transform.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Object_Transform.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Scripts\Object_Transform.cs.meta
+    projectPath: Assets\Scripts\Object_Transform.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\SceneLoader.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Assets\Scripts\SceneLoader.cs
+    projectPath: Assets\Scripts\SceneLoader.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Pause_Button.cs
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Assets\Scripts\Pause_Button.cs
-    projectPath: Assets\Scripts\Pause_Button.cs
+  - path: dad-simulator-2021.sln
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\dad-simulator-2021.sln
+    projectPath: dad-simulator-2021.sln
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\APIUpdater\project-dependencies.graph
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\ArtifactDB
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ArtifactDB
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\07\070184e78c56c778579d8017b43e0089
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\07\070184e78c56c778579d8017b43e0089
-    projectPath: Library\Artifacts\07\070184e78c56c778579d8017b43e0089
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\08\086232674c7f1644b408c69159479fbe
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\08\086232674c7f1644b408c69159479fbe
-    projectPath: Library\Artifacts\08\086232674c7f1644b408c69159479fbe
+  - path: Library\Artifacts\04\0400d8d37afe92b6e5f8a8a6773b73ac
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\04\0400d8d37afe92b6e5f8a8a6773b73ac
+    projectPath: Library\Artifacts\04\0400d8d37afe92b6e5f8a8a6773b73ac
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\09\0942d7dfb4e1df378502283906d0a0a7
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\09\0942d7dfb4e1df378502283906d0a0a7
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\09\0942d7dfb4e1df378502283906d0a0a7
     projectPath: Library\Artifacts\09\0942d7dfb4e1df378502283906d0a0a7
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0f\0fa8bf9702c8675c543d74f1b80133f6
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\0f\0fa8bf9702c8675c543d74f1b80133f6
-    projectPath: Library\Artifacts\0f\0fa8bf9702c8675c543d74f1b80133f6
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0b\0b92841439ed25ed35fd89cb2980dfd4
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\0b\0b92841439ed25ed35fd89cb2980dfd4
+    projectPath: Library\Artifacts\0b\0b92841439ed25ed35fd89cb2980dfd4
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\11\113e881bdce9e5d9afc1b33181853ae9
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\11\113e881bdce9e5d9afc1b33181853ae9
-    projectPath: Library\Artifacts\11\113e881bdce9e5d9afc1b33181853ae9
+  - path: Library\Artifacts\0f\0fb01b4b5515504091312e3132e194c5
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\0f\0fb01b4b5515504091312e3132e194c5
+    projectPath: Library\Artifacts\0f\0fb01b4b5515504091312e3132e194c5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\13\13df9a8f1be87416c7a4a513618c0008
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\13\13df9a8f1be87416c7a4a513618c0008
-    projectPath: Library\Artifacts\13\13df9a8f1be87416c7a4a513618c0008
+  - path: Library\Artifacts\10\1036e54acca46969612f18142ba92a8f
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\10\1036e54acca46969612f18142ba92a8f
+    projectPath: Library\Artifacts\10\1036e54acca46969612f18142ba92a8f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\1b\1b1c7f5308446ce2aa91a545942d0f15
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\1b\1b1c7f5308446ce2aa91a545942d0f15
-    projectPath: Library\Artifacts\1b\1b1c7f5308446ce2aa91a545942d0f15
+  - path: Library\Artifacts\11\11e2acb6666fa88078a6c56b47b932a2
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\11\11e2acb6666fa88078a6c56b47b932a2
+    projectPath: Library\Artifacts\11\11e2acb6666fa88078a6c56b47b932a2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\12\1247156bf559c272ccabec49813138ff
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\12\1247156bf559c272ccabec49813138ff
+    projectPath: Library\Artifacts\12\1247156bf559c272ccabec49813138ff
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\12\128efa05b4cd49a3971826a8315aa67d
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\12\128efa05b4cd49a3971826a8315aa67d
+    projectPath: Library\Artifacts\12\128efa05b4cd49a3971826a8315aa67d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\12\12e8adc2422e86e2960c94c8872e5c03
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\12\12e8adc2422e86e2960c94c8872e5c03
+    projectPath: Library\Artifacts\12\12e8adc2422e86e2960c94c8872e5c03
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\14\1425acfe5348837a183c5f1bc4092232
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\14\1425acfe5348837a183c5f1bc4092232
+    projectPath: Library\Artifacts\14\1425acfe5348837a183c5f1bc4092232
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\15\15f2d064202ed2efb9e1432ccfcf8500
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\15\15f2d064202ed2efb9e1432ccfcf8500
+    projectPath: Library\Artifacts\15\15f2d064202ed2efb9e1432ccfcf8500
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\16\16956be76e3bcf89abb258bc42929f44
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\16\16956be76e3bcf89abb258bc42929f44
+    projectPath: Library\Artifacts\16\16956be76e3bcf89abb258bc42929f44
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1d\1d2f47c13db984637f82acd4d51931e2
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\1d\1d2f47c13db984637f82acd4d51931e2
+    projectPath: Library\Artifacts\1d\1d2f47c13db984637f82acd4d51931e2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\1d\1db996d7228f2d64d981c6f8f07ad1b1
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\1d\1db996d7228f2d64d981c6f8f07ad1b1
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\1d\1db996d7228f2d64d981c6f8f07ad1b1
     projectPath: Library\Artifacts\1d\1db996d7228f2d64d981c6f8f07ad1b1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\20\2099f293218e86f552432046337d4c82
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\20\2099f293218e86f552432046337d4c82
+    projectPath: Library\Artifacts\20\2099f293218e86f552432046337d4c82
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\23\232705350166bf1257655245796ae670
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\23\232705350166bf1257655245796ae670
+    projectPath: Library\Artifacts\23\232705350166bf1257655245796ae670
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\24\248514dbf344fbfa3c45997e01dab3d9
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\24\248514dbf344fbfa3c45997e01dab3d9
+    projectPath: Library\Artifacts\24\248514dbf344fbfa3c45997e01dab3d9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\24\24a222df85d755c1b29f2563d3df8536
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\24\24a222df85d755c1b29f2563d3df8536
+    projectPath: Library\Artifacts\24\24a222df85d755c1b29f2563d3df8536
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\27\279d7a2544760dce3367e08724baf24d
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\27\279d7a2544760dce3367e08724baf24d
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\27\279d7a2544760dce3367e08724baf24d
     projectPath: Library\Artifacts\27\279d7a2544760dce3367e08724baf24d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\28\28d0c7c1597b4cd9ed79087be1cba5fd
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\28\28d0c7c1597b4cd9ed79087be1cba5fd
-    projectPath: Library\Artifacts\28\28d0c7c1597b4cd9ed79087be1cba5fd
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\28\287fa779cf010bd98949368b52cf886a
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\28\287fa779cf010bd98949368b52cf886a
+    projectPath: Library\Artifacts\28\287fa779cf010bd98949368b52cf886a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\29\29d4898681090d84550837e5ac366ce6
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\29\29d4898681090d84550837e5ac366ce6
+    projectPath: Library\Artifacts\29\29d4898681090d84550837e5ac366ce6
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\2b\2bcf4593936410932aa5ddf24045f9cf
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\2b\2bcf4593936410932aa5ddf24045f9cf
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\2b\2bcf4593936410932aa5ddf24045f9cf
     projectPath: Library\Artifacts\2b\2bcf4593936410932aa5ddf24045f9cf
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2c\2c68dc585e71b46cda426748d7bee98e
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\2c\2c68dc585e71b46cda426748d7bee98e
-    projectPath: Library\Artifacts\2c\2c68dc585e71b46cda426748d7bee98e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2e\2e25e94b81665f907eea336416a7f434
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\2e\2e25e94b81665f907eea336416a7f434
-    projectPath: Library\Artifacts\2e\2e25e94b81665f907eea336416a7f434
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\30\30f360fb12055bf36cfdcef07057ad62
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\30\30f360fb12055bf36cfdcef07057ad62
-    projectPath: Library\Artifacts\30\30f360fb12055bf36cfdcef07057ad62
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\32\32829ead622c4f1660efcbb4c0a6c348
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\32\32829ead622c4f1660efcbb4c0a6c348
+    projectPath: Library\Artifacts\32\32829ead622c4f1660efcbb4c0a6c348
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\32\32c540a0e43238041a05c74691634426
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\32\32c540a0e43238041a05c74691634426
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\32\32c540a0e43238041a05c74691634426
     projectPath: Library\Artifacts\32\32c540a0e43238041a05c74691634426
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\35\35d5553672e4d246ed2ffdc291b60614
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\35\35d5553672e4d246ed2ffdc291b60614
-    projectPath: Library\Artifacts\35\35d5553672e4d246ed2ffdc291b60614
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\36\361a8fdb536792b4d56f8e3916bf147f
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\36\361a8fdb536792b4d56f8e3916bf147f
-    projectPath: Library\Artifacts\36\361a8fdb536792b4d56f8e3916bf147f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3a\3a5258dd0e6e20e473a9fe03178a802a
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\3a\3a5258dd0e6e20e473a9fe03178a802a
-    projectPath: Library\Artifacts\3a\3a5258dd0e6e20e473a9fe03178a802a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3c\3ca46fe5e8240585e4108ea06a2adcad
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\3c\3ca46fe5e8240585e4108ea06a2adcad
-    projectPath: Library\Artifacts\3c\3ca46fe5e8240585e4108ea06a2adcad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\40\4058854ed31fec23eb3a8cad1014f97c
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\40\4058854ed31fec23eb3a8cad1014f97c
-    projectPath: Library\Artifacts\40\4058854ed31fec23eb3a8cad1014f97c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\42\42d28b35943301bf4af686d8936ca52d
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\42\42d28b35943301bf4af686d8936ca52d
-    projectPath: Library\Artifacts\42\42d28b35943301bf4af686d8936ca52d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\45\45f91fea032ae2bed7e67647d8d609b0
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\45\45f91fea032ae2bed7e67647d8d609b0
-    projectPath: Library\Artifacts\45\45f91fea032ae2bed7e67647d8d609b0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\4d\4dbb11d3e9c1fc013b710f1c9656c8fd
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\4d\4dbb11d3e9c1fc013b710f1c9656c8fd
-    projectPath: Library\Artifacts\4d\4dbb11d3e9c1fc013b710f1c9656c8fd
+  - path: Library\Artifacts\36\36da69e031b9f22fe69789873d3cc733
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\36\36da69e031b9f22fe69789873d3cc733
+    projectPath: Library\Artifacts\36\36da69e031b9f22fe69789873d3cc733
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\37\37fc22086549fd14c2ea51e885ba245f
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\37\37fc22086549fd14c2ea51e885ba245f
+    projectPath: Library\Artifacts\37\37fc22086549fd14c2ea51e885ba245f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\51\51392ac391496f6e0e4fa897031a00a2
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\51\51392ac391496f6e0e4fa897031a00a2
-    projectPath: Library\Artifacts\51\51392ac391496f6e0e4fa897031a00a2
+  - path: Library\Artifacts\3c\3c14c8e4a46bb36a7876cf5312e54d86
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\3c\3c14c8e4a46bb36a7876cf5312e54d86
+    projectPath: Library\Artifacts\3c\3c14c8e4a46bb36a7876cf5312e54d86
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\58\58742fdbcfc2d8adbe6e6105d791de8a
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\58\58742fdbcfc2d8adbe6e6105d791de8a
-    projectPath: Library\Artifacts\58\58742fdbcfc2d8adbe6e6105d791de8a
+  - path: Library\Artifacts\3c\3c778ce1b8fa5d303d1c0dc77169de05
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\3c\3c778ce1b8fa5d303d1c0dc77169de05
+    projectPath: Library\Artifacts\3c\3c778ce1b8fa5d303d1c0dc77169de05
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3d\3d55b5795d95f1fd276d296294dedb7c
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\3d\3d55b5795d95f1fd276d296294dedb7c
+    projectPath: Library\Artifacts\3d\3d55b5795d95f1fd276d296294dedb7c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3d\3da91185845f8cbf4d014fe21eef7db4
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\3d\3da91185845f8cbf4d014fe21eef7db4
+    projectPath: Library\Artifacts\3d\3da91185845f8cbf4d014fe21eef7db4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\44\44f4d0ac00bd3adb94faa3715b7e80a4
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\44\44f4d0ac00bd3adb94faa3715b7e80a4
+    projectPath: Library\Artifacts\44\44f4d0ac00bd3adb94faa3715b7e80a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\45\45f91fea032ae2bed7e67647d8d609b0
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\45\45f91fea032ae2bed7e67647d8d609b0
+    projectPath: Library\Artifacts\45\45f91fea032ae2bed7e67647d8d609b0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\49\4929b6f76ecadb41e8f7810e4cb3ea1d
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\49\4929b6f76ecadb41e8f7810e4cb3ea1d
+    projectPath: Library\Artifacts\49\4929b6f76ecadb41e8f7810e4cb3ea1d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4e\4e76897228ac68438aa8f9ef516375c3
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\4e\4e76897228ac68438aa8f9ef516375c3
+    projectPath: Library\Artifacts\4e\4e76897228ac68438aa8f9ef516375c3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\58\58d6884d75519f930aa12d6cc4398acb
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\58\58d6884d75519f930aa12d6cc4398acb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\58\58d6884d75519f930aa12d6cc4398acb
     projectPath: Library\Artifacts\58\58d6884d75519f930aa12d6cc4398acb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\5e\5e870a12d06530cb15975bf8c61a766b
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\5e\5e870a12d06530cb15975bf8c61a766b
-    projectPath: Library\Artifacts\5e\5e870a12d06530cb15975bf8c61a766b
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5b\5b25bf1b18edc1dadb312166ea86a9f3
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\5b\5b25bf1b18edc1dadb312166ea86a9f3
+    projectPath: Library\Artifacts\5b\5b25bf1b18edc1dadb312166ea86a9f3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\5d\5d96b7561ca736e919989e1471472b84
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\5d\5d96b7561ca736e919989e1471472b84
+    projectPath: Library\Artifacts\5d\5d96b7561ca736e919989e1471472b84
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\61\61ac3f1eee2de4afa5f82e704559cada
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\61\61ac3f1eee2de4afa5f82e704559cada
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\61\61ac3f1eee2de4afa5f82e704559cada
     projectPath: Library\Artifacts\61\61ac3f1eee2de4afa5f82e704559cada
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\64\649c64bd74ae8bc938897a2ce35cd80e
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\64\649c64bd74ae8bc938897a2ce35cd80e
-    projectPath: Library\Artifacts\64\649c64bd74ae8bc938897a2ce35cd80e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\64\64650667e2ab21f5721a6941d1e54ffa
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\64\64650667e2ab21f5721a6941d1e54ffa
+    projectPath: Library\Artifacts\64\64650667e2ab21f5721a6941d1e54ffa
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\6a\6ad7fbceac24f6d427ff5f5e4eb37801
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\6a\6ad7fbceac24f6d427ff5f5e4eb37801
-    projectPath: Library\Artifacts\6a\6ad7fbceac24f6d427ff5f5e4eb37801
+  - path: Library\Artifacts\68\68a2fef9142f6f07f8e9c5c3b1bb6bbe
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\68\68a2fef9142f6f07f8e9c5c3b1bb6bbe
+    projectPath: Library\Artifacts\68\68a2fef9142f6f07f8e9c5c3b1bb6bbe
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\6c\6c2f746294d4e4f0192e1c7229593846
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\6c\6c2f746294d4e4f0192e1c7229593846
-    projectPath: Library\Artifacts\6c\6c2f746294d4e4f0192e1c7229593846
+  - path: Library\Artifacts\69\6905ec491fda1981809188f5b8670511
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\69\6905ec491fda1981809188f5b8670511
+    projectPath: Library\Artifacts\69\6905ec491fda1981809188f5b8670511
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\70\705b1d778cdf0305089d77eec8feda72
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\70\705b1d778cdf0305089d77eec8feda72
-    projectPath: Library\Artifacts\70\705b1d778cdf0305089d77eec8feda72
+  - path: Library\Artifacts\6b\6b2c6f0a69a5c2a03a4ca13c3117bec2
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\6b\6b2c6f0a69a5c2a03a4ca13c3117bec2
+    projectPath: Library\Artifacts\6b\6b2c6f0a69a5c2a03a4ca13c3117bec2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\71\71e00b15d2939fcfba4679f28ce3b468
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\71\71e00b15d2939fcfba4679f28ce3b468
-    projectPath: Library\Artifacts\71\71e00b15d2939fcfba4679f28ce3b468
+  - path: Library\Artifacts\6d\6d3c908293450fb01d3cfca1e3a1c6c6
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\6d\6d3c908293450fb01d3cfca1e3a1c6c6
+    projectPath: Library\Artifacts\6d\6d3c908293450fb01d3cfca1e3a1c6c6
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\79\7927d4ac91057c3a5cb05014e3c3ec0c
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\79\7927d4ac91057c3a5cb05014e3c3ec0c
-    projectPath: Library\Artifacts\79\7927d4ac91057c3a5cb05014e3c3ec0c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\80\80d5bb801dc22eb6aba9ec1ab6b846c6
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\80\80d5bb801dc22eb6aba9ec1ab6b846c6
-    projectPath: Library\Artifacts\80\80d5bb801dc22eb6aba9ec1ab6b846c6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\88\8829b64276d0bfd32d5d695662fc7ff9
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\88\8829b64276d0bfd32d5d695662fc7ff9
-    projectPath: Library\Artifacts\88\8829b64276d0bfd32d5d695662fc7ff9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8b\8b479224acd602903369fdd7a42130c2
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\8b\8b479224acd602903369fdd7a42130c2
-    projectPath: Library\Artifacts\8b\8b479224acd602903369fdd7a42130c2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8f\8f2d1945f607c4e4fac7421f2c323749
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\8f\8f2d1945f607c4e4fac7421f2c323749
-    projectPath: Library\Artifacts\8f\8f2d1945f607c4e4fac7421f2c323749
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8f\8fd821ac05e35e8e0947acbca5b4982b
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\8f\8fd821ac05e35e8e0947acbca5b4982b
-    projectPath: Library\Artifacts\8f\8fd821ac05e35e8e0947acbca5b4982b
+  - path: Library\Artifacts\6d\6df8b653dd4563253b846da5ac8001c1
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\6d\6df8b653dd4563253b846da5ac8001c1
+    projectPath: Library\Artifacts\6d\6df8b653dd4563253b846da5ac8001c1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\92\92579659f4fb6a693f768c61ba419004
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\92\92579659f4fb6a693f768c61ba419004
-    projectPath: Library\Artifacts\92\92579659f4fb6a693f768c61ba419004
+  - path: Library\Artifacts\6f\6f0dea9cc0fdd77444ba01bcc2825a18
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\6f\6f0dea9cc0fdd77444ba01bcc2825a18
+    projectPath: Library\Artifacts\6f\6f0dea9cc0fdd77444ba01bcc2825a18
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\70\709966258f0e55ca388b7229a2109fa3
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\70\709966258f0e55ca388b7229a2109fa3
+    projectPath: Library\Artifacts\70\709966258f0e55ca388b7229a2109fa3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\98\98632f5a0e06dd79ce317a55a9b2f3c2
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\98\98632f5a0e06dd79ce317a55a9b2f3c2
-    projectPath: Library\Artifacts\98\98632f5a0e06dd79ce317a55a9b2f3c2
+  - path: Library\Artifacts\71\71d93bf31ee2e642ebbc4a8183052bf9
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\71\71d93bf31ee2e642ebbc4a8183052bf9
+    projectPath: Library\Artifacts\71\71d93bf31ee2e642ebbc4a8183052bf9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\98\98d3fc87c13ac167a4fa8dfa4e9033fd
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\98\98d3fc87c13ac167a4fa8dfa4e9033fd
-    projectPath: Library\Artifacts\98\98d3fc87c13ac167a4fa8dfa4e9033fd
+  - path: Library\Artifacts\72\72f1ce910e177eab0f3769984e2d5b52
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\72\72f1ce910e177eab0f3769984e2d5b52
+    projectPath: Library\Artifacts\72\72f1ce910e177eab0f3769984e2d5b52
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\74\74176ffa83fe0f8d70f36c79928f205e
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\74\74176ffa83fe0f8d70f36c79928f205e
+    projectPath: Library\Artifacts\74\74176ffa83fe0f8d70f36c79928f205e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\78\7847575fbee3f13fecdad179d49385af
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\78\7847575fbee3f13fecdad179d49385af
+    projectPath: Library\Artifacts\78\7847575fbee3f13fecdad179d49385af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\79\7927d4ac91057c3a5cb05014e3c3ec0c
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\79\7927d4ac91057c3a5cb05014e3c3ec0c
+    projectPath: Library\Artifacts\79\7927d4ac91057c3a5cb05014e3c3ec0c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7a\7a33e53702506d0305736498c94d98e7
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\7a\7a33e53702506d0305736498c94d98e7
+    projectPath: Library\Artifacts\7a\7a33e53702506d0305736498c94d98e7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7d\7d8c93ace26d9d684c856a9e86bb6ae1
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\7d\7d8c93ace26d9d684c856a9e86bb6ae1
+    projectPath: Library\Artifacts\7d\7d8c93ace26d9d684c856a9e86bb6ae1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\80\80d08f261afab44f79aff6601a359e8e
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\80\80d08f261afab44f79aff6601a359e8e
+    projectPath: Library\Artifacts\80\80d08f261afab44f79aff6601a359e8e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\80\80d5bb801dc22eb6aba9ec1ab6b846c6
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\80\80d5bb801dc22eb6aba9ec1ab6b846c6
+    projectPath: Library\Artifacts\80\80d5bb801dc22eb6aba9ec1ab6b846c6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\83\832f8498bcdbbf181fa7ba877516988a
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\83\832f8498bcdbbf181fa7ba877516988a
+    projectPath: Library\Artifacts\83\832f8498bcdbbf181fa7ba877516988a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\85\856c025cb221336876f073bcc4a384b6
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\85\856c025cb221336876f073bcc4a384b6
+    projectPath: Library\Artifacts\85\856c025cb221336876f073bcc4a384b6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\85\85bc758e1c8d9355036e596d90b1acf8
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\85\85bc758e1c8d9355036e596d90b1acf8
+    projectPath: Library\Artifacts\85\85bc758e1c8d9355036e596d90b1acf8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\87\8716e47f24e32491c7ad1ab0ead71f9c
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\87\8716e47f24e32491c7ad1ab0ead71f9c
+    projectPath: Library\Artifacts\87\8716e47f24e32491c7ad1ab0ead71f9c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8d\8d40d75f3bc7de504a598c9519133e64
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\8d\8d40d75f3bc7de504a598c9519133e64
+    projectPath: Library\Artifacts\8d\8d40d75f3bc7de504a598c9519133e64
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8f\8f2d1945f607c4e4fac7421f2c323749
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\8f\8f2d1945f607c4e4fac7421f2c323749
+    projectPath: Library\Artifacts\8f\8f2d1945f607c4e4fac7421f2c323749
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8f\8feed3d2a93a6df05fe3b83972795d18
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\8f\8feed3d2a93a6df05fe3b83972795d18
+    projectPath: Library\Artifacts\8f\8feed3d2a93a6df05fe3b83972795d18
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\93\93ca0cbb8334c8f4bf7c68a6e97b9dce
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\93\93ca0cbb8334c8f4bf7c68a6e97b9dce
+    projectPath: Library\Artifacts\93\93ca0cbb8334c8f4bf7c68a6e97b9dce
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\95\95601081c82e31f59231ad5f0f0c99b2
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\95\95601081c82e31f59231ad5f0f0c99b2
+    projectPath: Library\Artifacts\95\95601081c82e31f59231ad5f0f0c99b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\95\95fbcb708e316a869df41aabb8ef2d5c
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\95\95fbcb708e316a869df41aabb8ef2d5c
+    projectPath: Library\Artifacts\95\95fbcb708e316a869df41aabb8ef2d5c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\9d\9d17eeacde3b32d2597ac71310aa5e52
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\9d\9d17eeacde3b32d2597ac71310aa5e52
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\9d\9d17eeacde3b32d2597ac71310aa5e52
     projectPath: Library\Artifacts\9d\9d17eeacde3b32d2597ac71310aa5e52
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9d\9d465734b74207d9a07374841f26b09b
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\9d\9d465734b74207d9a07374841f26b09b
+    projectPath: Library\Artifacts\9d\9d465734b74207d9a07374841f26b09b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9f\9f3909e024d944e0e0c186509490d053
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\9f\9f3909e024d944e0e0c186509490d053
+    projectPath: Library\Artifacts\9f\9f3909e024d944e0e0c186509490d053
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\9d\9d797df430484795a83cc4eff2ea9844
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\9d\9d797df430484795a83cc4eff2ea9844
-    projectPath: Library\Artifacts\9d\9d797df430484795a83cc4eff2ea9844
+  - path: Library\Artifacts\a1\a123e573b09cfc81f086a9f8db165292
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\a1\a123e573b09cfc81f086a9f8db165292
+    projectPath: Library\Artifacts\a1\a123e573b09cfc81f086a9f8db165292
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\9f\9f6d35d1b3874f6341a2d56caab63376
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\9f\9f6d35d1b3874f6341a2d56caab63376
-    projectPath: Library\Artifacts\9f\9f6d35d1b3874f6341a2d56caab63376
+  - path: Library\Artifacts\a2\a2a0b92b9cd4b24a9e872243714d6b20
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\a2\a2a0b92b9cd4b24a9e872243714d6b20
+    projectPath: Library\Artifacts\a2\a2a0b92b9cd4b24a9e872243714d6b20
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\a4\a441dc992995e427dea6ee5923f0ea2c
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\a4\a441dc992995e427dea6ee5923f0ea2c
-    projectPath: Library\Artifacts\a4\a441dc992995e427dea6ee5923f0ea2c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a5\a5d579fc456cf76e329ae65d34f11618
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\a5\a5d579fc456cf76e329ae65d34f11618
-    projectPath: Library\Artifacts\a5\a5d579fc456cf76e329ae65d34f11618
+  - path: Library\Artifacts\a3\a3f738f4bd90f9714056833b7bd2a021
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\a3\a3f738f4bd90f9714056833b7bd2a021
+    projectPath: Library\Artifacts\a3\a3f738f4bd90f9714056833b7bd2a021
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\a9\a92c2f25cfff478f89a57ce29feafa16
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\a9\a92c2f25cfff478f89a57ce29feafa16
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\a9\a92c2f25cfff478f89a57ce29feafa16
     projectPath: Library\Artifacts\a9\a92c2f25cfff478f89a57ce29feafa16
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ac\ac3ec146cdb64890113b84e711a57d69
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ac\ac3ec146cdb64890113b84e711a57d69
-    projectPath: Library\Artifacts\ac\ac3ec146cdb64890113b84e711a57d69
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a9\a96e4af542e4a16af82abcab5a88394d
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\a9\a96e4af542e4a16af82abcab5a88394d
+    projectPath: Library\Artifacts\a9\a96e4af542e4a16af82abcab5a88394d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\b1\b19c9d64967a9691abecdb66364ae392
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\b1\b19c9d64967a9691abecdb66364ae392
-    projectPath: Library\Artifacts\b1\b19c9d64967a9691abecdb66364ae392
+  - path: Library\Artifacts\ae\aef7d073988beba95454e5cedac535be
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\ae\aef7d073988beba95454e5cedac535be
+    projectPath: Library\Artifacts\ae\aef7d073988beba95454e5cedac535be
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\b2\b20310a0281e7bb80c4b7b7c4e0f10d2
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\b2\b20310a0281e7bb80c4b7b7c4e0f10d2
-    projectPath: Library\Artifacts\b2\b20310a0281e7bb80c4b7b7c4e0f10d2
+  - path: Library\Artifacts\af\afec2dd2d34e96cad985c10733e6aa56
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\af\afec2dd2d34e96cad985c10733e6aa56
+    projectPath: Library\Artifacts\af\afec2dd2d34e96cad985c10733e6aa56
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b3\b34aa4b9438c2b06fed818a03df89e69
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\b3\b34aa4b9438c2b06fed818a03df89e69
+    projectPath: Library\Artifacts\b3\b34aa4b9438c2b06fed818a03df89e69
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\b4\b44638e13b2a3c30221b05bccee62497
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\b4\b44638e13b2a3c30221b05bccee62497
+    projectPath: Library\Artifacts\b4\b44638e13b2a3c30221b05bccee62497
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b4\b4a6bf909590d56c55d54470f870fd92
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\b4\b4a6bf909590d56c55d54470f870fd92
+    projectPath: Library\Artifacts\b4\b4a6bf909590d56c55d54470f870fd92
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b4\b4d4bd59366aebeee43b44bb4405907f
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\b4\b4d4bd59366aebeee43b44bb4405907f
+    projectPath: Library\Artifacts\b4\b4d4bd59366aebeee43b44bb4405907f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\b5\b5d43612a90d420ff573cb39f2e99cd2
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\b5\b5d43612a90d420ff573cb39f2e99cd2
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\b5\b5d43612a90d420ff573cb39f2e99cd2
     projectPath: Library\Artifacts\b5\b5d43612a90d420ff573cb39f2e99cd2
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b8\b8b21faf2c1ba771aa847a024b25dc22
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\b8\b8b21faf2c1ba771aa847a024b25dc22
-    projectPath: Library\Artifacts\b8\b8b21faf2c1ba771aa847a024b25dc22
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ba\ba7aebd1a49ce9069470a7bdf63095b9
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\ba\ba7aebd1a49ce9069470a7bdf63095b9
+    projectPath: Library\Artifacts\ba\ba7aebd1a49ce9069470a7bdf63095b9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\bd\bd3692c34dbc1eb4b6d51f6f9581629c
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\bd\bd3692c34dbc1eb4b6d51f6f9581629c
-    projectPath: Library\Artifacts\bd\bd3692c34dbc1eb4b6d51f6f9581629c
+  - path: Library\Artifacts\ba\baefb94441fde363f0ca8fda00c3d9cd
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\ba\baefb94441fde363f0ca8fda00c3d9cd
+    projectPath: Library\Artifacts\ba\baefb94441fde363f0ca8fda00c3d9cd
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\bf\bf7622a2ecb866f8c01dd50b2d4ef9a6
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\bf\bf7622a2ecb866f8c01dd50b2d4ef9a6
-    projectPath: Library\Artifacts\bf\bf7622a2ecb866f8c01dd50b2d4ef9a6
+  - path: Library\Artifacts\bb\bb7be9c65408bbfd2146c5d6174a0846
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\bb\bb7be9c65408bbfd2146c5d6174a0846
+    projectPath: Library\Artifacts\bb\bb7be9c65408bbfd2146c5d6174a0846
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bc\bcfe21345c5577e1683979de37a62ad4
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\bc\bcfe21345c5577e1683979de37a62ad4
+    projectPath: Library\Artifacts\bc\bcfe21345c5577e1683979de37a62ad4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bd\bd8a980760091d2296d58644fc1912c6
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\bd\bd8a980760091d2296d58644fc1912c6
+    projectPath: Library\Artifacts\bd\bd8a980760091d2296d58644fc1912c6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\be\be0b7f057f1313e034bc315f1a6a7948
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\be\be0b7f057f1313e034bc315f1a6a7948
+    projectPath: Library\Artifacts\be\be0b7f057f1313e034bc315f1a6a7948
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bf\bf270ad5aa13729d408f0fff318c2a9e
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\bf\bf270ad5aa13729d408f0fff318c2a9e
+    projectPath: Library\Artifacts\bf\bf270ad5aa13729d408f0fff318c2a9e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bf\bff6546e9604fb4406d6671b7ed471b8
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\bf\bff6546e9604fb4406d6671b7ed471b8
+    projectPath: Library\Artifacts\bf\bff6546e9604fb4406d6671b7ed471b8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c1\c13091d6a1ae90e6fe9ff140a698afdd
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\c1\c13091d6a1ae90e6fe9ff140a698afdd
+    projectPath: Library\Artifacts\c1\c13091d6a1ae90e6fe9ff140a698afdd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c1\c181880da57bde57790a945bef5ee24b
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\c1\c181880da57bde57790a945bef5ee24b
+    projectPath: Library\Artifacts\c1\c181880da57bde57790a945bef5ee24b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c2\c2241488d4b33c022857eec649b96b03
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\c2\c2241488d4b33c022857eec649b96b03
+    projectPath: Library\Artifacts\c2\c2241488d4b33c022857eec649b96b03
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\c4\c44b15c7a7ab283d950b116386fc8632
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c4\c44b15c7a7ab283d950b116386fc8632
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\c4\c44b15c7a7ab283d950b116386fc8632
     projectPath: Library\Artifacts\c4\c44b15c7a7ab283d950b116386fc8632
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c7\c716b53e6ef1e918a391efeeb5166437
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\c7\c716b53e6ef1e918a391efeeb5166437
+    projectPath: Library\Artifacts\c7\c716b53e6ef1e918a391efeeb5166437
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\cd\cddd41c236a344f3ec5ff1d47ba9fcb4
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\cd\cddd41c236a344f3ec5ff1d47ba9fcb4
+    projectPath: Library\Artifacts\cd\cddd41c236a344f3ec5ff1d47ba9fcb4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d1\d1455cb534eed4ea66a144fa4f32fe83
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\d1\d1455cb534eed4ea66a144fa4f32fe83
+    projectPath: Library\Artifacts\d1\d1455cb534eed4ea66a144fa4f32fe83
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d3\d33bc504df1f403188c08a49aa71e8c5
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\d3\d33bc504df1f403188c08a49aa71e8c5
+    projectPath: Library\Artifacts\d3\d33bc504df1f403188c08a49aa71e8c5
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\c6\c67b16cd34233c02aa472cc4b10ac925
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\c6\c67b16cd34233c02aa472cc4b10ac925
-    projectPath: Library\Artifacts\c6\c67b16cd34233c02aa472cc4b10ac925
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d2\d21663149fe3ba79292ce7b987ef0c88
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\d2\d21663149fe3ba79292ce7b987ef0c88
-    projectPath: Library\Artifacts\d2\d21663149fe3ba79292ce7b987ef0c88
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\d5\d501b2cbba6b4453d382d18f8869a045
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\d5\d501b2cbba6b4453d382d18f8869a045
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\d5\d501b2cbba6b4453d382d18f8869a045
     projectPath: Library\Artifacts\d5\d501b2cbba6b4453d382d18f8869a045
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\db\db9aac9d0335ece7720e578444b912ff
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\db\db9aac9d0335ece7720e578444b912ff
+    projectPath: Library\Artifacts\db\db9aac9d0335ece7720e578444b912ff
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\dc\dc8914a9365ef515ac71184f060c2901
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\dc\dc8914a9365ef515ac71184f060c2901
+    projectPath: Library\Artifacts\dc\dc8914a9365ef515ac71184f060c2901
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\de\dec168210fbac472e2cb9c2e0764f6a8
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\de\dec168210fbac472e2cb9c2e0764f6a8
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\de\dec168210fbac472e2cb9c2e0764f6a8
     projectPath: Library\Artifacts\de\dec168210fbac472e2cb9c2e0764f6a8
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\df\dfc435dec25de0615fb6f3c8fd79a622
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\df\dfc435dec25de0615fb6f3c8fd79a622
+    projectPath: Library\Artifacts\df\dfc435dec25de0615fb6f3c8fd79a622
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\df\dfccf54f00126b8643148674a5069dac
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\df\dfccf54f00126b8643148674a5069dac
+    projectPath: Library\Artifacts\df\dfccf54f00126b8643148674a5069dac
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e4\e47b6fc66c3f5348562a1af44636b495
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\e4\e47b6fc66c3f5348562a1af44636b495
+    projectPath: Library\Artifacts\e4\e47b6fc66c3f5348562a1af44636b495
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e7\e7188ad61a3135a145f88c0430d26b15
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\e7\e7188ad61a3135a145f88c0430d26b15
+    projectPath: Library\Artifacts\e7\e7188ad61a3135a145f88c0430d26b15
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\e1\e11e252806622eaac365706d1ba518b4
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\e1\e11e252806622eaac365706d1ba518b4
-    projectPath: Library\Artifacts\e1\e11e252806622eaac365706d1ba518b4
+  - path: Library\Artifacts\e9\e974d88a3878c73811fa2484dac4b1e9
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\e9\e974d88a3878c73811fa2484dac4b1e9
+    projectPath: Library\Artifacts\e9\e974d88a3878c73811fa2484dac4b1e9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\e1\e13b4d39697228673a7cf1d286ff8178
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\e1\e13b4d39697228673a7cf1d286ff8178
-    projectPath: Library\Artifacts\e1\e13b4d39697228673a7cf1d286ff8178
+  - path: Library\Artifacts\ea\ea43d508a779085a5724670d011d51a1
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\ea\ea43d508a779085a5724670d011d51a1
+    projectPath: Library\Artifacts\ea\ea43d508a779085a5724670d011d51a1
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ef\ef174e90d6b8f2c7995ba5c452006377
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ef\ef174e90d6b8f2c7995ba5c452006377
-    projectPath: Library\Artifacts\ef\ef174e90d6b8f2c7995ba5c452006377
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ef\ef84db0a31711d82172293f59abe536b
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ef\ef84db0a31711d82172293f59abe536b
-    projectPath: Library\Artifacts\ef\ef84db0a31711d82172293f59abe536b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f0\f0b8740200355a0a49efae03596e5d3a
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f0\f0b8740200355a0a49efae03596e5d3a
-    projectPath: Library\Artifacts\f0\f0b8740200355a0a49efae03596e5d3a
+  - path: Library\Artifacts\f2\f26737a4df099e46e76bda8022b79f27
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\f2\f26737a4df099e46e76bda8022b79f27
+    projectPath: Library\Artifacts\f2\f26737a4df099e46e76bda8022b79f27
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\f2\f2772fd0676f0a4fcb4e0672337a33c9
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f2\f2772fd0676f0a4fcb4e0672337a33c9
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\f2\f2772fd0676f0a4fcb4e0672337a33c9
     projectPath: Library\Artifacts\f2\f2772fd0676f0a4fcb4e0672337a33c9
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f2\f2a4a5a9ba3adbf428a57098da67a43e
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f2\f2a4a5a9ba3adbf428a57098da67a43e
-    projectPath: Library\Artifacts\f2\f2a4a5a9ba3adbf428a57098da67a43e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f2\f28c7493b9bd466bb4c88834e22f13da
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\f2\f28c7493b9bd466bb4c88834e22f13da
+    projectPath: Library\Artifacts\f2\f28c7493b9bd466bb4c88834e22f13da
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\f7\f724b4155d17abc93c6b2dde6841022d
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\f7\f724b4155d17abc93c6b2dde6841022d
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\f7\f724b4155d17abc93c6b2dde6841022d
     projectPath: Library\Artifacts\f7\f724b4155d17abc93c6b2dde6841022d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ff\ff8cb2e99fd27d02d6edd9c17c557bde
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\Artifacts\ff\ff8cb2e99fd27d02d6edd9c17c557bde
-    projectPath: Library\Artifacts\ff\ff8cb2e99fd27d02d6edd9c17c557bde
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\f7\f784b29e36d0af6d3a165436f0d99a6d
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\f7\f784b29e36d0af6d3a165436f0d99a6d
+    projectPath: Library\Artifacts\f7\f784b29e36d0af6d3a165436f0d99a6d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f7\f7a19adcad267dc42537d59c308f36f2
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\f7\f7a19adcad267dc42537d59c308f36f2
+    projectPath: Library\Artifacts\f7\f7a19adcad267dc42537d59c308f36f2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fa\fa88946d9ff34d8b5e949c02de0ec13d
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\fa\fa88946d9ff34d8b5e949c02de0ec13d
+    projectPath: Library\Artifacts\fa\fa88946d9ff34d8b5e949c02de0ec13d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fd\fd3dce5f04f7f61a40e8d2170300cceb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\fd\fd3dce5f04f7f61a40e8d2170300cceb
+    projectPath: Library\Artifacts\fd\fd3dce5f04f7f61a40e8d2170300cceb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ff\ffb89920962e66bef5dac8d328ced2e3
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\Artifacts\ff\ffb89920962e66bef5dac8d328ced2e3
+    projectPath: Library\Artifacts\ff\ffb89920962e66bef5dac8d328ced2e3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\EditorInstance.json
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\EditorInstance.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\CHANGELOG.md
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\CHANGELOG.md
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\CHANGELOG.md
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\CHANGELOG.md.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\CHANGELOG.md.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\CHANGELOG.md.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Documentation~\com.valvesoftware.unity.openvr.md
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Documentation~\com.valvesoftware.unity.openvr.md
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Documentation~\com.valvesoftware.unity.openvr.md
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRBuildProcessor.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRBuildProcessor.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRBuildProcessor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRBuildProcessor.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRBuildProcessor.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRBuildProcessor.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRLoaderMetadata.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRLoaderMetadata.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRLoaderMetadata.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRLoaderMetadata.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRLoaderMetadata.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRLoaderMetadata.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsCopier.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsCopier.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsCopier.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsCopier.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsCopier.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsCopier.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsEditor.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsEditor.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsEditor.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsEditor.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\OpenVRSettingsEditor.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\Unity.XR.OpenVR.Editor.asmdef
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\Unity.XR.OpenVR.Editor.asmdef
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\Unity.XR.OpenVR.Editor.asmdef
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\Unity.XR.OpenVR.Editor.asmdef.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\Unity.XR.OpenVR.Editor.asmdef.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Editor\Unity.XR.OpenVR.Editor.asmdef.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\LICENSE.md
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\LICENSE.md
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\LICENSE.md
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\LICENSE.md.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\LICENSE.md.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\LICENSE.md.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\package.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\package.json
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\package.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\package.json.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\package.json.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\package.json.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\README.md
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\README.md
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\README.md
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\README.md.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\README.md.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\README.md.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\DeviceLayouts.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\DeviceLayouts.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\DeviceLayouts.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\DeviceLayouts.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\DeviceLayouts.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\DeviceLayouts.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\openvr_api.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\openvr_api.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\openvr_api.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\openvr_api.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\openvr_api.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\openvr_api.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVREvents.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVREvents.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVREvents.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVREvents.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVREvents.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVREvents.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRHelpers.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRHelpers.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRHelpers.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRHelpers.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRHelpers.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRHelpers.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRLoader.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRLoader.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRLoader.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRLoader.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRLoader.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRLoader.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRSettings.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRSettings.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRSettings.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRSettings.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRSettings.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\OpenVRSettings.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\Unity.XR.OpenVR.asmdef
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\Unity.XR.OpenVR.asmdef
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\Unity.XR.OpenVR.asmdef
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\Unity.XR.OpenVR.asmdef.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\Unity.XR.OpenVR.asmdef.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\Unity.XR.OpenVR.asmdef.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\UnitySubsystemsManifest.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\UnitySubsystemsManifest.json
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\UnitySubsystemsManifest.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\UnitySubsystemsManifest.json.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\UnitySubsystemsManifest.json.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\UnitySubsystemsManifest.json.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.dbg
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.dbg
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.dbg
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.dbg.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.dbg.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\lib\x64\libopenvr_api.so.dbg.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.dbg
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.dbg
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.dbg
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.dbg.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.dbg.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libopenvr_api.so.dbg.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libXRSDKOpenVR.so
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libXRSDKOpenVR.so
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libXRSDKOpenVR.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libXRSDKOpenVR.so.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libXRSDKOpenVR.so.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\libXRSDKOpenVR.so.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.sig
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.sig
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.sig
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.sig.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.sig.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.dll.sig.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.lib
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.lib
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.lib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.lib.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\openvr_api.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\ucrtbased.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\ucrtbased.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\ucrtbased.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\ucrtbased.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\ucrtbased.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\ucrtbased.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc141.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc141.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc141.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc141.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc141.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc141.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc142.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc142.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc142.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc142.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc142.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\vc142.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.sig
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.sig
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.sig
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.sig.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.sig.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.dll.sig.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.exp
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.exp
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.exp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.exp.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.exp.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.exp.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.lib
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.lib
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.lib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.lib.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x64\XRSDKOpenVR.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.sig
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.sig
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.sig
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.sig.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.sig.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.dll.sig.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.lib
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.lib
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.lib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.lib.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\openvr_api.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\ucrtbased.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\ucrtbased.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\ucrtbased.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\ucrtbased.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\ucrtbased.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\ucrtbased.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc141.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc141.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc141.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc141.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc141.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc141.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc142.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc142.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc142.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc142.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc142.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\vc142.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.sig
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.sig
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.sig
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.sig.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.sig.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.dll.sig.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.exp
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.exp
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.exp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.exp.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.exp.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.exp.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.lib
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.lib
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.lib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.lib.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@0dd7c7157955-1614121125000\Runtime\x86\XRSDKOpenVR.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\CHANGELOG.md
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\CHANGELOG.md
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\CHANGELOG.md
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\CHANGELOG.md.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\CHANGELOG.md.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\CHANGELOG.md.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Documentation~\com.valvesoftware.unity.openvr.md
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Documentation~\com.valvesoftware.unity.openvr.md
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Documentation~\com.valvesoftware.unity.openvr.md
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRBuildProcessor.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRBuildProcessor.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRBuildProcessor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRBuildProcessor.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRBuildProcessor.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRBuildProcessor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRLoaderMetadata.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRLoaderMetadata.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRLoaderMetadata.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRLoaderMetadata.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRLoaderMetadata.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRLoaderMetadata.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsCopier.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsCopier.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsCopier.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsCopier.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsCopier.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsCopier.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsEditor.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsEditor.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsEditor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsEditor.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsEditor.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\OpenVRSettingsEditor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\Unity.XR.OpenVR.Editor.asmdef
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\Unity.XR.OpenVR.Editor.asmdef
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\Unity.XR.OpenVR.Editor.asmdef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\Unity.XR.OpenVR.Editor.asmdef.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\Unity.XR.OpenVR.Editor.asmdef.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Editor\Unity.XR.OpenVR.Editor.asmdef.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\LICENSE.md
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\LICENSE.md
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\LICENSE.md
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\LICENSE.md.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\LICENSE.md.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\LICENSE.md.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\package.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\package.json
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\package.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\package.json.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\package.json.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\package.json.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\README.md
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\README.md
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\README.md
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\README.md.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\README.md.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\README.md.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\DeviceLayouts.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\DeviceLayouts.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\DeviceLayouts.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\DeviceLayouts.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\DeviceLayouts.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\DeviceLayouts.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\openvr_api.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\openvr_api.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\openvr_api.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\openvr_api.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\openvr_api.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\openvr_api.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVREvents.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVREvents.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVREvents.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVREvents.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVREvents.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVREvents.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRHelpers.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRHelpers.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRHelpers.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRHelpers.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRHelpers.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRHelpers.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRLoader.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRLoader.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRLoader.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRLoader.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRLoader.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRLoader.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRSettings.cs
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRSettings.cs
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRSettings.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRSettings.cs.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRSettings.cs.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\OpenVRSettings.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\Unity.XR.OpenVR.asmdef
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\Unity.XR.OpenVR.asmdef
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\Unity.XR.OpenVR.asmdef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\Unity.XR.OpenVR.asmdef.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\Unity.XR.OpenVR.asmdef.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\Unity.XR.OpenVR.asmdef.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\UnitySubsystemsManifest.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\UnitySubsystemsManifest.json
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\UnitySubsystemsManifest.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\UnitySubsystemsManifest.json.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\UnitySubsystemsManifest.json.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\UnitySubsystemsManifest.json.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.dbg
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.dbg
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.dbg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.dbg.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.dbg.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\lib\x64\libopenvr_api.so.dbg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.dbg
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.dbg
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.dbg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.dbg.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.dbg.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libopenvr_api.so.dbg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libXRSDKOpenVR.so
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libXRSDKOpenVR.so
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libXRSDKOpenVR.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libXRSDKOpenVR.so.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libXRSDKOpenVR.so.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\libXRSDKOpenVR.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.sig
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.sig
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.sig
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.sig.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.sig.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.dll.sig.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.lib
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.lib
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.lib
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.lib.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\openvr_api.pdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\ucrtbased.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\ucrtbased.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\ucrtbased.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\ucrtbased.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\ucrtbased.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\ucrtbased.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc141.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc141.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc141.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc141.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc141.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc141.pdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc142.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc142.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc142.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc142.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc142.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\vc142.pdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.sig
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.sig
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.sig
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.sig.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.sig.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.dll.sig.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.exp
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.exp
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.exp
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.exp.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.exp.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.exp.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.lib
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.lib
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.lib
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.lib.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x64\XRSDKOpenVR.pdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.sig
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.sig
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.sig
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.sig.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.sig.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.dll.sig.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.lib
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.lib
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.lib
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.lib.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\openvr_api.pdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\ucrtbased.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\ucrtbased.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\ucrtbased.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\ucrtbased.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\ucrtbased.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\ucrtbased.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc141.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc141.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc141.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc141.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc141.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc141.pdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc142.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc142.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc142.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc142.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc142.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\vc142.pdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.sig
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.sig
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.sig
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.sig.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.sig.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.dll.sig.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.exp
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.exp
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.exp
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.exp.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.exp.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.exp.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.lib
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.lib
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.lib
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.lib.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.lib.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.lib.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.pdb
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.pdb.meta
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.pdb.meta
+    projectPath: Library\PackageCache\com.valvesoftware.unity.openvr@6c5c84d6ffe7-1636671377101\Runtime\x86\XRSDKOpenVR.pdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageManager\ProjectCache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageManager\ProjectCache
+    projectPath: Library\PackageManager\ProjectCache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PackageManager\ProjectCache.md5
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\PackageManager\ProjectCache.md5
+    projectPath: Library\PackageManager\ProjectCache.md5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\8\883ac7b520c5fdea3f4c7dc8efa685f1.bin
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\8\883ac7b520c5fdea3f4c7dc8efa685f1.bin
-    projectPath: Library\ShaderCache\8\883ac7b520c5fdea3f4c7dc8efa685f1.bin
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR.dll
+    projectPath: Library\ScriptAssemblies\SteamVR.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Actions.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR_Actions.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Actions.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Actions.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR_Actions.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR_Actions.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR_Editor.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR_Editor.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR_Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Services.Core.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+    projectPath: Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Subsystem.Registration.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Subsystem.Registration.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Subsystem.Registration.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.Timeline.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.XR.Management.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.XR.Management.dll
+    projectPath: Library\ScriptAssemblies\Unity.XR.Management.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.XR.Management.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.XR.Management.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.XR.Management.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.XR.Management.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.XR.Management.pdb
+    projectPath: Library\ScriptAssemblies\Unity.XR.Management.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+    projectPath: Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.XR.OpenVR.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\Unity.XR.OpenVR.pdb
+    projectPath: Library\ScriptAssemblies\Unity.XR.OpenVR.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.SpatialTracking.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEditor.SpatialTracking.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.SpatialTracking.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.SpatialTracking.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEngine.SpatialTracking.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.SpatialTracking.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.pdb
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\0\0675330f83310dc4cd25d5f3759144ab.bin
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ShaderCache\0\0675330f83310dc4cd25d5f3759144ab.bin
+    projectPath: Library\ShaderCache\0\0675330f83310dc4cd25d5f3759144ab.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\5bf05d75aaf7d598379eef749010810f.bin
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ShaderCache\5\5bf05d75aaf7d598379eef749010810f.bin
+    projectPath: Library\ShaderCache\5\5bf05d75aaf7d598379eef749010810f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\eb4233a7040162ad7b5d5223d03da4b4.bin
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ShaderCache\e\eb4233a7040162ad7b5d5223d03da4b4.bin
+    projectPath: Library\ShaderCache\e\eb4233a7040162ad7b5d5223d03da4b4.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\SourceAssetDB
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\SourceAssetDB
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
     projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\StateCache\PrefabStageHierarchy\9f\9fd510554276bace0ab19b8599d00714.json
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\StateCache\PrefabStageHierarchy\9f\9fd510554276bace0ab19b8599d00714.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\StateCache\PrefabStageHierarchy\9f\9fd510554276bace0ab19b8599d00714.json
     projectPath: Library\StateCache\PrefabStageHierarchy\9f\9fd510554276bace0ab19b8599d00714.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\PrefabStageHierarchy\a5\a5b8dde5acfa6ce49af62ce81c79d587.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\StateCache\PrefabStageHierarchy\a5\a5b8dde5acfa6ce49af62ce81c79d587.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\a5\a5b8dde5acfa6ce49af62ce81c79d587.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\AssetImportWorker0.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\AssetImportWorker0.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker0-prev.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\AssetImportWorker0-prev.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-AssetImportWorker0.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-AssetImportWorker0.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-AssetImportWorker0.log
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe1.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe10.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe10.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe10.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe10.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe11.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe11.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe11.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe11.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe2.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe3.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe4.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe5.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe6.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe7.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe8.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe8.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe9.log
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Logs\shadercompiler-UnityShaderCompiler.exe9.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
     originalPath: 
     indexStatus: 0
+    workTreeStatus: 5
+  - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\__Backupscenes\1.backup
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\__Backupscenes\1.backup
-    projectPath: Temp\__Backupscenes\1.backup
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\__Backupscenes\2.backup
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\__Backupscenes\2.backup
-    projectPath: Temp\__Backupscenes\2.backup
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\SteamVR.csproj.AssemblyReference.cache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\obj\Debug\SteamVR.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\SteamVR.csproj.AssemblyReference.cache
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\SteamVR_Actions.csproj.AssemblyReference.cache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\obj\Debug\SteamVR_Actions.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\SteamVR_Actions.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\SteamVR_Editor.csproj.AssemblyReference.cache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\obj\Debug\SteamVR_Editor.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\SteamVR_Editor.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\SteamVR_Input_Editor.csproj.AssemblyReference.cache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\obj\Debug\SteamVR_Input_Editor.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\SteamVR_Input_Editor.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\SteamVR_Windows_EditorHelper.csproj.AssemblyReference.cache
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\obj\Debug\SteamVR_Windows_EditorHelper.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\SteamVR_Windows_EditorHelper.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SteamVR.csproj
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\SteamVR.csproj
+    projectPath: SteamVR.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: SteamVR_Editor.csproj
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\SteamVR_Editor.csproj
+    projectPath: SteamVR_Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\__Backupscenes\3.backup
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\__Backupscenes\3.backup
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Temp\__Backupscenes\3.backup
     projectPath: Temp\__Backupscenes\3.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\__Backupscenes\4.backup
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\__Backupscenes\4.backup
-    projectPath: Temp\__Backupscenes\4.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\Assembly-CSharp.dll.hash
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\Assembly-CSharp.dll.hash
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Temp\Assembly-CSharp.dll.hash
     projectPath: Temp\Assembly-CSharp.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp\CompilationLog.txt
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\CompilationLog.txt
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Temp\CompilationLog.txt
     projectPath: Temp\CompilationLog.txt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp\UnityLockfile
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityLockfile
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-27dde72bd13eb0741b3635a101341e1d
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-27dde72bd13eb0741b3635a101341e1d
-    projectPath: Temp\UnityTempFile-27dde72bd13eb0741b3635a101341e1d
+  - path: Temp\UnityTempFile-881a898921d55dd468f8a089bdef842f
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Temp\UnityTempFile-881a898921d55dd468f8a089bdef842f
+    projectPath: Temp\UnityTempFile-881a898921d55dd468f8a089bdef842f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-62f0a93e305953048a69e76bd911bc78
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\UnityTempFile-62f0a93e305953048a69e76bd911bc78
-    projectPath: Temp\UnityTempFile-62f0a93e305953048a69e76bd911bc78
+  - path: Temp\UnityTempFile-fcac8f37b2980c845bcdca964b40c12f
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Temp\UnityTempFile-fcac8f37b2980c845bcdca964b40c12f
+    projectPath: Temp\UnityTempFile-fcac8f37b2980c845bcdca964b40c12f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp\workerlic
-    fullPath: C:\Users\Judsen Hembree\OneDrive\Documents\GitHub\dad-simulator-2021\Temp\workerlic
+    fullPath: C:\Users\Claire\Documents\Unity\dad-simulator-2021\Temp\workerlic
     projectPath: Temp\workerlic
     originalPath: 
     indexStatus: 1

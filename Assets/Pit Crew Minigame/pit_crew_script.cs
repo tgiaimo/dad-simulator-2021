@@ -7,6 +7,7 @@ public class pit_crew_script : MonoBehaviour
 {
     public Text timer;
     public Text sectionTimer;
+    public GameObject timerBackground, sectionTimerBackground;
     public testing steps;
     public GameObject[] buttons;
     //public GameObject m_PointerPrefab, m_PointerHand;
@@ -88,6 +89,9 @@ public class pit_crew_script : MonoBehaviour
         }
 
         if (sceneData == null) sceneData = FindObjectOfType<SceneLoader>();
+
+//        timerBackground.transform.position = Vector3.up * (180 - timerBackground.transform.localScale.y/2);
+//        sectionTimerBackground.transform.position = Vector3.up * (100 - sectionTimerBackground.transform.localScale.y / 2);
 
     }
 

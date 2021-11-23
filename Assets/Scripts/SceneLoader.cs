@@ -8,6 +8,7 @@ public class SceneLoader : MonoBehaviour
     public float bestTime = 1e9f;
     public bool tire, battery, pitcrew;
     public testing gameContainer;
+    public Canvas exitScreen;
     bool isComplete = false;
     float elapsed_time;
 
@@ -35,8 +36,6 @@ public class SceneLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        /*
         //Check if simulation is running
         if (gameContainer != null && !isComplete)
         {
@@ -60,10 +59,9 @@ public class SceneLoader : MonoBehaviour
         //Load menu scene after some time
         if (elapsed_time >= 3)
         {
-            loadScene("Environment_Test_Menu");
+            loadScene("Environment_Test_Title");
             isComplete = false;
         }
-        */
     }
 
     public void loadScene(string sceneName)
@@ -84,7 +82,6 @@ public class SceneLoader : MonoBehaviour
         battery = false;
         pitcrew = false;
         loadScene(sceneName);
-        gameContainer = FindObjectOfType<testing>();
     }
 
     public void batteryJump(string sceneName)
@@ -93,7 +90,6 @@ public class SceneLoader : MonoBehaviour
         battery = true;
         pitcrew = false;
         loadScene(sceneName);
-        gameContainer = FindObjectOfType<testing>();
     }
 
     public void pitCrew(string sceneName)
@@ -102,8 +98,9 @@ public class SceneLoader : MonoBehaviour
         battery = false;
         pitcrew = true;
         loadScene(sceneName);
-        gameContainer = FindObjectOfType<testing>();
     }
+
+    public void setSimScript(testing c) { gameContainer = c;  }
 
     public bool isTire() { return tire; }
 

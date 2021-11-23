@@ -116,6 +116,10 @@ public class testing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SceneLoader sceneData = FindObjectOfType<SceneLoader>();
+        sceneData.setSimScript(this);
+        tire = sceneData.isTire();
+        battery = sceneData.isBattery();
 
         if (tire)
         {
