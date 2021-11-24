@@ -61,17 +61,37 @@ public class Pause_Menu : MonoBehaviour
         if (simScript.tire)
         {
             stepNumber = simScript.findStepTire();
-            foreach (string d in taskList_tire)
+            if (simScript.assisted)
             {
-                taskText.text += d + "\n";
+                foreach (string d in taskList_tire)
+                {
+                    taskText.text += d + "\n";
+                }
+            }
+            else
+            {
+                for (int d = 0; d <= stepNumber; d++)
+                {
+                    taskText.text += taskList_tire[d] + "\n";
+                }
             }
         }
         else if (simScript.battery)
         {
             stepNumber = simScript.findStepBat();
-            foreach (string d in taskList_tire)
+            if (simScript.assisted)
             {
-                taskText.text += d + "\n";
+                foreach (string d in taskList_battery)
+                {
+                    taskText.text += d + "\n";
+                }
+            }
+            else
+            {
+                for (int d = 0; d <= stepNumber; d++)
+                {
+                    taskText.text += taskList_battery[d] + "\n";
+                }
             }
         }
 

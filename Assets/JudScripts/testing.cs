@@ -19,6 +19,9 @@ public class testing : MonoBehaviour
     public bool tire = true;
     public bool battery = false;
 
+    //assisted or unassisted
+    public bool assisted = true;
+
     //used for end step flash
     bool once = true;
     
@@ -116,10 +119,12 @@ public class testing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Get scenario information from scene loader
         SceneLoader sceneData = FindObjectOfType<SceneLoader>();
         sceneData.setSimScript(this);
-        tire = sceneData.isTire();
-        battery = sceneData.isBattery();
+        tire = sceneData.tire;
+        battery = sceneData.battery;
+        assisted = sceneData.assisted;
 
         if (tire)
         {

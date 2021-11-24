@@ -19,6 +19,11 @@ public class ButtonHandler : MonoBehaviour
         if (sceneManager == null) sceneManager = FindObjectOfType<SceneLoader>();
     }
 
+    public void setAssisted(bool b)
+    {
+        if (sceneManager != null) sceneManager.setAssisted(b);
+    }
+    
     public void loadScene(string sceneName)
     {
         if (sceneManager != null) sceneManager.loadScene(sceneName);

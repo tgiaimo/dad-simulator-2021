@@ -4,16 +4,16 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Pit_Road.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/Environment_Test_Garage.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Environment_Test_Title.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Intro_Video.unity
   isLoaded: 0
