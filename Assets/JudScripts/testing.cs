@@ -16,6 +16,7 @@ public class testing : MonoBehaviour
 
 
     //which scenario
+    public GameObject deadCar;
     public bool tire = true;
     public bool battery = false;
 
@@ -120,11 +121,12 @@ public class testing : MonoBehaviour
     void Start()
     {
         //Get scenario information from scene loader
-        SceneLoader sceneData = FindObjectOfType<SceneLoader>();
+        /*SceneLoader sceneData = FindObjectOfType<SceneLoader>();
         sceneData.setSimScript(this);
         tire = sceneData.tire;
         battery = sceneData.battery;
         assisted = sceneData.assisted;
+        */
 
         if (tire)
         {
@@ -136,10 +138,12 @@ public class testing : MonoBehaviour
             speakBat = true;
         }
         //set player to video player component of video system object
-        player=GameObject.Find("video system").GetComponent<VideoPlayer>();
-        //go ahead and set the first clip
-        player.clip = videoClips[0];
-
+        if (assisted)
+        {
+            player=GameObject.Find("video system").GetComponent<VideoPlayer>();
+            //go ahead and set the first clip
+            player.clip = videoClips[0];
+        }
         /*test.clip = audioClipsForTireChange[0];
         test.Play();
         */
@@ -647,6 +651,17 @@ public class testing : MonoBehaviour
         }
 
     }
+
+    public void crankBad()
+    {
+        if (findStepBat() == 5)
+        {
+           deadCar.GetComponent<carCheck>().running=true; 
+        }
+    }
+
+    
+
 
     public void setNextClip()
     {
