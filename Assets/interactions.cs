@@ -5,6 +5,8 @@ using Valve.VR.InteractionSystem;
 
 public class interactions : MonoBehaviour
 {
+    public GameObject yurt;
+    public GameObject trigger;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +19,17 @@ public class interactions : MonoBehaviour
         
     }
 
-
-    public void switchThrowCirc()
+    public void makeThrow()
     {
-        this.GetComponent<CircularDrive>().enabled = !enabled;
-        this.GetComponent<ComplexThrowable>().enabled = !enabled;
+        trigger.GetComponent<BoxCollider>().enabled = false;
+        trigger.GetComponent<MeshRenderer>().enabled = false;
+        yurt.GetComponent<CircularDrive>().enabled = false;
+        yurt.AddComponent<Throwable>();
+        yurt.GetComponent<Rigidbody>().isKinematic = true;
+    }
+
+    public void forceKinematic()
+    {
+        yurt.GetComponent<Rigidbody>().isKinematic = false;
     }
 }

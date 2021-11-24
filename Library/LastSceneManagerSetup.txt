@@ -1,37 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Pause_menu.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Pit_Road.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Environment_Test_Garage.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Environment_Test_Title.unity
+- path: Assets/Scenes/Final/Tire_Assisted.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Scenes/Intro_Video.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Environment_Roadside.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Rotation_Test.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Final/Battery_Unassisted.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Final/Battery_Assisted.unity
-  isLoaded: 0
-  isActive: 0
   isSubScene: 0

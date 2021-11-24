@@ -74,6 +74,7 @@
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderEditor.cs" />
      <Compile Include="Assets\Scripts\InteractableSnap.cs" />
      <Compile Include="Assets\carCheck.cs" />
+     <Compile Include="Assets\wrenchInteraction.cs" />
      <Compile Include="Assets\wrenchCheck.cs" />
      <Compile Include="Assets\Scripts\VRInputModule.cs" />
      <Compile Include="Assets\testingwall.cs" />
