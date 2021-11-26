@@ -42,6 +42,8 @@ public class jackTriggerBox : MonoBehaviour
             //other.gameObject.transform.parent.gameObject.transform.parent.gameObject.GetComponent<Rigidbody>().isKinematic = true;
             StartCoroutine(Move());
             GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().inLocation = true;
+            GameObject test = this.gameObject;
+            test.GetComponent<MeshRenderer>().enabled = false;
         }
     }
     void OnTriggerExit(Collider other)

@@ -6,6 +6,7 @@ using Valve.VR.InteractionSystem;
 public class crankTrigger : MonoBehaviour
 {
     public GameObject crank;
+    public GameObject trigger;
     public GameObject rightHand;
     public GameObject leftHand;
 
@@ -36,6 +37,7 @@ public class crankTrigger : MonoBehaviour
             crank.GetComponent<Rigidbody>().isKinematic = true;
             Destroy(crank.GetComponent<Throwable>());
             crank.GetComponent<CircularDrive>().enabled = true;
+            trigger.GetComponent<MeshRenderer>().enabled = false;
         }
     }
 }

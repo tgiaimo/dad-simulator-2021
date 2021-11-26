@@ -7,6 +7,7 @@ using UnityEngine.Windows.Speech;
 using UnityEngine.Video;
 using UnityEditor;
 using Random = UnityEngine.Random;
+using Valve.VR.InteractionSystem;
 
 public class testing : MonoBehaviour
 {
@@ -56,6 +57,7 @@ public class testing : MonoBehaviour
 
     //                                   Steps for tire change scenario
     public bool speakTire = false;
+    public bool setem = false;
     //safe Location
     public bool tirestep1 = true;
     //loosen the lug nuts
@@ -131,6 +133,7 @@ public class testing : MonoBehaviour
         if (tire)
         {
             speakTire = true;
+            setem = true;
         }
 
         if (battery)
@@ -171,9 +174,101 @@ public class testing : MonoBehaviour
     void Update()
     {
         soundOnComplete();
+        setTriggers();
         stepCheck();
     }
 
+    public void setTriggers()
+    {
+        if (setem)
+        {
+            int whatSet = findStepTire();
+            if (0 <= whatSet && whatSet < 10)
+            {
+                GameObject[] objects;
+                objects = getTriggersTire(whatSet);
+                actuallySetTriggers(objects);
+                setem = !setem;
+            }
+        }
+    }
+
+    public GameObject[] getTriggersTire(int x)
+    {
+        GameObject[] final;
+        List<GameObject> ret=new List<GameObject>();
+        if (x == 1)
+        {
+            ret.Add(GameObject.Find("lug_1_trigger"));
+            ret.Add(GameObject.Find("lug_2_trigger"));
+            ret.Add(GameObject.Find("lug_3_trigger"));
+            ret.Add(GameObject.Find("lug_4_trigger"));
+            ret.Add(GameObject.Find("lug_5_trigger"));
+
+        }else if(x == 2)
+        {
+            ret.Add(GameObject.Find("jackTrigger"));
+
+        }else if(x == 3)
+        {
+            ret.Add(GameObject.Find("connectCrank"));
+
+        }else if(x == 4)
+        {
+            ret.Add(GameObject.Find("lug_1_trigger"));
+            ret.Add(GameObject.Find("lug_2_trigger"));
+            ret.Add(GameObject.Find("lug_3_trigger"));
+            ret.Add(GameObject.Find("lug_4_trigger"));
+            ret.Add(GameObject.Find("lug_5_trigger"));
+        }else if(x == 5)
+        {
+            ret.Add(GameObject.Find("triggerCubeFL"));
+            GameObject.Find("pos_tire").GetComponent<Interactable>().enabled = true;
+        }/*else if(x == 6)
+        {
+            ret.Add(GameObject.Find("good tire"));
+
+        }else if(x == 7)
+        {
+            ret.Add(GameObject.Find("halo lug 1"));
+            ret.Add(GameObject.Find("halo lug 2"));
+            ret.Add(GameObject.Find("halo lug 3"));
+            ret.Add(GameObject.Find("halo lug 4"));
+            ret.Add(GameObject.Find("halo lug 5"));
+
+        }else if(x == 8)
+        {
+            ret.Add(GameObject.Find("jack"));
+
+        }else if(x == 9)
+        {
+            ret.Add(GameObject.Find("halo lug 1"));
+            ret.Add(GameObject.Find("halo lug 2"));
+            ret.Add(GameObject.Find("halo lug 3"));
+            ret.Add(GameObject.Find("halo lug 4"));
+            ret.Add(GameObject.Find("halo lug 5"));
+
+            ret.Add(GameObject.Find("Lug Wrench"));
+
+        }else if(x == 10)
+        {
+
+        }
+        */
+        final = ret.ToArray();
+
+        return final;
+
+    }
+
+    public void actuallySetTriggers(GameObject[] x)
+    {
+        for(int i=0; i < x.Length; i++)
+        {
+            x[i].GetComponent<MeshRenderer>().enabled = true;
+            x[i].GetComponent<BoxCollider>().enabled = true;
+        }
+    }
     public void soundOnComplete()
     {
        /* //safe Location
@@ -212,7 +307,7 @@ public class testing : MonoBehaviour
 
                 StartCoroutine(Flashing(objects));
             }
-       }
+        }
         if (speakBat)
         {
             int whatSpeak = findStepBat();
@@ -870,6 +965,7 @@ public class testing : MonoBehaviour
                     
                     tirestep3 = true;
                     speakTire = true;
+                    setem = true;
                 }
             }
             if(step == 2)
@@ -883,6 +979,7 @@ public class testing : MonoBehaviour
 
                     tirestep4 = true;
                     speakTire = true;
+                    setem = true;
                 }
             }
             if(step == 3)
@@ -896,6 +993,7 @@ public class testing : MonoBehaviour
 
                     tirestep5 = true;
                     speakTire = true;
+                    setem = true;
                 }
             }
             if(step == 4)
@@ -910,6 +1008,7 @@ public class testing : MonoBehaviour
                     //loosened is off
                     tirestep6 = true;
                     speakTire = true;
+                    setem = true;
                 }
             }
             if(step == 5)
@@ -923,6 +1022,7 @@ public class testing : MonoBehaviour
 
                     tirestep7 = true;
                     speakTire = true;
+                    setem = true;
                 }
             }
             if(step == 6)
@@ -936,6 +1036,7 @@ public class testing : MonoBehaviour
 
                     tirestep8 = true;
                     speakTire = true;
+                    setem = true;
                 }
             }
             if(step == 7)
@@ -950,6 +1051,7 @@ public class testing : MonoBehaviour
                     //loosened is off
                     tirestep9 = true;
                     speakTire = true;
+                    setem = true;
                 }
             }
             if(step == 8)
@@ -963,6 +1065,7 @@ public class testing : MonoBehaviour
 
                     tirestep10 = true;
                     speakTire = true;
+                    setem = true;
                 }
             }
             if(step == 9)

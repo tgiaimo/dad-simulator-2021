@@ -5,9 +5,11 @@ using Valve.VR.InteractionSystem;
 
 public class interactions : MonoBehaviour
 {
+    public GameObject scripts;
     public GameObject yurt;
     public GameObject trigger;
     public GameObject lug;
+    public int step;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +19,25 @@ public class interactions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        step = scripts.GetComponent<testing>().findStepTire();
     }
 
+    public void loosen()
+    {
+        if (step == 4)
+        {
+            lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().loosened = true;
+            lug.GetComponent<MeshCollider>().enabled = true;
+            lug.GetComponent<Interactable>().enabled = true;
+            lug.GetComponent<Rigidbody>().isKinematic = false;
+        }
+    }
     public void unTighten()
     {
-        lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().tight = false;
+        if (step == 1)
+        {
+            lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().tight= false;
+        }
     }
     public void makeThrow()
     {
@@ -32,9 +47,9 @@ public class interactions : MonoBehaviour
         yurt.AddComponent<Throwable>();
         yurt.GetComponent<Rigidbody>().isKinematic = true;
     }
-
     public void forceKinematic()
     {
         yurt.GetComponent<Rigidbody>().isKinematic = false;
     }
+
 }

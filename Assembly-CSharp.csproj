@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\CircularDriveWrench.cs" />
      <Compile Include="Assets\Scripts\Pointer.cs" />
+     <Compile Include="Assets\jackInteraction.cs" />
      <Compile Include="Assets\RASCAL\RASCALProperties.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderProperties.cs" />
      <Compile Include="Assets\Scripts\ButtonHandler.cs" />
@@ -84,6 +85,7 @@
      <Compile Include="Assets\testingwall.cs" />
      <Compile Include="Assets\Scripts\UI_test.cs" />
      <Compile Include="Assets\interactions.cs" />
+     <Compile Include="Assets\secondDrive.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs" />
      <Compile Include="Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs" />
