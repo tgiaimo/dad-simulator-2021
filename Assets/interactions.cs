@@ -19,7 +19,7 @@ public class interactions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        step = scripts.GetComponent<testing>().findStepTire();
+        //step = scripts.GetComponent<testing>().findStepTire();
     }
 
     public void loosen()
