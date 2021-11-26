@@ -7,6 +7,7 @@ public class interactions : MonoBehaviour
 {
     public GameObject yurt;
     public GameObject trigger;
+    public GameObject lug;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,10 @@ public class interactions : MonoBehaviour
         
     }
 
+    public void unTighten()
+    {
+        lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().tight = false;
+    }
     public void makeThrow()
     {
         trigger.GetComponent<BoxCollider>().enabled = false;

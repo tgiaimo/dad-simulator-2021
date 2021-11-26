@@ -6,8 +6,14 @@ using Valve.VR.InteractionSystem;
 public class jackTriggerBox : MonoBehaviour
 {
     public GameObject jack;
-    public Vector3 startPos;
-    public Vector3 endPos=new Vector3((float)40.4160004,(float)-6.86299992,(float)15.2460003);
+    public GameObject rightHand;
+    public GameObject leftHand;
+    public Transform endPos;
+    public Transform startPos;
+    public float sped;
+    public float desiredDuration;
+    private float elapsedTime=0;
+    //public bool schmoved = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +28,19 @@ public class jackTriggerBox : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == jack.name)
+        if (other.gameObject.transform.parent.gameObject.transform.parent.gameObject.name == jack.name)
         {
-            startPos = jack.transform.position;
+            startPos = other.gameObject.transform.parent.gameObject.transform.parent.gameObject.transform;
+            if (rightHand.GetComponent<Hand>().ObjectIsAttached(jack))
+            {
+                rightHand.GetComponent<Hand>().DetachObject(jack);
+            }
+            if (leftHand.GetComponent<Hand>().ObjectIsAttached(jack))
+            {
+                leftHand.GetComponent<Hand>().DetachObject(jack);
+            }
+            //other.gameObject.transform.parent.gameObject.transform.parent.gameObject.GetComponent<Rigidbody>().isKinematic = true;
             StartCoroutine(Move());
-            other.gameObject.GetComponent<Rigidbody>().isKinematic = true;
             GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().inLocation = true;
         }
     }
@@ -40,11 +54,15 @@ public class jackTriggerBox : MonoBehaviour
     }
 
 
- IEnumerator Move(){
-     float startTime=Time.time; // Time.time contains current frame time, so remember starting point
-     while(Time.time-startTime<=1000){ // until one second passed
-         jack.transform.position=Vector3.Lerp(startPos,endPos,Time.time-startTime); // lerp from A to B in one second
-         yield return null; // wait for next frame
-     }
- }
+    IEnumerator Move()
+    {
+        while (elapsedTime < desiredDuration)
+        {
+            jack.transform.position=Vector3.Lerp(startPos.position, endPos.position, (elapsedTime/desiredDuration));
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        Debug.Log("schmoovin");
+        yield return null;
+    }
 }
