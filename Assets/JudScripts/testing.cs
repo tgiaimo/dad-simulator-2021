@@ -224,37 +224,27 @@ public class testing : MonoBehaviour
         {
             ret.Add(GameObject.Find("triggerCubeFL"));
             GameObject.Find("pos_tire").GetComponent<Interactable>().enabled = true;
-        }/*else if(x == 6)
+        }else if(x == 6)
         {
-            ret.Add(GameObject.Find("good tire"));
-
         }else if(x == 7)
         {
-            ret.Add(GameObject.Find("halo lug 1"));
-            ret.Add(GameObject.Find("halo lug 2"));
-            ret.Add(GameObject.Find("halo lug 3"));
-            ret.Add(GameObject.Find("halo lug 4"));
-            ret.Add(GameObject.Find("halo lug 5"));
-
+            ret.Add(GameObject.Find("good_lug_1_trigger"));
+            ret.Add(GameObject.Find("good_lug_2_trigger"));
+            ret.Add(GameObject.Find("good_lug_3_trigger"));
+            ret.Add(GameObject.Find("good_lug_4_trigger"));
+            ret.Add(GameObject.Find("good_lug_5_trigger"));
         }else if(x == 8)
         {
-            ret.Add(GameObject.Find("jack"));
-
         }else if(x == 9)
         {
-            ret.Add(GameObject.Find("halo lug 1"));
-            ret.Add(GameObject.Find("halo lug 2"));
-            ret.Add(GameObject.Find("halo lug 3"));
-            ret.Add(GameObject.Find("halo lug 4"));
-            ret.Add(GameObject.Find("halo lug 5"));
-
-            ret.Add(GameObject.Find("Lug Wrench"));
-
+            ret.Add(GameObject.Find("good_lug_1_trigger"));
+            ret.Add(GameObject.Find("good_lug_2_trigger"));
+            ret.Add(GameObject.Find("good_lug_3_trigger"));
+            ret.Add(GameObject.Find("good_lug_4_trigger"));
+            ret.Add(GameObject.Find("good_lug_5_trigger"));
         }else if(x == 10)
         {
-
         }
-        */
         final = ret.ToArray();
 
         return final;

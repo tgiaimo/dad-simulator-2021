@@ -32,6 +32,16 @@ public class interactions : MonoBehaviour
             lug.GetComponent<Rigidbody>().isKinematic = false;
         }
     }
+
+    public void Tighten()
+    {
+        if (step ==  9)
+        {
+            lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().tight= true;
+        }
+
+    }
+
     public void unTighten()
     {
         if (step == 1)

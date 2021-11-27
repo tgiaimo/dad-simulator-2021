@@ -5,6 +5,7 @@ using Valve.VR.InteractionSystem;
 
 public class triggerFL : MonoBehaviour
 {
+    public Transform car;
     public GameObject flat;
     public GameObject good;
     private GameObject tireToLerp;
@@ -33,24 +34,30 @@ public class triggerFL : MonoBehaviour
         if (collider.gameObject.name == good.name)
         {
             tireToLerp = collider.gameObject;
-            startPos = tireToLerp.transform;
             elapsedTime = 0;
             if (rightHand.GetComponent<Hand>().ObjectIsAttached(tireToLerp))
             {
                 rightHand.GetComponent<Hand>().DetachObject(tireToLerp);
                 collider.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                tireToLerp.transform.SetParent(car);
+                startPos = tireToLerp.transform;
             }
             if (leftHand.GetComponent<Hand>().ObjectIsAttached(tireToLerp))
             {
                 leftHand.GetComponent<Hand>().DetachObject(tireToLerp);
                 collider.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                tireToLerp.transform.SetParent(car);
+                startPos = tireToLerp.transform;
             }
-            tireToLerp.transform.eulerAngles = new Vector3((float)1.71386409,(float)351.135559,(float)18.2478504);
+            
             Destroy(tireToLerp.GetComponent<Throwable>());
-            Destroy(tireToLerp.GetComponent<Interactable>());
-            Destroy(tireToLerp.GetComponent<Rigidbody>());
+            //tireToLerp.transform.eulerAngles = new Vector3((float)1.71386409,(float)351.135559,(float)18.2478504);
             tireToLerp.GetComponent<SphereCollider>().enabled = false;
             StartCoroutine(moveTire());
+            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            this.gameObject.GetComponent<BoxCollider>().enabled = false;
+            collider.gameObject.GetComponent<goodTireCheck>().on = true;
+
         }
     }
     void OnTriggerStay(Collider collider)
@@ -70,6 +77,7 @@ public class triggerFL : MonoBehaviour
         while (elapsedTime < desiredDuration)
         {
             tireToLerp.transform.position=Vector3.Lerp(startPos.position, endPos.position, (elapsedTime/desiredDuration));
+            tireToLerp.transform.rotation=Quaternion.Lerp(startPos.rotation, endPos.rotation, (elapsedTime/desiredDuration));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
