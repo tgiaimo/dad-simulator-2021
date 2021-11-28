@@ -31,12 +31,14 @@ public class wrenchInteraction : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == wrench.name)
+        if (other.gameObject.name == wrench.name/* && wrench.GetComponent<interactions>().used==false*/)
         {
+            //wrench.GetComponent<interactions>().used = true;
             startPos = other.gameObject.transform;
             elapsedTime = 0;
             wrench.GetComponent<CircularDrive>().outAngle= 0;
             wrench.GetComponent<interactions>().trigger = this.gameObject;
+            wrench.GetComponent<interactions>().elapsedTime= 0;
             lug = this.gameObject.transform.parent.gameObject;
             wrench.GetComponent<interactions>().lug = lug;
             if (rightHand.GetComponent<Hand>().ObjectIsAttached(wrench))
@@ -50,8 +52,8 @@ public class wrenchInteraction : MonoBehaviour
                 other.gameObject.GetComponent<Rigidbody>().isKinematic = true;
             }
             Destroy(other.gameObject.GetComponent<Throwable>());
-            StartCoroutine(MoveWrench());
             other.gameObject.GetComponent<CircularDrive>().enabled=true;
+            StartCoroutine(MoveWrench());
         }
         
 
@@ -114,8 +116,8 @@ public class wrenchInteraction : MonoBehaviour
             yield return null;
         }
         Debug.Log("schmoovin");
+        this.transform.SetParent(lug.transform);
         yield return null;
     }
-
 
 }

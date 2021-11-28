@@ -39,17 +39,19 @@ public class triggerFL : MonoBehaviour
             {
                 rightHand.GetComponent<Hand>().DetachObject(tireToLerp);
                 collider.gameObject.GetComponent<Rigidbody>().isKinematic = true;
-                tireToLerp.transform.SetParent(car);
-                startPos = tireToLerp.transform;
+                //tireToLerp.transform.SetParent(car);
+                //startPos = tireToLerp.transform;
             }
             if (leftHand.GetComponent<Hand>().ObjectIsAttached(tireToLerp))
             {
                 leftHand.GetComponent<Hand>().DetachObject(tireToLerp);
                 collider.gameObject.GetComponent<Rigidbody>().isKinematic = true;
-                tireToLerp.transform.SetParent(car);
-                startPos = tireToLerp.transform;
+                //tireToLerp.transform.SetParent(car);
+                //startPos = tireToLerp.transform;
             }
-            
+            tireToLerp.transform.SetParent(car);
+            startPos = tireToLerp.transform;
+           
             Destroy(tireToLerp.GetComponent<Throwable>());
             //tireToLerp.transform.eulerAngles = new Vector3((float)1.71386409,(float)351.135559,(float)18.2478504);
             tireToLerp.GetComponent<SphereCollider>().enabled = false;
