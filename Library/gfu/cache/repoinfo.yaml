@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-11-26T05:06:58.555-05:00
-  initializedAtString: 2021-11-26T03:04:01.245-05:00
+  lastUpdatedAtString: 2021-11-28T05:29:47.913-05:00
+  initializedAtString: 2021-11-28T03:52:18.314-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/TGiaimo/dad-simulator-2021.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: main
-    tracking: origin/main
+    name: newMain
+    tracking: origin/newMain
   currentConfigBranch:
-    name: main
+    name: newMain
     remote:
       name: origin
       url: https://github.com/TGiaimo/dad-simulator-2021.git
-    trackingBranch: main
+    trackingBranch: goBack
   currentConfigRemote:
     name: origin
     url: https://github.com/TGiaimo/dad-simulator-2021.git

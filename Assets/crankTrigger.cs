@@ -6,6 +6,7 @@ using Valve.VR.InteractionSystem;
 public class crankTrigger : MonoBehaviour
 {
     public GameObject crank;
+    public GameObject jack;
     public GameObject trigger;
     public GameObject rightHand;
     public GameObject leftHand;
@@ -38,6 +39,7 @@ public class crankTrigger : MonoBehaviour
             Destroy(crank.GetComponent<Throwable>());
             crank.GetComponent<CircularDrive>().enabled = true;
             trigger.GetComponent<MeshRenderer>().enabled = false;
+            jack.GetComponent<Animator>().SetBool("crankConnected", true);
         }
     }
 }
