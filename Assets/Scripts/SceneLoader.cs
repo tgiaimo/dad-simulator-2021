@@ -46,11 +46,11 @@ public class SceneLoader : MonoBehaviour
             //Check for completion depending on game type
             if (tire && !pitcrew)
             {
-                if (gameContainer.findStepTire() == 9) isComplete = true;
+                if (gameContainer.tireComplete) isComplete = true;
             }
             else if (battery && !pitcrew)
             {
-                if (gameContainer.findStepBat() == 9) isComplete = true;
+                if (gameContainer.batComplete) isComplete = true;
             }
         }
 

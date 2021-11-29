@@ -23,6 +23,9 @@ public class testing : MonoBehaviour
     public bool tire = true;
     public bool battery = false;
 
+    public bool tireComplete=false;
+    public bool batComplete = false;
+
     //assisted or unassisted
     public bool assisted = true;
 
@@ -125,8 +128,12 @@ public class testing : MonoBehaviour
     void Start()
     {
         //Get scenario information from scene loader
-        SceneLoader sceneData = FindObjectOfType<SceneLoader>();
-        sceneData.setSimScript(this);
+        SceneLoader[] sceneData = FindObjectsOfType<SceneLoader>();
+        for(int i = 0; i<sceneData.Length; i++)
+        {
+            sceneData[i].setSimScript(this);
+        }
+
 //        tire = sceneData.tire;
 //        battery = sceneData.battery;
 //        assisted = sceneData.assisted;
@@ -511,22 +518,29 @@ public class testing : MonoBehaviour
         }else if(x == 1)
         {
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
+            ret.Add(GameObject.Find("red1"));
+            ret.Add(GameObject.Find("red2"));
+
 
         }else if(x == 2)
         {
-            ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
+            ret.Add(GameObject.Find("goodBattery/halo effect"));
+            ret.Add(GameObject.Find("red1"));
+            ret.Add(GameObject.Find("red2"));
 
         }else if(x == 3)
         {
-            ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
+            ret.Add(GameObject.Find("black1"));
+            ret.Add(GameObject.Find("black2"));
+
+            ret.Add(GameObject.Find("goodBattery/halo effect"));
 
         }else if(x == 4)
         {
+            ret.Add(GameObject.Find("black1"));
+            ret.Add(GameObject.Find("black2"));
+
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 5)
         {
@@ -534,23 +548,31 @@ public class testing : MonoBehaviour
 
         }else if(x == 6)
         {
+            ret.Add(GameObject.Find("black1"));
+            ret.Add(GameObject.Find("black2"));
+
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
 
         }else if(x == 7)
         {
-            ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
+            ret.Add(GameObject.Find("black1"));
+            ret.Add(GameObject.Find("black2"));
+
+            ret.Add(GameObject.Find("goodBattery/halo effect"));
 
         }else if(x == 8)
         {
-            ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
+            ret.Add(GameObject.Find("red1"));
+            ret.Add(GameObject.Find("red2"));
+
+            ret.Add(GameObject.Find("goodBattery/halo effect"));
 
         }else if(x == 9)
         {
+            ret.Add(GameObject.Find("red1"));
+            ret.Add(GameObject.Find("red2"));
+
             ret.Add(GameObject.Find("battery/halo effect"));
-            ret.Add(GameObject.Find("boosters"));
 
         }
         final = ret.ToArray();
@@ -1093,6 +1115,7 @@ public class testing : MonoBehaviour
                         setHalos(objects);
                         StartCoroutine(completedFlash(objects));
                         once = false;
+                        tireComplete = true;
                         Debug.Log("AAAAAAAAAAAAALLLLLLLLLLLLLLLLLL DOOOOOOOOOOOOOOOONE");
                     }
                 }
@@ -1240,6 +1263,7 @@ public class testing : MonoBehaviour
                         setHalos(objects);
                         StartCoroutine(completedFlash(objects));
                         once = false;
+                        batComplete = true;
                     }
                 }
             }

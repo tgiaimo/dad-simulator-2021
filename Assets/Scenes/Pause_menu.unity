@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -537,6 +537,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 601896784407357831, guid: 0bf64e20759b3f24cadf890608e8d2ae,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 601896784407357831, guid: 0bf64e20759b3f24cadf890608e8d2ae,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 601896784407357831, guid: 0bf64e20759b3f24cadf890608e8d2ae,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 601896784407357831, guid: 0bf64e20759b3f24cadf890608e8d2ae,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -645,6 +660,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3915680091660065609, guid: 0bf64e20759b3f24cadf890608e8d2ae,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5785472068136951852, guid: 0bf64e20759b3f24cadf890608e8d2ae,
         type: 3}
       propertyPath: m_Name
@@ -712,6 +732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentObject: {fileID: 5387360241889973735}
   normalAxis: {x: 0, y: 0, z: 1}
+  normalOrientation: {x: 0, y: 0, z: 0}
   distance: 5
 --- !u!114 &834378781 stripped
 MonoBehaviour:
@@ -821,6 +842,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deb0aa9b525774148bf809226ddd7d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  used: 0
+  scripts: {fileID: 0}
+  yurt: {fileID: 0}
+  trigger: {fileID: 0}
+  lug: {fileID: 0}
+  step: 0
+  safeSpace: {fileID: 0}
+  elapsedTime: 0
+  collider1: {fileID: 0}
+  collider2: {fileID: 0}
 --- !u!114 &1971283210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -833,8 +864,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4974ce187a90ad249b1f1d7f5c5a2066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flat: {fileID: 0}
+  newTire: {fileID: 0}
+  deadCar: {fileID: 0}
   tire: 1
   battery: 0
+  tireComplete: 0
+  batComplete: 0
   assisted: 1
   test: {fileID: 111232525}
   videoClips:
@@ -892,6 +928,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4384c40ec6c09a94bb34bd17fc6437ec, type: 3}
   hintsForBatteryJump1: []
   speakTire: 0
+  setem: 0
   tirestep1: 1
   tirestep2: 1
   tirestep3: 0

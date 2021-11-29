@@ -2959,6 +2959,8 @@ MonoBehaviour:
   deadCar: {fileID: 641983595}
   tire: 0
   battery: 1
+  tireComplete: 0
+  batComplete: 0
   assisted: 0
   test: {fileID: 1071563649}
   videoClips:

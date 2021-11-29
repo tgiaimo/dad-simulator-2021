@@ -1564,19 +1564,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 491790662}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2060645285}
-        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
-        m_MethodName: pitCrew
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Pit_Road
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &491790662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4155,17 +4143,17 @@ PrefabInstance:
     - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3823557
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5408702
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.1609182
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
         type: 3}

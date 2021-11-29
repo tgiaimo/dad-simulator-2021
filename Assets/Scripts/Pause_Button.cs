@@ -20,6 +20,16 @@ public class Pause_Button : MonoBehaviour
     {
         m_PauseMenu.SetActive(false);
         buttonPressed = false;
+        m_PointerHand=GameObject.Find("RightHand");
+
+        /*
+        GameObject whatever = GameObject.Find("PR_Pointer");
+
+        foreach (Canvas d in menus)
+        {
+            d.worldCamera = whatever.GetComponent(typeof(Camera)) as Camera;
+        }
+        */
     }
 
     // Update is called once per frame
@@ -33,12 +43,12 @@ public class Pause_Button : MonoBehaviour
                 if (m_PauseMenu.activeSelf)
                 {
                     m_PauseMenu.SetActive(false);
- //                   removePointer();
+                    //removepointer();
                 }
                 else
                 {
                     m_PauseMenu.SetActive(true);
-//                    addPointer();
+                    //addPointer();
                 }
                 buttonPressed = true;
             }
@@ -51,6 +61,9 @@ public class Pause_Button : MonoBehaviour
     {
         newPointer = Instantiate(m_Pointer);
         newPointer.transform.SetParent(m_PointerHand.transform);
+        newPointer.transform.localRotation=Quaternion.Euler(0f,0f,0f);
+        newPointer.transform.localPosition=new Vector3(0f,0f,0f);
+        newPointer.transform.localScale = new Vector3(1f, 1f, 1f);
         
         //Set event camera to created pointer
         foreach (Canvas d in menus)
