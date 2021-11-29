@@ -125,12 +125,11 @@ public class testing : MonoBehaviour
     void Start()
     {
         //Get scenario information from scene loader
-        /*SceneLoader sceneData = FindObjectOfType<SceneLoader>();
+        SceneLoader sceneData = FindObjectOfType<SceneLoader>();
         sceneData.setSimScript(this);
-        tire = sceneData.tire;
-        battery = sceneData.battery;
-        assisted = sceneData.assisted;
-        */
+//        tire = sceneData.tire;
+//        battery = sceneData.battery;
+//        assisted = sceneData.assisted;
 
         if (tire)
         {

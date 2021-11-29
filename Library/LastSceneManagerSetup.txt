@@ -12,8 +12,8 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Final/Environment_Test_Title.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Final/Tire_Unassisted.unity
   isLoaded: 0
@@ -22,4 +22,8 @@ sceneSetups:
 - path: Assets/Scenes/Final/Tutorial Scene.unity
   isLoaded: 0
   isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Pit_Road.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0

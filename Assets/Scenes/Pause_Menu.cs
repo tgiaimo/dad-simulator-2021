@@ -19,6 +19,7 @@ public class Pause_Menu : MonoBehaviour
         PauseMenu.SetActive(true);
         ExitConfirm.SetActive(false);
         TaskList.SetActive(false);
+        if (simScript == null) simScript = FindObjectOfType<testing>();
 
         taskList_tire = new string[]
         {
@@ -40,6 +41,7 @@ public class Pause_Menu : MonoBehaviour
         PauseMenu.SetActive(true);
         ExitConfirm.SetActive(false);
         TaskList.SetActive(false);
+        if (simScript == null) simScript = FindObjectOfType<testing>();
     }
 
     // Update is called once per frame

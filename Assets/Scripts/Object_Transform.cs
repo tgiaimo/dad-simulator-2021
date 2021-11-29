@@ -6,6 +6,7 @@ public class Object_Transform : MonoBehaviour
 {
     public GameObject parentObject;
     public Vector3 normalAxis;
+    public Vector3 normalOrientation;
     public float distance;
 
     GameObject transformDummy;
@@ -13,7 +14,14 @@ public class Object_Transform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if (parentObject == null)
+        {
+            parentObject = GameObject.Find("VRCamera");
+            if (parentObject == null)
+            {
+                parentObject = GameObject.Find("FallbackObjects");
+            }
+        }
     }
 
     private void OnDestroy()
@@ -28,12 +36,14 @@ public class Object_Transform : MonoBehaviour
         {
             if (transformDummy == null)
             {
-                transformDummy = new GameObject("Transform Coordinates");
+                transformDummy = new GameObject("Transform Coordinates: " + this.gameObject.name);
                 transformDummy.transform.SetParent(parentObject.transform);
             }
 
             transformDummy.transform.localPosition = Vector3.Scale(normalAxis.normalized,InverseVector(parentObject.transform.localScale)) * distance;
+            transformDummy.transform.localRotation = Quaternion.Euler(normalOrientation.x, normalOrientation.y, normalOrientation.z);
             this.gameObject.transform.position = transformDummy.transform.position;
+            this.gameObject.transform.rotation = transformDummy.transform.rotation;
         }
         
     }

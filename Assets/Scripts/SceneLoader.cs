@@ -65,6 +65,7 @@ public class SceneLoader : MonoBehaviour
         //Load menu scene after some time
         if (elapsed_time <= 0)
         {
+            exitScreen.gameObject.SetActive(false);
             loadScene("Environment_Test_Title");
             isComplete = false;
             elapsed_time = 5f;
