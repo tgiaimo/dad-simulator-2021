@@ -96,7 +96,6 @@
      <Compile Include="Assets\goodTireCheck.cs" />
      <Compile Include="Assets\Scripts\Intro_Video.cs" />
      <Compile Include="Assets\RASCAL\Scripts\RASCALInspector.cs" />
-     <Compile Include="Assets\reverse.cs" />
      <Compile Include="Assets\Scripts\Item_Selection.cs" />
      <Compile Include="Assets\RASCAL\RASCALSkinnedMeshCollider.cs" />
      <Compile Include="Assets\JudScripts\testing.cs" />

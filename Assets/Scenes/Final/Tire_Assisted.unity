@@ -3726,81 +3726,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2577913855568855025, guid: 5a35a82b1d6ff064682edf5165759dec, type: 3}
---- !u!1001 &419247156
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 819323939}
-    m_Modifications:
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140951780396604171, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4697197929700094052, guid: c050e2cdd99e1d7439017ca408934a9e,
-        type: 3}
-      propertyPath: m_Name
-      value: PR_Pointer
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c050e2cdd99e1d7439017ca408934a9e, type: 3}
---- !u!20 &419247157 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 8708877565060499296, guid: c050e2cdd99e1d7439017ca408934a9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 419247156}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &422811907
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6144,12 +6069,6 @@ Transform:
 --- !u!1 &819323937 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1202743691}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &819323939 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 485514, guid: dc06161b6d97feb419f45f03b62e14b9,
     type: 3}
   m_PrefabInstance: {fileID: 1202743691}
   m_PrefabAsset: {fileID: 0}
@@ -11667,7 +11586,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 419247157}
+      objectReference: {fileID: 0}
     - target: {fileID: 601896784407357831, guid: 0bf64e20759b3f24cadf890608e8d2ae,
         type: 3}
       propertyPath: m_RootOrder
@@ -11727,7 +11646,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 419247157}
+      objectReference: {fileID: 0}
     - target: {fileID: 5785472068136951852, guid: 0bf64e20759b3f24cadf890608e8d2ae,
         type: 3}
       propertyPath: m_Name
@@ -11737,7 +11656,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 419247157}
+      objectReference: {fileID: 0}
     - target: {fileID: 8255378272803561447, guid: 0bf64e20759b3f24cadf890608e8d2ae,
         type: 3}
       propertyPath: simScript
