@@ -64,6 +64,7 @@ public class jackTriggerBox : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
+        //jack.GetComponent<Rigidbody>().constraints= RigidbodyConstraints.FreezeAll;
         Debug.Log("schmoovin");
         yield return null;
     }

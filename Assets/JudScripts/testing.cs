@@ -16,6 +16,8 @@ public class testing : MonoBehaviour
     //public GameObject cube;
 
 
+    public GameObject flat;
+    public GameObject newTire;
     //which scenario
     public GameObject deadCar;
     public bool tire = true;
@@ -156,16 +158,18 @@ public class testing : MonoBehaviour
 
         //cube = GameObject.Find("Cube");
 
-        actions.Add("help", provideHint);
-        actions.Add("hint", provideHint);
-        actions.Add("Check", Check);
-        actions.Add("next", setNextClip);
-        actions.Add("where", provideHintDetailed);
+        if (assisted)
+        {
+            actions.Add("help", provideHint);
+            actions.Add("hint", provideHint);
+            actions.Add("Check", Check);
+            actions.Add("next", setNextClip);
+            actions.Add("where", provideHintDetailed);
 
-        keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
-        keywordRecognizer.OnPhraseRecognized += recognizedSpeech;
-        keywordRecognizer.Start();
-
+            keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
+            keywordRecognizer.OnPhraseRecognized += recognizedSpeech;
+            keywordRecognizer.Start();
+        }
   //      halo = GetComponent<Halo>();
         
     }
@@ -223,38 +227,28 @@ public class testing : MonoBehaviour
         }else if(x == 5)
         {
             ret.Add(GameObject.Find("triggerCubeFL"));
-            GameObject.Find("pos_tire").GetComponent<Interactable>().enabled = true;
-        }/*else if(x == 6)
+            //GameObject.Find("pos_tire").GetComponent<Interactable>().enabled = true;
+        }else if(x == 6)
         {
-            ret.Add(GameObject.Find("good tire"));
-
         }else if(x == 7)
         {
-            ret.Add(GameObject.Find("halo lug 1"));
-            ret.Add(GameObject.Find("halo lug 2"));
-            ret.Add(GameObject.Find("halo lug 3"));
-            ret.Add(GameObject.Find("halo lug 4"));
-            ret.Add(GameObject.Find("halo lug 5"));
-
+            ret.Add(GameObject.Find("good_lug_1_trigger"));
+            ret.Add(GameObject.Find("good_lug_2_trigger"));
+            ret.Add(GameObject.Find("good_lug_3_trigger"));
+            ret.Add(GameObject.Find("good_lug_4_trigger"));
+            ret.Add(GameObject.Find("good_lug_5_trigger"));
         }else if(x == 8)
         {
-            ret.Add(GameObject.Find("jack"));
-
         }else if(x == 9)
         {
-            ret.Add(GameObject.Find("halo lug 1"));
-            ret.Add(GameObject.Find("halo lug 2"));
-            ret.Add(GameObject.Find("halo lug 3"));
-            ret.Add(GameObject.Find("halo lug 4"));
-            ret.Add(GameObject.Find("halo lug 5"));
-
-            ret.Add(GameObject.Find("Lug Wrench"));
-
+            ret.Add(GameObject.Find("good_lug_1_trigger"));
+            ret.Add(GameObject.Find("good_lug_2_trigger"));
+            ret.Add(GameObject.Find("good_lug_3_trigger"));
+            ret.Add(GameObject.Find("good_lug_4_trigger"));
+            ret.Add(GameObject.Find("good_lug_5_trigger"));
         }else if(x == 10)
         {
-
         }
-        */
         final = ret.ToArray();
 
         return final;
@@ -265,7 +259,10 @@ public class testing : MonoBehaviour
     {
         for(int i=0; i < x.Length; i++)
         {
-            x[i].GetComponent<MeshRenderer>().enabled = true;
+            if (assisted)
+            {
+                x[i].GetComponent<MeshRenderer>().enabled = true;
+            }
             x[i].GetComponent<BoxCollider>().enabled = true;
         }
     }
@@ -302,10 +299,16 @@ public class testing : MonoBehaviour
                 objects = getOjectsTire(whatSpeak);
 
                 test.clip = audioClipsForTireChange[whatSpeak];
-                test.Play();
+                if (assisted)
+                {
+                    test.Play();
+                }
                 speakTire = !speakTire;
 
-                StartCoroutine(Flashing(objects));
+                if (assisted)
+                {
+                    StartCoroutine(Flashing(objects));
+                }
             }
         }
         if (speakBat)
@@ -317,10 +320,16 @@ public class testing : MonoBehaviour
                 objects = getOjectsBat(whatSpeak);
 
                 test.clip = audioClipsForBatJump[whatSpeak];
-                test.Play();
+                if (assisted)
+                {
+                    test.Play();
+                }
                 speakBat= !speakBat;
 
-                StartCoroutine(Flashing(objects));
+                if (assisted)
+                {
+                    StartCoroutine(Flashing(objects));
+                }
             }
  
         }
@@ -569,7 +578,10 @@ public class testing : MonoBehaviour
         }
         else if (x == 4)
         {
-            ret.Add(GameObject.Find("boosters"));
+            ret.Add(GameObject.Find("red1"));
+            ret.Add(GameObject.Find("red2"));
+            ret.Add(GameObject.Find("black1"));
+            ret.Add(GameObject.Find("black2"));
         }
         else if (x == 5)
         {
@@ -1006,6 +1018,7 @@ public class testing : MonoBehaviour
                     StartCoroutine(completedFlash(objects));
 
                     //loosened is off
+                    flat.AddComponent<Throwable>();
                     tirestep6 = true;
                     speakTire = true;
                     setem = true;
@@ -1027,6 +1040,7 @@ public class testing : MonoBehaviour
             }
             if(step == 6)
             {
+                flat.GetComponent<Rigidbody>().isKinematic = false;
                 if (GameObject.Find("pos_tire_good").GetComponent<goodTireCheck>().on)
                 {
                     GameObject[] objects;
@@ -1034,6 +1048,7 @@ public class testing : MonoBehaviour
                     setHalos(objects);
                     StartCoroutine(completedFlash(objects));
 
+                    Destroy(newTire.GetComponent<Throwable>());
                     tirestep8 = true;
                     speakTire = true;
                     setem = true;
