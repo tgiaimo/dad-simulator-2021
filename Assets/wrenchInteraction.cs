@@ -5,6 +5,7 @@ using Valve.VR.InteractionSystem;
 
 public class wrenchInteraction : MonoBehaviour
 {
+    public GameObject judscript;
     public Transform newNutHome;
     public GameObject wrench;
     public GameObject lug;
@@ -14,8 +15,15 @@ public class wrenchInteraction : MonoBehaviour
     public Transform endPosNut;
     public Transform startPos;
     public float sped;
-    public float desiredDuration;
+    private float desiredDuration=0.5f;
     private float elapsedTime;
+
+    public MeshCollider collider1;
+    public MeshCollider collider2;
+    public MeshRenderer rend;
+    public GameObject newWrench;
+
+    private int step;
 
     // Start is called before the first frame update
     void Start()
@@ -26,17 +34,20 @@ public class wrenchInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        step = judscript.GetComponent<testing>().findStepTire();
         
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == wrench.name/* && wrench.GetComponent<interactions>().used==false*/)
+        if (other.gameObject.name == wrench.name && wrench.GetComponent<interactions>().used==false)
         {
-            //wrench.GetComponent<interactions>().used = true;
+            wrench.GetComponent<interactions>().used = true;
+            wrench.GetComponent<Interactable>().enabled = false;
             startPos = other.gameObject.transform;
             elapsedTime = 0;
-            wrench.GetComponent<CircularDrive>().outAngle= 0;
+            //newWrench.GetComponent<CircularDrive>().enabled = true;
+            newWrench.GetComponent<CircularDrive>().outAngle= 0;
             wrench.GetComponent<interactions>().trigger = this.gameObject;
             wrench.GetComponent<interactions>().elapsedTime= 0;
             lug = this.gameObject.transform.parent.gameObject;
@@ -51,8 +62,8 @@ public class wrenchInteraction : MonoBehaviour
                 leftHand.GetComponent<Hand>().DetachObject(wrench);
                 other.gameObject.GetComponent<Rigidbody>().isKinematic = true;
             }
-            Destroy(other.gameObject.GetComponent<Throwable>());
-            other.gameObject.GetComponent<CircularDrive>().enabled=true;
+            //Destroy(other.gameObject.GetComponent<Throwable>());
+            //other.gameObject.GetComponent<CircularDrive>().enabled=true;
             StartCoroutine(MoveWrench());
         }
         
@@ -97,11 +108,18 @@ public class wrenchInteraction : MonoBehaviour
         while (elapsedTime < desiredDuration)
         {
             wrench.transform.position=Vector3.Lerp(startPos.position, endPos.position, (elapsedTime/desiredDuration));
-            //wrench.transform.rotation=Quaternion.Lerp(startPos.rotation, endPos.rotation, (elapsedTime/desiredDuration));
+            wrench.transform.rotation=Quaternion.Lerp(startPos.rotation, endPos.rotation, (elapsedTime/desiredDuration));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
         Debug.Log("schmoovin");
+        collider1.enabled = false;
+        collider2.enabled = false;
+        rend.GetComponent<MeshRenderer>().enabled = false;
+        newWrench.GetComponent<MeshRenderer>().enabled = true;
+        newWrench.GetComponent<MeshCollider>().enabled = true;
+        newWrench.GetComponent<Interactable>().enabled = true;
+        
         yield return null;
     }
 
@@ -118,6 +136,30 @@ public class wrenchInteraction : MonoBehaviour
         Debug.Log("schmoovin");
         this.transform.SetParent(lug.transform);
         yield return null;
+    }
+
+    public void swapMin()
+    {
+        if (step == 9)
+        {
+            newWrench.GetComponent<MeshRenderer>().enabled = false;
+            newWrench.GetComponent<MeshCollider>().enabled = false;
+            newWrench.GetComponent<Interactable>().enabled = false;
+
+            rend.GetComponent<MeshRenderer>().enabled = true;
+        }
+    }
+
+    public void swapMax()
+    {
+        if(step==1 || step == 4)
+        {
+            newWrench.GetComponent<MeshRenderer>().enabled = false;
+            newWrench.GetComponent<MeshCollider>().enabled = false;
+            newWrench.GetComponent<Interactable>().enabled = false;
+
+            rend.GetComponent<MeshRenderer>().enabled = true;
+        }
     }
 
 }

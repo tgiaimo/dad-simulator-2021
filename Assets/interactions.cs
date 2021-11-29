@@ -13,7 +13,10 @@ public class interactions : MonoBehaviour
     public int step;
     public Transform safeSpace;
     public float elapsedTime;
-    private float desiredDuration = 0.1f;
+    private float desiredDuration = 0.5f;
+
+    public MeshCollider collider1;
+    public MeshCollider collider2;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,49 +26,60 @@ public class interactions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //step = scripts.GetComponent<testing>().findStepTire();
+        step = scripts.GetComponent<testing>().findStepTire();
     }
 
     public void loosen()
     {
-        if (step == 4)
-        {
-            lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().loosened = true;
-            lug.GetComponent<MeshCollider>().enabled = true;
-            lug.GetComponent<Interactable>().enabled = true;
-            lug.GetComponent<Rigidbody>().isKinematic = false;
-            makeThrow();
-            forceKinematicMove();
-        }
+        lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().loosened = true;
+        lug.GetComponent<MeshCollider>().enabled = true;
+        lug.GetComponent<Interactable>().enabled = true;
+        lug.GetComponent<Rigidbody>().isKinematic = false;
+        lug.AddComponent<Throwable>();
+        makeThrow();
+        forceKinematicMove();
     }
 
+    public void actionOnMin()
+    {
+        if (step == 9)
+        {
+            Tighten();
+        }
+    }
+    public void actionOnMax()
+    {
+        if (step == 1)
+        {
+            unTighten();
+        }
+        if (step == 4)
+        {
+            loosen();
+        }
+    }
     public void Tighten()
     {
-        if (step ==  9)
-        {
-            lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().tight= true;
-            makeThrow();
-            forceKinematicMove();
-        }
+        lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().tight= true;
+        makeThrow();
+        forceKinematicMove();
 
     }
 
     public void unTighten()
     {
-        if (step == 1)
-        {
-            lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().tight= false;
-            makeThrow();
-            forceKinematicMove();
-        }
+        Debug.Log("unTighten");
+        lug.gameObject.transform.GetChild(0).GetComponent<HubCheck>().tight= false;
+        makeThrow();
+        forceKinematicMove();
     }
     public void makeThrow()
     {
         trigger.GetComponent<BoxCollider>().enabled = false;
         trigger.GetComponent<MeshRenderer>().enabled = false;
-        yurt.GetComponent<CircularDrive>().enabled = false;
-        yurt.AddComponent<Throwable>();
-        yurt.GetComponent<Rigidbody>().isKinematic = true;
+        //yurt.GetComponent<CircularDrive>().enabled = false;
+        //yurt.AddComponent<Throwable>();
+        //yurt.GetComponent<Rigidbody>().isKinematic = true;
     }
 
     public void forceKinematic()
@@ -83,12 +97,15 @@ public class interactions : MonoBehaviour
         while (elapsedTime < desiredDuration)
         {
             yurt.transform.position=Vector3.Lerp(yurt.transform.position, safeSpace.position, (elapsedTime/desiredDuration));
-            //wrench.transform.rotation=Quaternion.Lerp(startPos.rotation, endPos.rotation, (elapsedTime/desiredDuration));
+            yurt.transform.rotation=Quaternion.Lerp(yurt.transform.rotation, safeSpace.rotation, (elapsedTime/desiredDuration));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        //used = false;
+        yurt.GetComponent<interactions>().used = false;
         yurt.GetComponent<Rigidbody>().isKinematic = false;
+        yurt.GetComponent<Interactable>().enabled = true;
+        collider1.enabled = true;
+        collider2.enabled = true;
         Debug.Log("schmoovin");
         yield return null;
     }
