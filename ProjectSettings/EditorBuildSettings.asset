@@ -4,7 +4,31 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Final/Intro_Video.unity
+    guid: b2c348251871f354d986b7a022635f80
+  - enabled: 1
+    path: Assets/Scenes/Final/Environment_Test_Title.unity
+    guid: acbef32001e904f498bcc1146b5b2116
+  - enabled: 1
+    path: Assets/Scenes/Final/Tire_Assisted.unity
+    guid: 5dfb069625e8f1b48888b1f999cd0137
+  - enabled: 1
+    path: Assets/Scenes/Final/Tire_Unassisted.unity
+    guid: 9398f6e4813f6d14b91df7281f222dd4
+  - enabled: 1
+    path: Assets/Scenes/Final/Battery_Assisted.unity
+    guid: d07408820abaa314fb4e90cffb63a44d
+  - enabled: 1
+    path: Assets/Scenes/Final/Battery_Unassisted.unity
+    guid: ce744c576d770934c9b3304cdb18d2cf
+  - enabled: 1
+    path: Assets/Scenes/Final/Tutorial Scene.unity
+    guid: d0746e49b65c5cf49b4ef44d3d3bc042
+  - enabled: 1
+    path: Assets/Scenes/Final/Pit_Road.unity
+    guid: 5cf4632c7bb8f94428f53b43ebf1b636
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 04946b52416ca4b4e92de4883271175d,
       type: 2}
