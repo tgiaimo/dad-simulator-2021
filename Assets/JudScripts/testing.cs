@@ -1,4 +1,5 @@
 ﻿﻿using System;
+using System.Reflection;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,7 @@ public class testing : MonoBehaviour
     // this is the floor. I used it to test flashing on hint
     //public GameObject cube;
 
+    private Light light;
 
     public GameObject flat;
     public GameObject newTire;
@@ -406,7 +408,7 @@ public class testing : MonoBehaviour
         }else if(x == 3)
         {
             ret.Add(GameObject.Find("jack"));
-            ret.Add(GameObject.Find("Lug Wrench"));
+            ret.Add(GameObject.Find("crank"));
 
         }else if(x == 4)
         {
@@ -825,6 +827,48 @@ public class testing : MonoBehaviour
         Debug.Log("Started flashing at timestamp : " + Time.time);
         for(int i=0; i<x.Length; i++)
         {
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+        }
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+        }
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+        }
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+        }
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+        }
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+        }
+
+        //After we have waited 5 seconds print the time again.
+        Debug.Log("Finished flashing at timestamp : " + Time.time);
+        /*
+        yield return new WaitForSeconds(2);
+        Debug.Log("Started flashing at timestamp : " + Time.time);
+        for(int i=0; i<x.Length; i++)
+        {
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
             h.enabled = !h.enabled;
         }
@@ -862,11 +906,13 @@ public class testing : MonoBehaviour
 
         //After we have waited 5 seconds print the time again.
         Debug.Log("Finished flashing at timestamp : " + Time.time);
+        */
     }
     IEnumerator completedFlash(GameObject[] x)
     {
         //Print the time of when the function is first called.
         Debug.Log("Started completeded flash at timestamp : " + Time.time);
+        /*
         for(int i=0; i<x.Length; i++)
         {
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
@@ -879,6 +925,22 @@ public class testing : MonoBehaviour
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
             h.enabled = !h.enabled;
         }
+        */
+        for(int i=0; i<x.Length; i++)
+        {
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+
+        }
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(1);
+        for(int i=0; i<x.Length; i++)
+        {
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+
+        }
+
         //After we have waited 5 seconds print the time again.
     }
 
@@ -1270,6 +1332,15 @@ public class testing : MonoBehaviour
         }
     }
 
+    /*public void halofix(GameObject x)
+    {
+        var haloComponent= GetComponent("Halo");
+        haloComponent.FindProperty("m_Color").colorValue = ConsoleColor.Red;
+        /*var haloEnabledProperty = haloComponent.GetType().GetBehaviour("enabled");
+        haloEnabledProperty.SetValue(haloComponent, enable, null);
+        //x.GetComponent("Halo");
+
+    }*/
 
     public void setHalos(GameObject[] x)
     {
@@ -1285,16 +1356,26 @@ public class testing : MonoBehaviour
                         bool temp = x[i].GetComponent<HubCheck>().tight;
                         if (temp == true)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
                             Debug.Log("set red");
+
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                     }
@@ -1302,16 +1383,26 @@ public class testing : MonoBehaviour
                     {
                         if (!GameObject.Find("detail 1").GetComponent<HubCheck>().tight && !GameObject.Find("detail 2").GetComponent<HubCheck>().tight && !GameObject.Find("detail 3").GetComponent<HubCheck>().tight && !GameObject.Find("detail 4").GetComponent<HubCheck>().tight && !GameObject.Find("detail 5").GetComponent<HubCheck>().tight) 
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1322,16 +1413,26 @@ public class testing : MonoBehaviour
                     {
                         if (x[i].GetComponent<jackCheck>().inLocation)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1342,16 +1443,26 @@ public class testing : MonoBehaviour
                     {
                         if (x[i].GetComponent<jackCheck>().raised)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1361,16 +1472,26 @@ public class testing : MonoBehaviour
                         //onjack
                         if (GameObject.Find("jackDetailedHalo").GetComponent<jackCheck>().raised)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1382,16 +1503,26 @@ public class testing : MonoBehaviour
                         //loosened is off
                         if (x[i].GetComponent<HubCheck>().loosened)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1400,16 +1531,26 @@ public class testing : MonoBehaviour
                         if (GameObject.Find("detail 1").GetComponent<HubCheck>().loosened&& GameObject.Find("detail 2").GetComponent<HubCheck>().loosened && GameObject.Find("detail 3").GetComponent<HubCheck>().loosened && GameObject.Find("detail 4").GetComponent<HubCheck>().loosened && GameObject.Find("detail 5").GetComponent<HubCheck>().loosened) 
                         //not sure how to do inlocation
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1420,16 +1561,26 @@ public class testing : MonoBehaviour
                     {
                         if (x[i].GetComponent<badTireCheck>().off)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1440,16 +1591,26 @@ public class testing : MonoBehaviour
                     {
                         if (x[i].GetComponent<goodTireCheck>().on)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1461,16 +1622,26 @@ public class testing : MonoBehaviour
                         //put them back on
                         if (!x[i].GetComponent<HubCheck>().loosened)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1479,16 +1650,26 @@ public class testing : MonoBehaviour
                         //not sure how to do inlocation
                         if (!x[i].GetComponent<HubCheck>().loosened)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1499,16 +1680,26 @@ public class testing : MonoBehaviour
                     {
                         if (x[i].GetComponent<jackCheck>().lowered)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1520,16 +1711,26 @@ public class testing : MonoBehaviour
                         //put them back on
                         if (x[i].GetComponent<HubCheck>().tight)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1538,16 +1739,26 @@ public class testing : MonoBehaviour
                         //not sure how to do inlocation
                         if (GameObject.Find("detail 1").GetComponent<HubCheck>().tight && GameObject.Find("detail 2").GetComponent<HubCheck>().tight && GameObject.Find("detail 3").GetComponent<HubCheck>().tight && GameObject.Find("detail 4").GetComponent<HubCheck>().tight && GameObject.Find("detail 5").GetComponent<HubCheck>().tight) 
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1568,16 +1779,26 @@ public class testing : MonoBehaviour
                     {
                         if (x[i].GetComponent<hoodCheck>().popped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1589,16 +1810,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("battery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1606,16 +1837,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("battery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1626,16 +1867,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("goodBattery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1644,16 +1895,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("goodBattery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1665,16 +1926,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("goodBattery/battery_caps_neg").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1683,16 +1954,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("goodBattery/battery_caps_neg").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1704,16 +1985,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("battery/battery_caps_neg").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1722,16 +2013,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("battery/battery_caps_neg").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1743,16 +2044,26 @@ public class testing : MonoBehaviour
                     {
                         if (x[i].GetComponent<carCheck>().running)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1763,16 +2074,26 @@ public class testing : MonoBehaviour
                     {
                         if (!GameObject.Find("battery/battery_caps_neg").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1781,16 +2102,26 @@ public class testing : MonoBehaviour
                     {
                         if (!GameObject.Find("battery/battery_caps_neg").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1802,16 +2133,26 @@ public class testing : MonoBehaviour
                     {
                         if (!GameObject.Find("goodBattery/battery_caps_neg").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1820,16 +2161,26 @@ public class testing : MonoBehaviour
                     {
                         if (!GameObject.Find("goodBattery/battery_caps_neg").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1842,16 +2193,26 @@ public class testing : MonoBehaviour
                     {
                         if (!GameObject.Find("goodBattery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1860,16 +2221,26 @@ public class testing : MonoBehaviour
                     {
                         if (!GameObject.Find("goodBattery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
 
@@ -1877,20 +2248,30 @@ public class testing : MonoBehaviour
                 }
                 if (step == 9)
                 {
-                if ((x[i] == GameObject.Find("battery/battery_caps_pos/Halo for terminal")))
+                    if ((x[i] == GameObject.Find("battery/battery_caps_pos/Halo for terminal")))
                     {
                         if (GameObject.Find("battery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1898,16 +2279,26 @@ public class testing : MonoBehaviour
                     {
                         if (GameObject.Find("battery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.green;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.green;
+
                             Debug.Log("set green");
                         }
                         else
                         {
+                            /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
                             haloComponent.FindProperty("m_Color").colorValue = Color.red;
                             haloComponent.ApplyModifiedProperties();
+                            */
+                            light = x[i].GetComponent<Light>();
+                            light.color = Color.red;
+
                             Debug.Log("set red");
                         }
                     }
@@ -1982,39 +2373,68 @@ public class testing : MonoBehaviour
         Debug.Log("Started flashing at timestamp : " + Time.time);
         for(int i=0; i<x.Length; i++)
         {
+            /*
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
             h.enabled = !h.enabled;
+            */
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
         }
         //yield on a new YieldInstruction that waits for 5 seconds.
         yield return new WaitForSeconds(1);
         for(int i=0; i<x.Length; i++)
         {
+            /*
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
             h.enabled = !h.enabled;
+            */
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+
         }
         yield return new WaitForSeconds(1);
         for(int i=0; i<x.Length; i++)
         {
+            /*
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
             h.enabled = !h.enabled;
+            */
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+
         }
         yield return new WaitForSeconds(1);
         for(int i=0; i<x.Length; i++)
         {
+            /*
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
             h.enabled = !h.enabled;
+            */
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+
         }
         yield return new WaitForSeconds(1);
         for(int i=0; i<x.Length; i++)
         {
+            /*
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
             h.enabled = !h.enabled;
+            */
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+
         }
         yield return new WaitForSeconds(1);
         for(int i=0; i<x.Length; i++)
         {
+            /*
             Behaviour h = (Behaviour)x[i].GetComponent("Halo");
             h.enabled = !h.enabled;
+            */
+            light = x[i].GetComponent<Light>();
+            light.enabled = !light.enabled;
+
         }
 
         //After we have waited 5 seconds print the time again.
@@ -2040,7 +2460,7 @@ public class testing : MonoBehaviour
         }else if(x == 3)
         {
             ret.Add(GameObject.Find("jackDetailedHalo"));
-            ret.Add(GameObject.Find("wrenchDetailedHalo"));
+            ret.Add(GameObject.Find("crank"));
 
         }else if(x == 4)
         {

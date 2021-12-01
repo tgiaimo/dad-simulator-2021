@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/Scenes/Final/Tire_Assisted.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Final/Battery_Assisted.unity
   isLoaded: 0
@@ -16,8 +16,8 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Final/Tire_Unassisted.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/Final/Tutorial Scene.unity
   isLoaded: 0
