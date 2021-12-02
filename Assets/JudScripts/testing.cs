@@ -860,6 +860,7 @@ public class testing : MonoBehaviour
         {
             light = x[i].GetComponent<Light>();
             light.enabled = !light.enabled;
+            light.color = Color.yellow;
         }
 
         //After we have waited 5 seconds print the time again.
@@ -2250,7 +2251,7 @@ public class testing : MonoBehaviour
                 {
                     if ((x[i] == GameObject.Find("battery/battery_caps_pos/Halo for terminal")))
                     {
-                        if (GameObject.Find("battery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
+                        if (!GameObject.Find("battery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
                             /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
@@ -2275,9 +2276,9 @@ public class testing : MonoBehaviour
                             Debug.Log("set red");
                         }
                     }
-                    if (!x[i] == GameObject.Find("red1"))
+                    if (x[i] == GameObject.Find("red1"))
                     {
-                        if (GameObject.Find("battery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
+                        if (!GameObject.Find("battery/battery_caps_pos").GetComponent<clippedTrigger>().clipped)
                         {
                             /*
                             SerializedObject haloComponent = new SerializedObject(x[i].GetComponent("Halo"));
@@ -2434,6 +2435,7 @@ public class testing : MonoBehaviour
             */
             light = x[i].GetComponent<Light>();
             light.enabled = !light.enabled;
+            light.color = Color.yellow;
 
         }
 

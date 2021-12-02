@@ -12,7 +12,8 @@ public class Pause_Button : MonoBehaviour
     public GameObject m_PauseMenu, m_PointerHand, m_Pointer;
     public Canvas[] menus;
 
-    GameObject newPointer;
+    GameObject newPointer, pointerObject;
+    LineRenderer pointerLine;
     public bool buttonPressed;
     
     // Start is called before the first frame update
@@ -22,14 +23,16 @@ public class Pause_Button : MonoBehaviour
         buttonPressed = false;
         m_PointerHand=GameObject.Find("RightHand");
 
-        /*
-        GameObject whatever = GameObject.Find("PR_Pointer");
+        
+        pointerObject = GameObject.Find("PR_Pointer");
 
         foreach (Canvas d in menus)
         {
-            d.worldCamera = whatever.GetComponent(typeof(Camera)) as Camera;
+            d.worldCamera = pointerObject.GetComponent(typeof(Camera)) as Camera;
         }
-        */
+        pointerLine = pointerObject.GetComponent<LineRenderer>();
+        pointerLine.enabled = false;
+        pointerObject.GetComponent<Pointer>().m_Dot.SetActive(false);
     }
 
     // Update is called once per frame
@@ -43,12 +46,16 @@ public class Pause_Button : MonoBehaviour
                 if (m_PauseMenu.activeSelf)
                 {
                     m_PauseMenu.SetActive(false);
-                    //removepointer();
+                    pointerLine.enabled = false;
+                    pointerObject.GetComponent<Pointer>().m_Dot.SetActive(false);
+                    //  removePointer();
                 }
                 else
                 {
                     m_PauseMenu.SetActive(true);
-                    //addPointer();
+                    pointerLine.enabled = true;
+                    pointerObject.GetComponent<Pointer>().m_Dot.SetActive(true);
+                    // addPointer();
                 }
                 buttonPressed = true;
             }
@@ -83,4 +90,10 @@ public class Pause_Button : MonoBehaviour
 
     }
 
+    public void closeMenu()
+    {
+        m_PauseMenu.SetActive(false);
+        pointerLine.enabled = false;
+        pointerObject.GetComponent<Pointer>().m_Dot.SetActive(false);
+    }
 }

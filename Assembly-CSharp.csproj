@@ -88,6 +88,7 @@
      <Compile Include="Assets\interactions.cs" />
      <Compile Include="Assets\RenderCables.cs" />
      <Compile Include="Assets\secondDrive.cs" />
+     <Compile Include="Assets\Scripts\DestroyPlayer.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderUIHelpers.cs" />
      <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs" />
      <Compile Include="Assets\EasyColliderEditor\DOTS\Scripts\EasyColliderDOTS.cs" />

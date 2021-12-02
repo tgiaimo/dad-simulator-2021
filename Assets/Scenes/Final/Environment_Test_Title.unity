@@ -1564,7 +1564,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 491790662}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2060645285}
+        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
+        m_MethodName: loadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pit_Road
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2060645285}
+        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
+        m_MethodName: setAssisted
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &491790662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5931,8 +5955,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7854845930758075363}
   m_LocalRotation: {x: 0, y: 0.9948793, z: 0, w: 0.10107004}
-  m_LocalPosition: {x: -1.4310327, y: 3.530001, z: 16.455713}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.4310327, y: 0.84, z: 16.455713}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 7854845930758462527}
   - {fileID: 7854845930758370073}

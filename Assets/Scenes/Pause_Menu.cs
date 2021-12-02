@@ -124,8 +124,7 @@ public class Pause_Menu : MonoBehaviour
     //Handle "resume"
     public void resumeButtonPressed()
     {
-        PauseMenuContainer.SetActive(false);
-        Button.removePointer();
+        Button.closeMenu();
     }
 
 }
