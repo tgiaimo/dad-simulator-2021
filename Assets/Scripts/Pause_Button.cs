@@ -15,22 +15,24 @@ public class Pause_Button : MonoBehaviour
     GameObject newPointer, pointerObject;
     LineRenderer pointerLine;
     public bool buttonPressed;
-    
+
+    private void Awake()
+    {
+        m_PointerHand = GameObject.Find("RightHand");
+        pointerObject = GameObject.Find("PR_Pointer");
+        pointerLine = pointerObject.GetComponent<LineRenderer>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         m_PauseMenu.SetActive(false);
         buttonPressed = false;
-        m_PointerHand=GameObject.Find("RightHand");
-
-        
-        pointerObject = GameObject.Find("PR_Pointer");
 
         foreach (Canvas d in menus)
         {
             d.worldCamera = pointerObject.GetComponent(typeof(Camera)) as Camera;
         }
-        pointerLine = pointerObject.GetComponent<LineRenderer>();
         pointerLine.enabled = false;
         pointerObject.GetComponent<Pointer>().m_Dot.SetActive(false);
     }

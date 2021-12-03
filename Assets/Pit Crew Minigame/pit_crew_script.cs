@@ -7,7 +7,7 @@ public class pit_crew_script : MonoBehaviour
 {
     public Text timer;
     public Text sectionTimer;
-    public GameObject timerBackground, sectionTimerBackground;
+    public GameObject timerBackground, sectionTimerBackground, m_PointerHand;
     public testing steps;
     public GameObject[] buttons;
     //public GameObject m_PointerPrefab, m_PointerHand;
@@ -20,8 +20,16 @@ public class pit_crew_script : MonoBehaviour
     bool[] step_completed;
     float[] step_times;
     string[] step_names;
-    GameObject m_Pointer;
-    
+    GameObject pointerObject;
+    LineRenderer pointerLine;
+
+    private void Awake()
+    {
+        m_PointerHand = GameObject.Find("RightHand");
+        pointerObject = GameObject.Find("PR_Pointer");
+        pointerLine = pointerObject.GetComponent<LineRenderer>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +46,9 @@ public class pit_crew_script : MonoBehaviour
         };
 
         foreach (GameObject b in buttons) b.SetActive(false);
+
+        pointerLine.enabled = false;
+        pointerObject.GetComponent<Pointer>().m_Dot.SetActive(false);
     }
 
     // Update is called once per frame
@@ -196,7 +207,7 @@ public class pit_crew_script : MonoBehaviour
         {
             if (!i) return false;
         }
-
-        return true;
+        
+        return steps.tireComplete;
     }
 }
