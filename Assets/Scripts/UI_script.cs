@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UI_script : MonoBehaviour
 {
-    GameObject mainMenu, tireMenu, jumpMenu;
+    GameObject mainMenu, tireMenu, jumpMenu, pitCrewMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -12,10 +12,12 @@ public class UI_script : MonoBehaviour
         mainMenu = GameObject.Find("Main Menu");
         tireMenu = GameObject.Find("Tire Change Submenu");
         jumpMenu = GameObject.Find("Battery Jump Submenu");
+        pitCrewMenu = GameObject.Find("Pit Crew Submenu");
 
         mainMenu.SetActive(true);
         tireMenu.SetActive(false);
         jumpMenu.SetActive(false);
+        pitCrewMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -45,6 +47,18 @@ public class UI_script : MonoBehaviour
     public void batteryJumpBack()
     {
         jumpMenu.SetActive(false);
+        mainMenu.SetActive(true);
+    }
+
+    public void pitCrewPressed()
+    {
+        pitCrewMenu.SetActive(true);
+        mainMenu.SetActive(false);
+    }
+
+    public void pitCrewBack()
+    {
+        pitCrewMenu.SetActive(false);
         mainMenu.SetActive(true);
     }
 

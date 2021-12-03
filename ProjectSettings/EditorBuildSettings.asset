@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final/Pit_Road.unity
     guid: 5cf4632c7bb8f94428f53b43ebf1b636
+  - enabled: 1
+    path: Assets/Scenes/Final/Pit_Road_Assisted.unity
+    guid: f65ee0436b48f9648aa8fd5cc4f11d7d
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 04946b52416ca4b4e92de4883271175d,
       type: 2}
