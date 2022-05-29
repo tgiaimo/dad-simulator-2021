@@ -1,6 +1,6 @@
 # dad-simulator-2021
 
-- Dad-simulator-2021 is a tire maintenance simulation. It is a Unity project developed for use in VR with the valve index. SteamVR is heavily used in this project. 
+Dad-simulator-2021 is a tire maintenance simulation. It is a Unity project developed for use in VR with the valve index. SteamVR is heavily used in this project. 
 
 ## General roles for contributors are as follows. 
 
