@@ -11,6 +11,8 @@ Dad-simulator-2021 is a car maintenance simulation that shows users how to chang
 ![Raising the Car](./gifs/raise.gif)
 ### Undoing a Lug
 ![Undoing a Lug](./gifs/finish.gif)
+### Tool Tutorials
+![Tool Tutorials](./gifs/tutorial.gif)
 
 ## General roles for contributors are as follows. 
 
