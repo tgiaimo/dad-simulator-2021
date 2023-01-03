@@ -1,6 +1,8 @@
 # dad-simulator-2021
-
 Dad-simulator-2021 is a tire maintenance simulation. It is a Unity project developed for use in VR with the valve index. SteamVR is heavily used in this project. 
+
+## What this is
+Dad-simulator-2021 is a car maintenance simulation that shows users how to change a tire and jump a car off. The simulation intends to guide people who cannot reach out to an authority/father figure that canhelp users learn these life skills. There is audio guided interactions, a hint system, and voice recognition so you can ask for "help" or "what" to use.
 
 ## Videos
 ### Attaching Jumper Cables
